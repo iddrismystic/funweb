@@ -18,6 +18,7 @@
   margin: 0;
   padding: 10px 0px 10px;
 }
+
 .logo::first-letter{
 font-size: 2rem;
 font-weight: bolder;
@@ -64,8 +65,9 @@ color: #4CAF50;
   }
   .navbar{
     border-bottom: 1px solid #ddd;
+    z-index:9;
   }
-  .nav-link{transition: 0.3s;border-bottom: 5px solid white;}
+  .nav-link{transition: 0.3s;border-bottom: 5px solid white;padding:5px;}
   .nav-link:hover{border-bottom: 5px solid #4CAF50;}
   .started{
     border:2px solid #4CAF50;
@@ -225,3 +227,4 @@ color: #4CAF50;
 }
 .table{font-size: small;}
 .header-3{font-size: xx-large;color: #8315ba;}
+.h4{font-weight:lighter}

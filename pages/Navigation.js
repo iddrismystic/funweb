@@ -38,90 +38,52 @@ function Navigation() {
 
         </div>
        </div>
-
-<div class="container">
-<table class="table stripped text-smaller">
-                <thead>
-                <tr>
-                    <td>Class</td>
-                    <td>discription</td>
-                    <td>syntax</td>
-                </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>.dropdown-hover</td>
-                        <td>It contains all other contents in the dropdown.</td>
-                        <td><div> class = "dropdown-hover"</div></td>
-                    </tr>
-                    <tr>
-                        <td>.dropdown-button</td>
-                        <td>It triggers your dropdown.It can be a link,div or any other html element</td>
-                        <td><div> class = "dropdown-button"</div></td>
-                    </tr>
-                    <tr>
-                        <td>dropdown-menu</td>
-                        <td>
-                           It contains contents of your dropdown.
-                        </td>
-                        <td><div> class = "dropdown-menu"</div></td>
-                    </tr>
-                    <tr>
-                        <td>dropdown-item</td>
-                        <td>
-                           Are found in the dropdown-menu, they are displayed in block and sections.
-                        </td>
-                        <td><div> class = "dropdown-item"</div></td>
-                    </tr>
-                </tbody>
-            </table>
-</div>
-       
-<div class="container padding-top-40" id="simplenavbar">
-<div class="header-3 text-indigo">Simple Navigation Bar</div>
-<div class="note">
+ 
+<div className="container padding-top-40" id="simplenavbar">
+<div className="header-3 text-indigo">Simple Navigation Bar</div>
+<div className="note">
 You can create simple navigation bars, just to navigate to your webpages.
 </div>
-<div class="code">
+<div className="code">
 <xmp>
 {`<div class="navigation-bar light card">
    <div class="text-x-large nav-logo">Logo</div>
      <div class="indigo padding">
-       <a href="#" class="text-white">Home</a>
-       <a href="#" class="text-white">About</a>
-      <a href="#" class="text-white">Team</a>
-      <a href="#" class="text-white">Contact</a>
+       <a href="#" class="text-white text-small">Home</a>
+       <a href="#" class="text-white text-small">About</a>
+      <a href="#"  class="text-white text-small">Team</a>
+      <a href="#"  class="text-white text-small">Contact</a>
      </div>
 </div>`}
 </xmp>
 </div>
-<div class="preview">
-<div class="navigation-bar light card">
-<div class="nav-logo h3">Logo</div>
-<div class="indigo padding">
-<a href="#" class="text-white text-small">Home</a>
-<a href="#" class="text-white text-small">About</a>
-<a href="#" class="text-white text-small">Team</a>
-<a href="#" class="text-white text-small">Contact</a>
+<div className="preview">
+<div className="navigation-bar light card">
+<div className="nav-logo h3">Logo</div>
+<div className="indigo padding">
+<a href="#" className="text-white text-small">Home</a>
+<a href="#" className="text-white text-small">About</a>
+<a href="#" className="text-white text-small">Team</a>
+<a href="#" className="text-white text-small">Contact</a>
 </div>
 </div>
 
 </div>
 </div>
        
-<div class="container padding-top-40" id="dropdownnavigationbar">
-<div class="header-3 text-indigo">Navigation Bar With Dropdown</div>
-<div class="note">
+<div className="container padding-top-40" id="dropdownnavigationbar">
+<div className="header-3 text-indigo">Navigation Bar With Dropdown</div>
+<div className="note">
 This navigation bar have dropdown which contains links to other subpages.
 </div>
-<div class="code">
+<div className="code">
    <xmp>
 {`<div class="navigation-bar light card">
    <div class="text-x-large nav-logo">Logo</div>
      <div class="indigo padding">
         <div class="row-flex">
-         <a href="#" class="text-white">Home</a>
-       <a href="#" class="text-white">About</a>
+      <a href="#" class="text-white">Home</a>
+      <a href="#" class="text-white">About</a>
       <a href="#" class="text-white">Team</a>
       <a href="#" class="text-white">Contact</a>
       <div class="dropdown-hover">
@@ -140,20 +102,20 @@ This navigation bar have dropdown which contains links to other subpages.
 `}
    </xmp>
 </div>
-<div class="preview">
-<div class="navigation-bar light card width-100-p">
-   <div class="text-x-large nav-logo">Logo</div>
-     <div class="indigo padding">
-        <div class="row-flex">
-         <a href="#" class="text-white text-small">Home</a>
-         <a href="#" class="text-white text-small">About</a>
-      <div class="dropdown-hover">
-    <div class="button text-white drop-button text-small"> Dropdown <i class="fas fa-angle-down rotate-up"></i></div>
-     <div class="drop-menu white item-hoverable text-black fit-width">
-         <div class="drop-item">LinkOne</div>
-         <div class="drop-item">LinkTwo</div>
-         <div class="drop-item">LinkThree</div>
-         <div class="drop-item">LinkFour</div>
+<div className="preview">
+<div className="navigation-bar light card width-100-p">
+   <div className="text-x-large nav-logo">Logo</div>
+     <div className="indigo padding">
+        <div className="row-flex">
+         <a href="#" className="text-white text-small">Home</a>
+         <a href="#" className="text-white text-small">About</a>
+      <div className="dropdown-hover">
+    <div className="button text-white drop-button text-small"> Dropdown <i className="fas fa-angle-down rotate-up"></i></div>
+     <div className="drop-menu white item-hoverable text-black fit-width">
+         <div className="drop-item">LinkOne</div>
+         <div className="drop-item">LinkTwo</div>
+         <div className="drop-item">LinkThree</div>
+         <div className="drop-item">LinkFour</div>
      </div>
      </div>
      </div>
@@ -163,16 +125,16 @@ This navigation bar have dropdown which contains links to other subpages.
 
 </div>
 </div>
-<div class="container padding-top-40" id="borderedList">
-<div class="header-3 text-indigo">Animated Drop Menu</div>
-<div class="note">
-   The <span class="badge">rotate-up</span> and <span class="badge">rotate-down</span> class is use to create a rotating animated button.
+<div className="container padding-top-40" id="borderedList">
+<div className="header-3 text-indigo">Animated Drop Menu</div>
+<div className="note">
+   The <span className="badge">rotate-up</span> and <span className="badge">rotate-down</span> className is use to create a rotating animated button.
 </div>
-<div class="code">
+<div className="code">
    <xmp>
 {`<div class="row-flex">
 <div class="dropup-hover">
-    <button class="button blue text-white drop-button"> Hover Up <i class="fas fa-angle-down rotate-up"></i></button>
+    <button class="button blue text-white drop-button"> Hover Up <i className="fas fa-angle-down rotate-up"></i></button>
      <div class="drop-menu white item-hoverable text-black fit-width">
          <div class="drop-item">LinkOne</div>
          <div class="drop-item">LinkTwo</div>
@@ -181,36 +143,36 @@ This navigation bar have dropdown which contains links to other subpages.
      </div>
 </div>
 <div class="dropdown-hover">
-    <button class="button blue text-white drop-button"> Hover down <i class="fas fa-angle-up rotate-down"></i></button>
-     <div class="drop-menu white item-hoverable text-black fit-width">
-         <div class="drop-item">LinkOne</div>
-         <div class="drop-item">LinkTwo</div>
-         <div class="drop-item">LinkThree</div>
-         <div class="drop-item">LinkFour</div>
+    <button className="button blue text-white drop-button"> Hover down <i className="fas fa-angle-up rotate-down"></i></button>
+     <div className="drop-menu white item-hoverable text-black fit-width">
+         <div className="drop-item">LinkOne</div>
+         <div className="drop-item">LinkTwo</div>
+         <div className="drop-item">LinkThree</div>
+         <div className="drop-item">LinkFour</div>
      </div>
 </div>
 </div>`}
    </xmp>
 </div>
-<div class="preview">
-<div class="navigation-bar responsive light card">
-   <div class="text-x-large nav-logo">Logo</div>
-   <div class="navigation-trigger" onClick={Handlesidebar}>
-   <i class="fas fa-bars sidebar-trigger"></i>
+<div className="preview">
+<div className="navigation-bar responsive light card">
+   <div className="text-x-large nav-logo">Logo</div>
+   <div className="navigation-trigger" onClick={Handlesidebar}>
+   <i className="fas fa-bars sidebar-trigger"></i>
    </div>
-     <div class="indigo padding collapse" style={{height:`${height}`}}>
-        <div class="link-wrapper">
-         <a href="#" class="text-white">Home</a>
-       <a href="#services" class="text-white">Services</a>
-      <a href="#team" class="text-white">Team</a>
-      <a href="#contact" class="text-white">Contact</a>
-      <div class="dropdown-hover">
-    <button class="button text-white drop-button"> Dropdown <i class="fas fa-angle-down rotate-up"></i></button>
-     <div class="drop-menu white item-hoverable text-black fit-width">
-         <div class="drop-item">LinkOne</div>
-         <div class="drop-item">LinkTwo</div>
-         <div class="drop-item">LinkThree</div>
-         <div class="drop-item">LinkFour</div>
+     <div className="indigo padding collapse" style={{height:`${height}`}}>
+        <div className="link-wrapper">
+         <a href="#" className="text-white">Home</a>
+       <a href="#services" className="text-white">Services</a>
+      <a href="#team" className="text-white">Team</a>
+      <a href="#contact" className="text-white">Contact</a>
+      <div className="dropdown-hover">
+    <button className="button text-white drop-button"> Dropdown <i className="fas fa-angle-down rotate-up"></i></button>
+     <div className="drop-menu white item-hoverable text-black fit-width">
+         <div className="drop-item">LinkOne</div>
+         <div className="drop-item">LinkTwo</div>
+         <div className="drop-item">LinkThree</div>
+         <div className="drop-item">LinkFour</div>
      </div>
      </div>
      </div>

@@ -1,20 +1,19 @@
-import React from 'react';
 
-function Footer(props) {
+function Footer() {
     const year = new Date().getFullYear()
     return (
         <footer  className="padding-top-50 padding-bottom-20 text-small">
           <div className="container">
             <div className="text-center">
            
-           <i class="fab fa-facebook footer-icon pointer icon size-1"></i>
-           <i class="fab fa-instagram footer-icon pointer icon size-1"></i>
-           <i class="fab fa-twitter footer-icon pointer icon size-1"></i>
+           <i className="fab fa-facebook footer-icon pointer icon size-1"></i>
+           <i className="fab fa-instagram footer-icon pointer icon size-1"></i>
+           <i className="fab fa-twitter footer-icon pointer icon size-1"></i>
          
             </div>
             <div className="section text-center">
               Fun css is a modern responsive css framework, it will ease your work in developing
-              websites, it comes with pre-defined classes which are use to style your website. 
+              websites, it comes with pre-defined class names which are use to style your website. 
               You can download the framework for free and use our website themes and components for free.
 
             </div>

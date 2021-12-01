@@ -2,7 +2,6 @@ import React from 'react';
 import { useState } from 'react';
 import Footer from './../components/Footer';
 import Head from 'next/head';
-import { your } from './../.next/static/chunks/main';
 const icons = [
     {class:"fas fa-home",name:"home"},
     {class:"fab fa-facebook",name:"facebook"},
@@ -140,7 +139,7 @@ function Icons() {
 
 <div className='container' id="icons">
 <div> 
-<input class="input full-width borderless light padding" placeholder="icon name...?" onChange={(e)=>seticonName(e.target.value)} />
+<input className="input full-width borderless light padding" placeholder="icon name...?" onChange={(e)=>seticonName(e.target.value)} />
 </div>
  <div>
      
@@ -150,7 +149,7 @@ function Icons() {
              if(iconName === ''){
                  return filterIcon;
              }else if(
-              filterIcon.class.toLowerCase().trim().includes(iconName.toLowerCase().trim())||
+              filterIcon.className.toLowerCase().trim().includes(iconName.toLowerCase().trim())||
               filterIcon.name.toLowerCase().trim().includes(iconName.toLowerCase().trim())
              ){
                  return filterIcon;
@@ -158,12 +157,12 @@ function Icons() {
                  
              }
              }).map(icon=>(
-        <div className="col sm-6 md-3 lg-3 padding">
+        <div className="col sm-6 md-3 lg-3 padding" key={icon.class}>
              <div className="hover-shadow">
                  <div className="padding icon size-2">
-                 <i class={icon.class}></i>
+                 <i className={icon.class}></i>
                  </div>
-                 <div className="f2 padding icon-class padding-top-30 monospace">{`<i class="${icon.class}"></i>`}</div>
+                 <div className="f2 padding icon-className padding-top-30 monospace">{`<i class="${icon.class}"></i>`}</div>
              </div>
          </div>
                
@@ -174,10 +173,10 @@ function Icons() {
  </div>
 </div> 
 
-<div class="container padding-top-50" id="iconsize">
-    <div class="header-3">Icons Sizes</div>
-    <div class="note">
-        When using icons, you  might want to chnage the size of your icon, the <span class="badge">size-value</span>
+<div className="container padding-top-50" id="iconsize">
+    <div className="header-3">Icons Sizes</div>
+    <div className="note">
+        When using icons, you  might want to chnage the size of your icon, the <span className="badge">size-value</span>
       is the answer, You can use any of this value to change the size of your icon. <br />
       <span className="badge">
           1, 2, 3, 4, 5, 6, 7, 8, 9 and 10
@@ -201,26 +200,26 @@ function Icons() {
 </xmp>
     </div>
     <div className="preview">
-      <div class="row">
-      <div class="col sm-12 md-4 lg-4">
-        <div class="h3">Size 10</div>
-        <i class="fas fa-cogs icon size-10"></i>
+      <div className="row">
+      <div className="col sm-12 md-4 lg-4">
+        <div className="h3">Size 10</div>
+        <i className="fas fa-cogs icon size-10"></i>
       </div>
-      <div class="col sm-12 md-4 lg-4 ">
-        <div class="h3">Size 5</div>
-        <i class="fas fa-laptop icon size-5"></i>
+      <div className="col sm-12 md-4 lg-4 ">
+        <div className="h3">Size 5</div>
+        <i className="fas fa-laptop icon size-5"></i>
       </div>
-      <div class="col sm-12 md-4 lg-4">
-        <div class="h3">Size 1</div>
-        <i class="fas fa-blog icon size-1"></i>
+      <div className="col sm-12 md-4 lg-4">
+        <div className="h3">Size 1</div>
+        <i className="fas fa-blog icon size-1"></i>
         </div>
       </div>
     </div>
 </div>
 
-<div class="container padding-top-50" id="iconbutton">
-    <div class="header-3">Icon Buttons</div>
-    <div class="note">
+<div className="container padding-top-50" id="iconbutton">
+    <div className="header-3">Icon Buttons</div>
+    <div className="note">
    Icons can be use in buttons, buttons with icons look nicer, here is how you can insect an icon in your button.
     </div>
     <div className="code">
@@ -241,17 +240,17 @@ function Icons() {
 </xmp>
     </div>
     <div className="preview">
-      <div class="row">
-      <div class="col sm-12 md-6 lg-6">
-        <div class="h4">Simple Icon Button</div>
-        <button class="button deep-purple card text-white text-large">
-            Send <i class="fas fa-paper-plane"></i>
+      <div className="row">
+      <div className="col sm-12 md-6 lg-6">
+        <div className="h4">Simple Icon Button</div>
+        <button className="button deep-purple card text-white text-large">
+            Send <i className="fas fa-paper-plane"></i>
         </button>
       </div>
-      <div class="col sm-12 md-6 lg-6">
-        <div class="h4">Animated Button</div>
-        <button class="button indigo card text-white text-large">
-            Cogs <i class="fas fa-cog rotate"></i>
+      <div className="col sm-12 md-6 lg-6">
+        <div className="h4">Animated Button</div>
+        <button className="button indigo card text-white text-large">
+            Cogs <i className="fas fa-cog rotate"></i>
         </button>
       </div>
 

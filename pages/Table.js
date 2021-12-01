@@ -32,12 +32,12 @@ function Table(props) {
        </div>
 
        
-<div class="container padding-top-40" id="simpleTable">
-<div class="header-3 text-indigo">Simple Table</div>
-<div class="note">
-    Just add the class <span class="badge">table</span> to create a simple tabel.
+<div className="container padding-top-40" id="simpleTable">
+<div className="header-3 text-indigo">Simple Table</div>
+<div className="note">
+    Just add the class <span className="badge">table</span> to create a simple tabel.
 </div>
-<div class="code">
+<div className="code">
    <xmp>
        {`
 <table class="table">
@@ -65,8 +65,8 @@ function Table(props) {
        `}
    </xmp>
 </div>
-<div class="preview">
-<table class="table">
+<div className="preview">
+<table className="table">
      <thead>
          <th>course</th>
          <th>votes</th>
@@ -91,12 +91,12 @@ function Table(props) {
 </div>
 </div>
        
-<div class="container padding-top-40" id="strippedTable">
-<div class="header-3 text-indigo">Stripped Table</div>
-<div class="note">
-    Just add the class <span class="badge">stripped</span> to create a stripped tabel.
+<div className="container padding-top-40" id="strippedTable">
+<div className="header-3 text-indigo">Stripped Table</div>
+<div className="note">
+    Just add the class <span className="badge">stripped</span> to create a stripped tabel.
 </div>
-<div class="code">
+<div className="code">
    <xmp>
        {`
 <table class="table stripped">
@@ -124,8 +124,8 @@ function Table(props) {
        `}
    </xmp>
 </div>
-<div class="preview">
-<table class="table stripped">
+<div className="preview">
+<table className="table stripped">
      <thead>
          <th>course</th>
          <th>votes</th>
@@ -150,12 +150,12 @@ function Table(props) {
 </div>
 </div>
        
-<div class="container padding-top-40" id="hoverableTable">
-<div class="header-3 text-indigo">Hoverable Table</div>
-<div class="note">
-    The <span class="badge">hoverable</span> class is use to add a hover effect on each table row.
+<div className="container padding-top-40" id="hoverableTable">
+<div className="header-3 text-indigo">Hoverable Table</div>
+<div className="note">
+    The <span className="badge">hoverable</span> class is use to add a hover effect on each table row.
 </div>
-<div class="code">
+<div className="code">
    <xmp>
        {`
 <table class="table stripped hoverable">
@@ -183,8 +183,8 @@ function Table(props) {
   `}
    </xmp>
 </div>
-<div class="preview">
-<table class="table stripped hoverable">
+<div className="preview">
+<table className="table stripped hoverable">
      <thead>
          <th>course</th>
          <th>votes</th>
@@ -209,12 +209,12 @@ function Table(props) {
 
 </div>
 </div>
-<div class="container padding-top-40" id="borderedTable">
-<div class="header-3 text-indigo">Bordered Table</div>
-<div class="note">
-    Just add the class <span class="badge">bordered</span> to create a bordered tabel.
+<div className="container padding-top-40" id="borderedTable">
+<div className="header-3 text-indigo">Bordered Table</div>
+<div className="note">
+    Just add the class <span className="badge">bordered</span> to create a bordered tabel.
 </div>
-<div class="code">
+<div className="code">
    <xmp>
        {`
 <table class="table stripped hoverable bordered">
@@ -242,8 +242,8 @@ function Table(props) {
   `}
    </xmp>
 </div>
-<div class="preview">
-<table class="table stripped hoverable bordered">
+<div className="preview">
+<table className="table stripped hoverable bordered">
      <thead>
          <th>course</th>
          <th>votes</th>
@@ -268,12 +268,12 @@ function Table(props) {
 
 </div>
 </div>
-<div class="container padding-top-40" id="responsiveTable">
-<div class="header-3 text-indigo">Responsive Table</div>
-<div class="note">
-    Wrap your table in a div with class <span class="badge">horizontal-scroll</span> to create a responsive table.
+<div className="container padding-top-40" id="responsiveTable">
+<div className="header-3 text-indigo">Responsive Table</div>
+<div className="note">
+    Wrap your table in a div with class <span className="badge">horizontal-scroll</span> to create a responsive table.
 </div>
-<div class="code">
+<div className="code">
    <xmp>
        {`
 <div class="horizontal-scroll">
@@ -339,10 +339,10 @@ function Table(props) {
 `}
    </xmp>
 </div>
-<div class="preview">
+<div className="preview">
 
 <div className="horizontal-scroll">
-<table class="table stripped text-small">
+<table className="table stripped text-small">
 <tr>
       <th>First Name</th>
       <th>Last Name</th>

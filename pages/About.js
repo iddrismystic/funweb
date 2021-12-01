@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from './../components/Footer';
+import Image from 'next/image';
 
 function About() {
     return (
@@ -31,32 +32,32 @@ function About() {
       </div>
      </div>
 
-<div class="container" id="intro">
-    <h1 class="no-margin text-lighter h2 text-indigo">Fun Css</h1>
-    <div class="note">
+<div className="container" id="intro">
+    <h1 className="no-margin text-lighter h2 text-indigo">Fun Css</h1>
+    <div className="note">
     Fun responsive css framework was developed to ease your work in developing websites and 
-    webpages. It comes with pre-defined classes that you can use for your projects. You can also 
+    webpages. It comes with pre-defined classNamees that you can use for your projects. You can also 
     download our templates for free and use them to create standard websites.
 </div>
 
 <div>
-    <video src="/video/colors.mp4" controls class="responsive section" id="video"></video>
+    <video src="/video/colors.mp4" controls className="responsive section" id="video"></video>
 </div>
 </div>
 
-<div class="container padding-top-40">
-<h1 class="no-margin text-lighter h2 text-indigo padding-bottom-30" id="team">Meet The Team</h1>
-<div class="note">
+<div className="container padding-top-40">
+<h1 className="no-margin text-lighter h2 text-indigo padding-bottom-30" id="team">Meet The Team</h1>
+<div className="note">
     Meet the developers who contributed for the success of this project.
 </div>
-<div class="text-small block-small  pointer hover-shadow padding">
-    <div class="text-center">
-        <img src="images/deo.jpg" class="height-100 width-100 circle" />
+<div className="text-small block-small  pointer hover-shadow padding">
+    <div className="text-center">
+        <Image src="/images/deo.jpg" width={100} height={100} className="height-100 width-100 circle" alt="iddris abdul wahab" />
     </div>
-    <div class="padding">
-    <h1 class="no-margin text-lighter h3">Jhon Deo</h1>
+    <div className="padding">
+    <h1 className="no-margin text-lighter h3">Jhon Deo</h1>
     <div>
-    <i class="fas fa-check text-indigo"></i> &nbsp;
+    <i className="fas fa-check text-indigo"></i> &nbsp;
     Developer
     </div>
     <div>
@@ -64,14 +65,14 @@ function About() {
     </div>
     </div>
 </div>
-<div class="text-small block-small margin-top-40">
-    <div class="text-center">
-        <img src="images/jane.jpg" class="height-100 width-100 circle" />
+<div className="text-small block-small margin-top-40">
+    <div className="text-center">
+        <Image src="/images/jane.jpg"  width={100} height={100} className="height-100 width-100 circle" alt="Ahmed Salim" />
     </div>
-    <div class="padding">
-    <h1 class="no-margin text-lighter h3">Jane Deo</h1>
+    <div className="padding">
+    <h1 className="no-margin text-lighter h3">Jane Deo</h1>
     <div>
-    <i class="fas fa-check text-indigo"></i> &nbsp;
+    <i className="fas fa-check text-indigo"></i> &nbsp;
     Developer
     </div>
     <div>

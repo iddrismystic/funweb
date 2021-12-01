@@ -110,26 +110,26 @@ function Typography() {
  <div>
 
  </div>
-  <div class="code">
+  <div className="code">
    <xmp>
        {fontSize}
    </xmp>
  </div>
    <div className="preview">
 <div>
-  <div class="card padding white">
-  <div class="text-jumbo">This is jumbo</div>
-  <div class="text-bigger">This is bigger</div>
-  <div class="text-big">This is big</div>
-  <div class="text-xx-large">This is xx-large</div>
-  <div class="text-x-large">This is x-large</div>
-  <div class="text-larger">This is larger</div>
-  <div class="text-large">This is large</div>
-  <div class="text-medium">This is medium</div>
-  <div class="text-small">This is small</div>
-  <div class="text-smaller">This is smaller</div>
-  <div class="text-x-small">This is x-small</div>
-  <div class="text-xx-small">This is xx-small</div>
+  <div className="card padding white">
+  <div className="text-jumbo">This is jumbo</div>
+  <div className="text-bigger">This is bigger</div>
+  <div className="text-big">This is big</div>
+  <div className="text-xx-large">This is xx-large</div>
+  <div className="text-x-large">This is x-large</div>
+  <div className="text-larger">This is larger</div>
+  <div className="text-large">This is large</div>
+  <div className="text-medium">This is medium</div>
+  <div className="text-small">This is small</div>
+  <div className="text-smaller">This is smaller</div>
+  <div className="text-x-small">This is x-small</div>
+  <div className="text-xx-small">This is xx-small</div>
   </div>
 </div>
 
@@ -141,12 +141,12 @@ function Typography() {
  <div className="note">
  The
  <span className="badge">font</span>
-  class is use to specify the font of your text, you jsut type the name of the font to change it.
-  The default font for the framework is poppins, sans-serif. So you don't need to spacify this font family before 
+  className is use to specify the font of your text, you jsut type the name of the font to change it.
+  The default font for the framework is poppins, sans-serif. So you dont need to spacify this font family before 
   you can use it.
  </div>
- <ul class="list bordered hoverable light">
-    <li class="header">Values</li>
+ <ul className="list bordered hoverable light">
+    <li className="header">Values</li>
     <li>Open-sans</li>
     <li>poppins</li>
     <li>sofia</li>
@@ -154,43 +154,43 @@ function Typography() {
 
   </ul>
 
-  <div class="code">
+  <div className="code">
    <xmp>
    {font}
    </xmp>
  </div>
    <div className="preview">
 <div>
-  <div class="card padding white round-edge">
+  <div className="card padding white round-edge">
   <div>
 
   </div>
   </div>
-  <div class="card section padding white">
+  <div className="card section padding white">
   <div>
-   <div class="indigo padding text-white">
-   <div class="sofia h1">Sofia Font</div>
-   <div class="sofia">
+   <div className="indigo padding text-white">
+   <div className="sofia h1">Sofia Font</div>
+   <div className="sofia">
    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illo reprehenderit possimus voluptate dicta ullam eius voluptatibus voluptatum aliquid pariatur! Odio, totam! Molestiae doloremque vitae provident, recusandae blanditiis sit perspiciatis!
    </div>
    </div>
   </div>
   </div>
-  <div class="card section padding white">
+  <div className="card section padding white">
   <div>
-   <div class="deep-purple padding text-white">
-   <div class="lato h1">Lato</div>
-   <div class="lato">
+   <div className="deep-purple padding text-white">
+   <div className="lato h1">Lato</div>
+   <div className="lato">
    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illo reprehenderit possimus voluptate dicta ullam eius voluptatibus voluptatum aliquid pariatur! Odio, totam! Molestiae doloremque vitae provident, recusandae blanditiis sit perspiciatis!
    </div>
    </div>
   </div>
   </div>
-  <div class="card section padding white">
+  <div className="card section padding white">
   <div>
-   <div class="blue padding text-white">
-   <div class="open-sans h1">Open Sans</div>
-   <div class="open-sans">
+   <div className="blue padding text-white">
+   <div className="open-sans h1">Open Sans</div>
+   <div className="open-sans">
    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illo reprehenderit possimus voluptate dicta ullam eius voluptatibus voluptatum aliquid pariatur! Odio, totam! Molestiae doloremque vitae provident, recusandae blanditiis sit perspiciatis!
    </div>
    </div>
@@ -202,11 +202,11 @@ function Typography() {
                </div>
             </div>
 
-<div class="container padding-top-40" id="formatting">
+<div className="container padding-top-40" id="formatting">
 <div className="topic header-3 text-indigo">Text Formatting</div>
-<table class="table width-100-p stripped">
+<table className="table width-100-p stripped">
     <tr>
-        <td>Class</td>
+        <td>ClassName</td>
         <td>discription</td>
         <td>syntax</td>
     </tr>
@@ -214,28 +214,28 @@ function Typography() {
         <tr>
             <td>bold</td>
             <td>Make a bold text.</td>
-            <td><div> class = "text-bold"</div></td>
+            <td><div> className = {"text-bold"}</div></td>
         </tr>
         <tr>
             <td>underline</td>
             <td>To underline a text</td>
-            <td><div> class = "underline"</div></td>
+            <td><div> className = {"underline"}</div></td>
         </tr>
         <tr>
             <td>overline</td>
             <td>To make text overline</td>
-            <td><div> class = "overline"</div></td>
+            <td><div> className = {"overline"}</div></td>
         </tr>
         <tr>
             <td>line through</td>
             <td>To create a line through text</td>
-            <td><div> class = "line-through"</div></td>
+            <td><div> className = {"line-through"}</div></td>
         </tr>
 
 </table>
 
-<div class="note section" id="note">
-<div class="note-title">Note</div>
+<div className="note section" id="note">
+<div className="note-title">Note</div>
 <div>
     Make sure to always use greate fonts when creating a website.
 </div>

@@ -17,95 +17,39 @@ function Home() {
     
     />
  </Head>
-{/* <div class="container">
-<div class="slider three">
-    <div class="slide-container">
-        <div class="slide">
-            <div class="slide-content">
-            <div class="row">
-    <div class="col sm-12 md-4 lg-4 ">
-    <img src="/svg/devices.svg" className="responsive" />
-    </div>
-    <div class="col padding sm-12 md-8 lg-8 ">
-     <h1 class="montserrat no-margin">Responsive Css</h1>
-     <div class="">
-       Funcss is a modern responsive css framework which uses css grid to create responsive 
-       website layout which best fits all kind of screen sizes.
-     </div>
-    </div>
-    </div>
-    
-            </div>
 
-        </div>
-        <div class="slide">
-            <div class="slide-content">
-            <div class="row">
-    <div class="col sm-12 md-4 lg-4 ">
-      <img src="/images/13.jpg" class="round-edge responsive" />
-    </div>
-    <div class="col padding-20 sm-12 md-8 lg-8 ">
-     <h1 class="montserrat no-margin">Reduce Coding Stress</h1>
-     <div>
-     Reduce your stress in coding and save time using our framework.
-     Funcss come with build-in css classes, just specify the class name and funcss will do the rest for you.
-     </div>
-    </div>
-    </div>
-            </div>
-        </div>
-        <div class="slide">
-        <div class="slide-content">
-        <div class="row">
-    <div class="col sm-12 md-4 lg-4 ">
-      <img src="/images/14.jpg" class="round-edge responsive" />
-    </div>
-    <div class="col padding-20 sm-12 md-8 lg-8 ">
-     <h1 class="montserrat no-margin">Free Website Templates</h1>
-     <div>
-    Get access to free premium themes and make your dream work
-     Download and use our free website templates to ease your wok in development.
-     </div>
-    </div>
-    </div>
-        </div>
-        </div>
-    </div>
- 
-</div>
-</div> */}
 
       <div className="container">
         <div className="row">
-            <div className="col sm-12 md-6 lg-6">
+            <div className="col sm-12 md-12 lg-6">
              <div className="padding">
-             <h1 class="h2 no-margin outfit header">
-                <span class="h1 text-indigo">Fun Css:</span> Modern responsive CSS framework for developing responsive websites.</h1>
+             <h1 className="h3 no-margin outfit header">
+                <span className="h2 text-indigo">Fun Css:</span> Modern responsive CSS framework for developing responsive websites.</h1>
          
              </div>
              <div className="padding">
                  Funcss is a free, open source css framework for developing modern responsive
                  websites and impressive front-end applications.
              </div>
-   <div class="flex">
-    <div class="flex-50">
-        <div class="padding">
+   <div className="flex">
+    <div className="flex-50">
+        <div className="padding">
         <Link href="/gettingstarted">
          <a>
-         <button class="button width-100-p text-white indigo card ">
+         <button className="button width-100-p text-white indigo card ">
           Getting Started
-          <i class="fas fa-angle-right margin-left-10"></i>
+          <i className="fas fa-angle-right margin-left-10"></i>
           </button>
          </a>
        </Link>
         </div>
   </div>
-    <div class="flex-50">
-        <div class="padding">
+    <div className="flex-50">
+        <div className="padding">
         <Link href="https://codeload.github.com/funtechs/Funcss/zip/refs/heads/main">
             <a>
-            <button class="button width-100-p deep-purple card text-white">
-        <i class="fas fa-download icon margin-right-10"></i> 
+            <button className="button width-100-p deep-purple card text-white">
+        <i className="fas fa-download icon margin-right-10"></i> 
       Download v1.0 
         </button>         
             </a>
@@ -115,9 +59,9 @@ function Home() {
 
 </div>
             </div>
-            <div className="col sm-12 md-6 lg-6 padding-top-20">
+            <div className="col sm-12 md-12 lg-6 padding-top-20">
                 <div>
-                    <video src="/video/colors.mp4" class="responsive" controls></video>
+                    <video src="/video/colors.mp4" className="responsive" controls></video>
                 </div>
             </div>
         </div>
@@ -135,26 +79,26 @@ function Home() {
 </div>
 
 <div>
-    <div class="card">
-        <div class="row">
-            <div class="col sm-12 md-6 lg-6">
+    <div className="card">
+        <div className="row">
+            <div className="col sm-12 md-6 lg-6">
               
-<div class="slider three">
-    <div class="slide-container">
-        <div class="slide">
-            <div class="slide-content">
-            <img src="/themes/1.jpg" class="responsive" alt="company theme" />
+<div className="slider three">
+    <div className="slide-container">
+        <div className="slide">
+            <div className="slide-content">
+            <img src="/themes/1.jpg" className="responsive" alt="company theme" />
             </div>
 
         </div>
-        <div class="slide">
-            <div class="slide-content">
-            <img src="/themes/2.jpg" class="responsive" alt="company theme" />
+        <div className="slide">
+            <div className="slide-content">
+            <img src="/themes/2.jpg" className="responsive" alt="company theme" />
             </div>
         </div>
-        <div class="slide">
-        <div class="slide-content">
-        <img src="/themes/3.jpg" class="responsive" alt="company theme" />
+        <div className="slide">
+        <div className="slide-content">
+        <img src="/themes/3.jpg" className="responsive" alt="company theme" />
         </div>
         </div>
    
@@ -162,41 +106,41 @@ function Home() {
 
 </div>
             </div>
-            <div class="col sm-12 md-6 lg-6">
-                <div class="relative">
-                <div class="indigo padding">
-             <h1 class="h3 no-margin text-lighter text-center text-white">Company Theme</h1>
+            <div className="col sm-12 md-6 lg-6">
+                <div className="relative">
+                <div className="indigo padding">
+             <h1 className="h3 no-margin text-lighter text-center text-white">Company Theme</h1>
              </div>
              <div>
-             <ul class="list stripped">
+             <ul className="list stripped">
               <li>
-              <i class="fas fa-check text-blue"></i>
+              <i className="fas fa-check text-blue"></i>
               &nbsp;Responsive
             </li>
               <li>
-              <i class="fas fa-check text-blue"></i>
+              <i className="fas fa-check text-blue"></i>
               &nbsp;100% Css
             </li>
               <li>
-              <i class="fas fa-check text-blue"></i>
+              <i className="fas fa-check text-blue"></i>
               &nbsp;Greate Layout
             </li>
               <li>
-              <i class="fas fa-check text-blue"></i>
+              <i className="fas fa-check text-blue"></i>
               &nbsp;Free Download
             </li>
             </ul>
              </div>
-         <div class="padding">
-         <div class="flex">
-                 <div class="flex-50">
+         <div className="padding">
+         <div className="flex">
+                 <div className="flex-50">
                      <a href="https://funcsscompanytemplate.surge.sh">
-                     <button class="button blue card full-width text-white">Preview</button>
+                     <button className="button blue card full-width text-white">Preview</button>
                      </a>
                  </div>
-                 <div class="flex-50">
+                 <div className="flex-50">
                      <a href="https://codeload.github.com/iddrismystic/companytheme/zip/refs/heads/main">
-                     <button class="button deep-purple card full-width text-white">Download</button>
+                     <button className="button deep-purple card full-width text-white">Download</button>
                      </a>
                  </div>
              </div>
@@ -213,18 +157,18 @@ function Home() {
 
 <div className="container">
 <div className="text-center text-xx-large text-lighter text-indigo">Responsive</div>
-<div class="text-x-large text-center">Responsive Grid Layout.</div>
+<div className="text-x-large text-center">Responsive Grid Layout.</div>
 <div className="padding-20">
     Create awesome responsive websites with css flex-box and media queries.
     Our framework partition your website in to columns and rows which are 
     responsive to fit all screen sizes.
 </div>
-<div class="padding-20">
+<div className="padding-20">
 <Link href="/grid">
 <a>
-<button class="fun-secondary button card text-white f2">
+<button className="fun-secondary button card text-white f2">
   Learn More
-  <i class="fas fa-angle-right margin-left-10"></i>
+  <i className="fas fa-angle-right margin-left-10"></i>
   </button>
 </a>
 </Link>
@@ -238,11 +182,11 @@ function Home() {
 
 <div className="container padding-top-30">
 <h1 className="text-center text-xx-large text-lighter text-indigo no-margin">HTML AND CSS BUTTONS</h1>
-<h2 class="text-x-large text-center no-margin text-lighter">Create Nice Css Buttons Designs</h2>
+<h2 className="text-x-large text-center no-margin text-lighter">Create Nice Css Buttons Designs</h2>
 <div className="padding">
   Create nice css buttons for your website, use buttons with cool animation effects, 
-  Just type the class <span class="badge">button</span> to style your button, you can change the background color
-  of your button by using our css color classes, you can also create a hover up and ripple buttons.
+  Just type the className <span className="badge">button</span> to style your button, you can change the background color
+  of your button by using our css color classNamees, you can also create a hover up and ripple buttons.
 </div>
 <div>
   
@@ -291,12 +235,12 @@ function Home() {
             </div>
         </div>
     </div>
-    <div class="padding">
+    <div className="padding">
 <Link href="/buttons">
 <a>
-    <button class="fun-secondary button card text-white f2">
+    <button className="fun-secondary button card text-white f2">
   Learn More
-  <i class="fas fa-angle-right margin-left-10"></i>
+  <i className="fas fa-angle-right margin-left-10"></i>
   </button>
 </a>
 </Link>
@@ -312,11 +256,8 @@ function Home() {
 <h1 className="text-center text-xx-large text-lighter text-indigo no-margin">CSS CARDS</h1>
 <div className="padding">
  Design nice css cards, hoverable fliping card, reveal content card and horizontal cards.
- Cards are use to design specific important areas of your website, you can use css cards
-. <br />import { Link } from 'next/link';
-import About from './About';
-
- The class <span class="badge">card </span> is use to create a cool shadow effect on your 
+ Cards are use to design specific important areas of your website, you can use css cards.
+ The className <span className="badge">card </span> is use to create a cool shadow effect on your 
  html element.
 </div>
 <div>
@@ -324,31 +265,31 @@ import About from './About';
 <div>
     <div className='row'>
         <div className='col sm-12 md-4 lg-4 padding'>
-<div class="card width-100-p">
-    <div class="relative">
+<div className="card width-100-p">
+    <div className="relative">
         <img src="images/deo.jpg" className="width-100-p height-200" alt="css card" />
-        <div class="text-large card-title text-white">Card Title</div>
+        <div className="text-large card-title text-white">Card Title</div>
     </div>
 
-    <div class="padding text-small">
+    <div className="padding text-small">
     This is have a Title on top of the image.
     You can use this card to display informtion about a person or a team.
     </div>
 </div>
         </div>
         <div className='col sm-12 md-4 lg-4 padding'>
-<div class="card hover-shadow">
-    <div class="relative">
-        <img src="images/deo.jpg" class="width-100-p height-200" alt="css card"/>
-        <div class="text-large card-title text-white">Card Title</div>
-        <div class="text-large card-fab">
-            <button class='button indigo card text-white float height-40 width-40'>
-            <i class="fas fa-check"></i>
+<div className="card hover-shadow">
+    <div className="relative">
+        <img src="images/deo.jpg" className="width-100-p height-200" alt="css card"/>
+        <div className="text-large card-title text-white">Card Title</div>
+        <div className="text-large card-fab">
+            <button className='button indigo card text-white float height-40 width-40'>
+            <i className="fas fa-check"></i>
             </button>
         </div>
     </div>
 
-    <div class="padding text-small">
+    <div className="padding text-small">
     This is have a Title on top of the image with a floating button.
     You can use this card to display informtion about a person or a team.
     </div>
@@ -356,19 +297,19 @@ import About from './About';
             
         </div>
         <div className='col sm-12 md-4 lg-4 padding'>
-        <div class="card reveal fit-height text-white pointer">
-    <div class="reveal-front indigo padding">
-  <div class="h3 text-center">Css Card Reveal</div>
+        <div className="card reveal fit-height text-white pointer">
+    <div className="reveal-front indigo padding">
+  <div className="h3 text-center">Css Card Reveal</div>
   <p>
       This card reaveals its content when you hover on it.
   </p>
-  <div class="padding text-center">
-  <i class="fab fa-facebook pointer icon size-1 margin"></i>
-  <i class="fab fa-instagram pointer icon size-1 margin"></i>
-  <i class="fab fa-twitter pointer icon size-1 margin"></i>
+  <div className="padding text-center">
+  <i className="fab fa-facebook pointer icon size-1 margin"></i>
+  <i className="fab fa-instagram pointer icon size-1 margin"></i>
+  <i className="fab fa-twitter pointer icon size-1 margin"></i>
   </div>
     </div>
-    <img src="images/deo.jpg" class="width-100-p height-200" alt="css card reveal" />
+    <img src="images/deo.jpg" className="width-100-p height-200" alt="css card reveal" />
   </div>
             
         </div>
@@ -376,10 +317,10 @@ import About from './About';
 
 
     </div>
-    <div class="padding">
-<Link href="/card"><button class="fun-secondary button card text-white f2">
+    <div className="padding">
+<Link href="/card"><button className="fun-secondary button card text-white f2">
   Learn More
-  <i class="fas fa-angle-right margin-left-10"></i>
+  <i className="fas fa-angle-right margin-left-10"></i>
   </button></Link>
 </div>
 </div>
@@ -388,13 +329,13 @@ import About from './About';
 
 </div>
 
-<div class="container padding-top-30">
-    <div class="header">Comment</div>
-    <input class="padding light width-100-p borderless section" placeholder="Enter your email" />
-    <textarea class="padding light width-100-p borderless section" rows="5" placeholder="Enter your message" ></textarea>
+<div className="container padding-top-30">
+    <div className="header">Comment</div>
+    <input className="padding light width-100-p borderless section" placeholder="Enter your email" />
+    <textarea className="padding light width-100-p borderless section" rows="5" placeholder="Enter your message" ></textarea>
 <div>
-    <button class="button padding indigo card text-white">
-        Comment <i class="fas fa-paper-plane"></i>
+    <button className="button padding indigo card text-white">
+        Comment <i className="fas fa-paper-plane"></i>
     </button>
 </div>
 </div>

@@ -6,10 +6,10 @@ function Buttons() {
     <button class='button indigo  text-white'>Simple Button</button>
     `
     const raised = `
-    <button className='button deep-purple text-white card'>Raised Button</button>
+    <button class='button deep-purple text-white card'>Raised Button</button>
     `
     const circle = `
-    <button className='button indigo card text-white float height-50 width-50'>Float</button>
+    <button class='button indigo card text-white float height-50 width-50'>Float</button>
     `
     return (
         <section>
@@ -88,12 +88,12 @@ function Buttons() {
     </div>
 </div>
 
-<div class="container padding-top-40" id="simpleButton">
-    <div class="header-3 text-indigo">Simple Button</div>
-<div class="note">
-    using the class <span class="badge">button</span> will create a simple cool button, you can use the color class to change the color of your button.
+<div className="container padding-top-40" id="simpleButton">
+    <div className="header-3 text-indigo">Simple Button</div>
+<div className="note">
+    using the class <span className="badge">button</span> will create a simple cool button, you can use the color className to change the color of your button.
 </div>
-    <div class="code">
+    <div className="code">
         <xmp>
          {`
 <button class='button indigo  text-white'>Indigo Button</button>
@@ -104,59 +104,59 @@ function Buttons() {
          `}
         </xmp>
     </div>
-    <div class="preview">
-    <div class='padding border card'>
-    <div class='text-large'>Simple Button</div>
-    <div class='hr section'></div>
-    <button class='button indigo  text-white'>Indigo Button</button>
-    <button class='button pink  text-white'>Pink Button</button>
-    <button class='button purple  text-white'>purple Button</button>
+    <div className="preview">
+    <div className='padding border card'>
+    <div className='text-large'>Simple Button</div>
+    <div className='hr section'></div>
+    <button className='button indigo  text-white'>Indigo Button</button>
+    <button className='button pink  text-white'>Pink Button</button>
+    <button className='button purple  text-white'>purple Button</button>
      </div>
 
     </div>
 </div>
 
-<div class="container padding-top-40" id="raisedButton">
-    <div class="header-3 text-indigo">Raised Button</div>
-<div class="note">
-    using the class <span class="badge">card</span> will create a shadow around your button.
+<div className="container padding-top-40" id="raisedButton">
+    <div className="header-3 text-indigo">Raised Button</div>
+<div className="note">
+    using the class <span className="badge">card</span> will create a shadow around your button.
 </div>
-    <div class="code">
+    <div className="code">
 <xmp>{`<button class='button deep-purple text-white card'>Raised Button</button>`}</xmp>
     </div>
-    <div class="preview">
+    <div className="preview">
     <div className='padding border card'>
     <div className='text-large'>Raised Button</div>
         <div className='hr section'></div>
-        <button class='button deep-purple text-white card'>Raised Button</button>
+        <button className='button deep-purple text-white card'>Raised Button</button>
       
     </div>
 
     </div>
 </div>
-<div class="container padding-top-40" id="circularButton">
-    <div class="header-3 text-indigo">Circular Button</div>
-<div class="note">
-    using the class <span class="badge">float</span> will create a circular button, make sure to add a height and a width of the same value
+<div className="container padding-top-40" id="circularButton">
+    <div className="header-3 text-indigo">Circular Button</div>
+<div className="note">
+    using the class <span className="badge">float</span> will create a circular button, make sure to add a height and a width of the same value
     to create a perfect circle.
 </div>
-    <div class="code">
+    <div className="code">
      <xmp>{`<button class='button indigo card text-white float height-50 width-50'>Float</button>`}</xmp>
     </div>
-    <div class="preview">
-    <div class='padding border card'>
-      <div class='text-large'>Circular Button</div>
-          <div class='hr section'></div>
-          <button class='button indigo card text-white float height-50 width-50'>Float</button>
+    <div className="preview">
+    <div className='padding border card'>
+      <div className='text-large'>Circular Button</div>
+          <div className='hr section'></div>
+          <button className='button indigo card text-white float height-50 width-50'>Float</button>
       </div>
     </div>
 </div>
-<div class="container padding-top-40" id="fullWidthButton">
-    <div class="header-3 text-indigo">Full Width Button</div>
-<div class="note">
-   The<span class="badge">full-width</span> class is use to create a button with a width of 100%.
+<div className="container padding-top-40" id="fullWidthButton">
+    <div className="header-3 text-indigo">Full Width Button</div>
+<div className="note">
+   The<span className="badge">full-width</span> class is use to create a button with a width of 100%.
 </div>
-    <div class="code">
+    <div className="code">
         <xmp>
             {`
 <button class='button full-width indigo text-white card'>Full width</button>
@@ -164,51 +164,51 @@ function Buttons() {
            `}
         </xmp>
     </div>
-    <div class="preview">
-    <div class='padding border card'>
-     <div class='text-large'>Full width Button</div>
-         <div class='hr section'></div>
-         <button class='button full-width indigo text-white card'>Full width</button>
-         <button class='button full-width blue text-white card'>Full width</button>
+    <div className="preview">
+    <div className='padding border card'>
+     <div className='text-large'>Full width Button</div>
+         <div className='hr section'></div>
+         <button className='button full-width indigo text-white card'>Full width</button>
+         <button className='button full-width blue text-white card'>Full width</button>
      </div>
 
     </div>
 </div>
-<div class="container padding-top-40" id="rippleButton">
-    <div class="header-3 text-indigo">Ripple Effect Button</div>
-<div class="note">
-   The<span class="badge">ripple</span> class add an effect when you click on the button.
+<div className="container padding-top-40" id="rippleButton">
+    <div className="header-3 text-indigo">Ripple Effect Button</div>
+<div className="note">
+   The<span className="badge">ripple</span> class add an effect when you click on the button.
 </div>
-    <div class="code">
+    <div className="code">
         <xmp>
             {`<button class='button ripple pink text-white card'>Ripple Effect</button>`}
         </xmp>
     </div>
-    <div class="preview">
+    <div className="preview">
     <div className='padding border card'>
     <div className='h2'>Ripple Effect Button</div>
     <div>Click on the button to see the effect </div>
         <div className='hr section'></div>
-        <button class='button ripple pink text-white card'>Ripple Effect</button>
+        <button className='button ripple pink text-white card'>Ripple Effect</button>
     </div>
 
     </div>
 </div>
-<div class="container padding-top-40" id="hoverUpButton">
-    <div class="header-3 text-indigo">Hover Up Button</div>
-<div class="note">
-   The<span class="badge">hover-up</span> class add a hover up effect when you hover on the button.
+<div className="container padding-top-40" id="hoverUpButton">
+    <div className="header-3 text-indigo">Hover Up Button</div>
+<div className="note">
+   The<span className="badge">hover-up</span> class add a hover up effect when you hover on the button.
 </div>
-    <div class="code">
+    <div className="code">
         <xmp>
             {`<button class='button ripple teal card hover-up text-white'>Hover up</button>`}
         </xmp>
     </div>
-    <div class="preview">
+    <div className="preview">
     <div className='padding border card'>
     <div className='text-large'>Hover Up Button</div>
         <div className='hr section'></div>
-        <button class='button ripple teal card hover-up text-white'>
+        <button className='button ripple teal card hover-up text-white'>
             Hover up
         </button>
     </div>

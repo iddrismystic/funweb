@@ -31,12 +31,12 @@ function List() {
        </div>
 
        
-<div class="container padding-top-40" id="simpleList">
-<div class="header-3 text-indigo">Simple List</div>
-<div class="note">
-    The <span class="badge">list</span> class is use to create a simple list.
+<div className="container padding-top-40" id="simpleList">
+<div className="header-3 text-indigo">Simple List</div>
+<div className="note">
+    The <span className="badge">list</span> class is use to create a simple list.
 </div>
-<div class="code">
+<div className="code">
    <xmp>
 {`<ul class="list">
   <li>HTML</li>
@@ -46,8 +46,8 @@ function List() {
 </ul>`}
    </xmp>
 </div>
-<div class="preview">
-<ul class="list">
+<div className="preview">
+<ul className="list">
     <li>HTML</li>
     <li>CSS</li>
     <li>FUN CSS</li>
@@ -57,12 +57,12 @@ function List() {
 </div>
 </div>
        
-<div class="container padding-top-40" id="borderedList">
-<div class="header-3 text-indigo">Bordered List</div>
-<div class="note">
-   The <span class="badge">bordered</span> class is use to add a border to your list.
+<div className="container padding-top-40" id="borderedList">
+<div className="header-3 text-indigo">Bordered List</div>
+<div className="note">
+   The <span className="badge">bordered</span> class is use to add a border to your list.
 </div>
-<div class="code">
+<div className="code">
    <xmp>
 {`<ul class="list bordered hoverable">
     <li>HTML</li>
@@ -72,8 +72,8 @@ function List() {
 </ul>`}
    </xmp>
 </div>
-<div class="preview">
-<ul class="list bordered hoverable">
+<div className="preview">
+<ul className="list bordered hoverable">
     <li>HTML</li>
     <li>CSS</li>
     <li>FUN CSS</li>
@@ -82,12 +82,12 @@ function List() {
 </div>
 </div>
        
-<div class="container padding-top-40" id="strippedList">
-<div class="header-3 text-indigo">Stripped List</div>
-<div class="note">
-    The <span class="badge">stripped</span> class is use to create a stripped list.
+<div className="container padding-top-40" id="strippedList">
+<div className="header-3 text-indigo">Stripped List</div>
+<div className="note">
+    The <span className="badge">stripped</span> class is use to create a stripped list.
 </div>
-<div class="code">
+<div className="code">
    <xmp>
 {`<ul class="list stripped">
   <li>HTML</li>
@@ -99,8 +99,8 @@ function List() {
 </ul>`}
    </xmp>
 </div>
-<div class="preview">
-<ul class="list stripped">
+<div className="preview">
+<ul className="list stripped">
     <li>HTML</li>
     <li>CSS</li>
     <li>FUN CSS</li>
@@ -112,12 +112,12 @@ function List() {
 </div>
 </div>
 
-<div class="container padding-top-40" id="headedList">
-<div class="header-3 text-indigo">List Header</div>
-<div class="note">
-  You can add a header to your list by using our <span class="badge">header</span> class
+<div className="container padding-top-40" id="headedList">
+<div className="header-3 text-indigo">List Header</div>
+<div className="note">
+  You can add a header to your list by using our <span className="badge">header</span> class.
 </div>
-<div class="code">
+<div className="code">
    <xmp>
 {`<ul class="list stripped bordered">
  <li><h2>Courses</h2></li>
@@ -130,9 +130,9 @@ function List() {
 </ul>`}
    </xmp>
 </div>
-<div class="preview">
-<ul class="list stripped bordered">
-    <li><div class="h2">Courses</div></li>
+<div className="preview">
+<ul className="list stripped bordered">
+    <li><div className="h2">Courses</div></li>
     <li>HTML</li>
     <li>CSS</li>
     <li>FUN CSS</li>

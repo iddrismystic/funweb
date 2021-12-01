@@ -28,8 +28,8 @@ function Dropdown(props) {
         </div>
        </div>
 
-<div class="container">
-<table class="table stripped text-smaller">
+<div className="container">
+<table className="table stripped text-smaller">
                 <thead>
                 <tr>
                     <td>Class</td>
@@ -41,37 +41,37 @@ function Dropdown(props) {
                     <tr>
                         <td>.dropdown-hover</td>
                         <td>It contains all other contents in the dropdown.</td>
-                        <td><div> class = "dropdown-hover"</div></td>
+                      <td><div> class = {"dropdown-hover"}</div></td>
                     </tr>
                     <tr>
                         <td>.dropdown-button</td>
                         <td>It triggers your dropdown.It can be a link,div or any other html element</td>
-                        <td><div> class = "dropdown-button"</div></td>
+                    <td><div> class = {"dropdown-button"}</div></td>
                     </tr>
                     <tr>
                         <td>dropdown-menu</td>
                         <td>
                            It contains contents of your dropdown.
                         </td>
-                        <td><div> class = "dropdown-menu"</div></td>
+                    <td><div> class = {"dropdown-menu"}</div></td>
                     </tr>
                     <tr>
                         <td>dropdown-item</td>
                         <td>
                            Are found in the dropdown-menu, they are displayed in block and sections.
                         </td>
-                        <td><div> class = "dropdown-item"</div></td>
+                        <td><div> class = {"dropdown-item"}</div></td>
                     </tr>
                 </tbody>
             </table>
 </div>
        
-<div class="container padding-top-40" id="simpledropdown">
-<div class="header-3 text-indigo">Simple Dropdown</div>
-<div class="note">
-    The <span class="badge">dropdown-hover</span> class is use to create a simple hoverble dropdown.
+<div className="container padding-top-40" id="simpledropdown">
+<div className="header-3 text-indigo">Simple Dropdown</div>
+<div className="note">
+    The <span className="badge">dropdown-hover</span> class is use to create a simple hoverble dropdown.
 </div>
-<div class="code">
+<div className="code">
 <xmp>
 {`
 <div class="dropdown-hover text-white">
@@ -87,40 +87,31 @@ function Dropdown(props) {
 </div>`}
 </xmp>
 </div>
-<div class="preview">
+<div className="preview">
 
-<div class="dropdown-hover text-white">
-    <div class="drop-button">
-        <div class="button indigo card">DropDown</div>
+<div className="dropdown-hover text-white">
+    <div className="drop-button">
+        <div className="button indigo card">DropDown</div>
     </div>
-     <div class="drop-menu white item-hoverable text-black">
-         <div class="drop-item">LinkOne</div>
-         <div class="drop-item">LinkTwo</div>
-         <div class="drop-item">LinkThree</div>
-         <div class="drop-item">LinkFour</div>
+     <div className="drop-menu white item-hoverable text-black">
+         <div className="drop-item">LinkOne</div>
+         <div className="drop-item">LinkTwo</div>
+         <div className="drop-item">LinkThree</div>
+         <div className="drop-item">LinkFour</div>
      </div>
 </div>
 
 </div>
 </div>
        
-<div class="container padding-top-40" id="dropup">
-<div class="header-3 text-indigo">Dropup</div>
-<div class="note">
-   The <span class="badge">dropup-hover</span> class is use to create hoverable dropups for your website.
+<div className="container padding-top-40" id="dropup">
+<div className="header-3 text-indigo">Dropup</div>
+<div className="note">
+   The <span className="badge">dropup-hover</span> className is use to create hoverable dropups for your website.
 </div>
-<div class="code">
+<div className="code">
    <xmp>
-{`<ul class="list bordered hoverable">
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>FUN CSS</li>
-    <li>JAVASCRIPT</li>
-</ul>`}
-   </xmp>
-</div>
-<div class="preview">
-<div class="dropup-hover text-white">
+{`<div class="dropup-hover text-white">
     <div class="drop-button">
         <div class="button deep-purple card">DropUp</div>
     </div>
@@ -130,15 +121,29 @@ function Dropdown(props) {
          <div class="drop-item">LinkThree</div>
          <div class="drop-item">LinkFour</div>
      </div>
+</div>`}
+   </xmp>
+</div>
+<div className="preview">
+<div className="dropup-hover text-white">
+    <div className="drop-button">
+        <div className="button deep-purple card">DropUp</div>
+    </div>
+     <div className="drop-menu white item-hoverable text-black">
+         <div className="drop-item">LinkOne</div>
+         <div className="drop-item">LinkTwo</div>
+         <div className="drop-item">LinkThree</div>
+         <div className="drop-item">LinkFour</div>
+     </div>
 </div>
 </div>
 </div>
-<div class="container padding-top-40" id="animateddropmenu">
-<div class="header-3 text-indigo">Animated Drop Menu</div>
-<div class="note">
-   The <span class="badge">rotate-up</span> and <span class="badge">rotate-down</span> class is use to create a rotating animated button.
+<div className="container padding-top-40" id="animateddropmenu">
+<div className="header-3 text-indigo">Animated Drop Menu</div>
+<div className="note">
+   The <span className="badge">rotate-up</span> and <span className="badge">rotate-down</span> class is use to create a rotating animated button.
 </div>
-<div class="code">
+<div className="code">
    <xmp>
 {`<div class="row-flex">
 <div class="dropup-hover">
@@ -162,25 +167,25 @@ function Dropdown(props) {
 </div>`}
    </xmp>
 </div>
-<div class="preview">
-<div class="card padding">
-<div class="row-flex">
-<div class="dropup-hover">
-    <button class="button blue text-white drop-button"> Hover Up <i class="fas fa-angle-down rotate-up"></i></button>
-     <div class="drop-menu white item-hoverable text-black fit-width">
-         <div class="drop-item">LinkOne</div>
-         <div class="drop-item">LinkTwo</div>
-         <div class="drop-item">LinkThree</div>
-         <div class="drop-item">LinkFour</div>
+<div className="preview">
+<div className="card padding">
+<div className="row-flex">
+<div className="dropup-hover">
+    <button className="button blue text-white drop-button"> Hover Up <i className="fas fa-angle-down rotate-up"></i></button>
+     <div className="drop-menu white item-hoverable text-black fit-width">
+         <div className="drop-item">LinkOne</div>
+         <div className="drop-item">LinkTwo</div>
+         <div className="drop-item">LinkThree</div>
+         <div className="drop-item">LinkFour</div>
      </div>
 </div>
-<div class="dropdown-hover">
-    <button class="button blue text-white drop-button"> Hover down <i class="fas fa-angle-up rotate-down"></i></button>
-     <div class="drop-menu white item-hoverable text-black fit-width">
-         <div class="drop-item">LinkOne</div>
-         <div class="drop-item">LinkTwo</div>
-         <div class="drop-item">LinkThree</div>
-         <div class="drop-item">LinkFour</div>
+<div className="dropdown-hover">
+    <button className="button blue text-white drop-button"> Hover down <i className="fas fa-angle-up rotate-down"></i></button>
+     <div className="drop-menu white item-hoverable text-black fit-width">
+         <div className="drop-item">LinkOne</div>
+         <div className="drop-item">LinkTwo</div>
+         <div className="drop-item">LinkThree</div>
+         <div className="drop-item">LinkFour</div>
      </div>
 </div>
 </div>

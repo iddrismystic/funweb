@@ -98,7 +98,7 @@ function Sidebar() {
         <div className="text-small">
 
               <div className="open-sidebar">
-            <span class="material-icons icon size-2 pointer" onClick={Handlesidebar} >
+            <span className="material-icons icon size-2 pointer" onClick={Handlesidebar} >
                menu
             </span>
               </div>
@@ -121,11 +121,11 @@ function Sidebar() {
        return links
    }
    }).map(link=>(
-  <div className="padding-top-10">
+  <div className="padding-top-10" key={link.text.trim()}>
       <div className="padding button text-lighter sidebar-link" onClick={()=>Router.push(`/${link.path}`)}>
       {link.text}
-      <span class="sidebar-icon ">
-      <i class="fas fas fa-angle-double-right text-indigo"></i>
+      <span className="sidebar-icon">
+      <i className="fas fas fa-angle-double-right text-indigo"></i>
       </span>
 
       </div>

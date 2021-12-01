@@ -33,13 +33,13 @@ function Modal(props) {
        </div>
 
        
-<div class="container padding-top-40" id="introduction">
-<div class="header-3 text-indigo">Modal</div>
-<div class="note">
-    The <span class="badge">modal</span> class is use to create a modal.It wraps the <span class="badge">modal-content</span> class.
+<div className="container padding-top-40" id="introduction">
+<div className="header-3 text-indigo">Modal</div>
+<div className="note">
+    The <span className="badge">modal</span> class is use to create a modal.It wraps the <span className="badge">modal-content</span> class.
     which contains the content of your modal
 </div>
-<div class="code">
+<div className="code">
    <xmp>
 {`<button class="button indigo text-white card" onclick="document.getElementById('modal1').style.display='block'">basic Modal</button>
 <div class="modal" id="modal1">
@@ -54,7 +54,7 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, cupiditate non 
 </div>`}
    </xmp>
 </div>
-<div class="code react">
+<div className="code react">
    <xmp>
 {`
 import { useState } from 'react';
@@ -78,12 +78,12 @@ const [modal, setmodal] = useState("none");
  `}
    </xmp>
 </div>
-<div class="preview" id="modal">
-<button class="button indigo text-white card" onClick={()=>setmodal("block")}>Open Modal</button>
-   <div class="modal" style={{display:`${modal}`}}>
-   <div class="close-modal text-bigger text-red"  onClick={()=>setmodal("none")}>&times;</div>
-   <div class="modal-content width-400 indigo text-white padding">
-   <div class="h3">Modal Header</div>
+<div className="preview" id="modal">
+<button className="button indigo text-white card" onClick={()=>setmodal("block")}>Open Modal</button>
+   <div className="modal" style={{display:`${modal}`}}>
+   <div className="close-modal text-bigger text-red"  onClick={()=>setmodal("none")}>&times;</div>
+   <div className="modal-content width-400 indigo text-white padding">
+   <div className="h3">Modal Header</div>
    <div>
    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, cupiditate non tempore, ea a provident quidem maxime repellat maiores voluptas commodi debitis dolor quod, aliquam tenetur itaque id enim unde!
    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, cupiditate non tempore, ea a provident quidem maxime repellat maiores voluptas commodi debitis dolor quod, aliquam tenetur itaque id enim unde!
@@ -94,9 +94,9 @@ const [modal, setmodal] = useState("none");
 </div>
  
 
-<div class="container">
-<div class="note" id="note">
-    <div class="note-title">Note:</div>
+<div className="container">
+<div className="note" id="note">
+    <div className="note-title">Note:</div>
     <div>
      Modals are good for Login forms, signup forms and displaying other relevant information to the user.
     </div>

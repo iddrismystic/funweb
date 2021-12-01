@@ -44,8 +44,8 @@ function Slidepanels() {
             </div>
 
             <div className="container" id="introduction">
-            <table class="table stripped text-small">
-        <thead class="indigo text-white">
+            <table className="table stripped text-small">
+        <thead className="indigo text-white">
         <tr>
             <td>Class</td>
             <td>discription</td>
@@ -56,37 +56,37 @@ function Slidepanels() {
             <tr>
                 <td>.slide-panel</td>
                 <td>Create A sliding panel</td>
-                <td><div> class = "slide-panel"</div></td>
+                <td><div> class = {"slide-panel"}</div></td>
             </tr>
             <tr>
                 <td>.slide-panel-content</td>
                 <td>It is written in the slide panel, it contains contents of your slide.</td>
-                <td><div>class = "slide-panel-content"</div></td>
+                <td><div>class = {"slide-panel-content"}</div></td>
             </tr>
             <tr>
                 <td>.slide-panel-image</td>
                 <td>To show the content in which the slide will be on top.</td>
-                <td> class = "slide-panel-image"</td>
+                <td> class = {"slide-panel-image"}</td>
             </tr>
             <tr>
                 <td>.slide-top</td>
                 <td>To create a sliding effect from the top</td>
-                <td> class = "slide-top"</td>
+                <td> class = {"slide-top"}</td>
             </tr>
             <tr>
                 <td>.slide-bottom</td>
                 <td>To create a sliding effect from the bottom</td>
-                <td> class = "slide-bottom"</td>
+                <td> class = {"slide-bottom"}</td>
             </tr>
             <tr>
                 <td>.slide-left</td>
                 <td>To create a sliding effect from the left</td>
-                <td> class = "slide-left"</td>
+                <td> class = {"slide-left"}</td>
             </tr>
             <tr>
                 <td>.slide-right</td>
                 <td>To create a sliding effect from the bottom</td>
-                <td> class = "slide-bottom"</td>
+                <td> class = {"slide-bottom"}</td>
             </tr>
   
 
@@ -94,15 +94,14 @@ function Slidepanels() {
     </table>
             </div>
 
-            <div class="container padding-top-40" id="topPanel">
-    <div class="header-3 text-indigo">Slide Top</div>
-    <div class="note">
-The <span class="badge"> slide-top </span> class is use to create a slide animation from the top.
+            <div className="container padding-top-40" id="topPanel">
+    <div className="header-3 text-indigo">Slide Top</div>
+    <div className="note">
+The <span className="badge"> slide-top </span> className is use to create a slide animation from the top.
 </div>
-    <div class="code">
+    <div className="code">
         <xmp>
-            {`
-    <center> 
+{`<center> 
     <div class="padding text-larger">slide panel top</div>
     <div class="slide-panel slide-top fit-height width-200">
         <div class="slide-panel-content indigo text-center padding opacity-1 text-white">
@@ -111,36 +110,32 @@ The <span class="badge"> slide-top </span> class is use to create a slide animat
         </div>
         <img src="/images/avatar.png" alt="" class="slide-panel-image width-100-p height-100-p" />
     </div>      
-    </center>
-    
-            `}
+</center>`}
         </xmp>
     </div>
-    <div class="preview">
+    <div className="preview">
 <center> 
-<div class="padding text-larger">slide panel top</div>
+<div className="padding text-larger">slide panel top</div>
 
-<div class="slide-panel slide-top fit-height width-200">
-    <div class="slide-panel-content indigo text-center padding opacity-1 text-white">
-    <div class="text-larger">Jhon Deo</div>
+<div className="slide-panel slide-top fit-height width-200">
+    <div className="slide-panel-content indigo text-center padding opacity-1 text-white">
+    <div className="text-larger">Jhon Deo</div>
  Laboriosam ex nostrum ad aperiam cumque eveniet magni recusandae.
     </div>
-    <img src="/images/avatar.png" alt="" class="slide-panel-image width-100-p height-100-p" />
+    <img src="/images/avatar.png" alt="" className="slide-panel-image width-100-p height-100-p" />
 </div>      
 </center>
 
     </div>
 </div>
 
-<div class="container padding-top-40" id="bottomPanel">
-    <div class="header-3 text-indigo">Slide Bottom</div>
-    <div class="note">
-The <span class="badge"> slide-bottom </span> class is use to create a slide animation from the bottom.
+<div className="container padding-top-40" id="bottomPanel">
+    <div className="header-3 text-indigo">Slide Bottom</div>
+    <div className="note">
+The <span className="badge"> slide-bottom </span> className is use to create a slide animation from the bottom.
 </div>
-    <div class="code">
-        <xmp>
-            {`
-    <center> 
+    <div className="code">
+<xmp>{`<center> 
     <div class="padding text-larger">slide panel Bottom</div>
     <div class="slide-panel slide-bottom fit-height width-200">
         <div class="slide-panel-content indigo text-center padding opacity-1 text-white">
@@ -151,30 +146,29 @@ The <span class="badge"> slide-bottom </span> class is use to create a slide ani
     </div>      
     </center>
     
-            `}
-        </xmp>
+`}</xmp>
     </div>
-    <div class="preview">
+    <div className="preview">
 <center> 
-<div class="padding text-larger">slide panel Bottom</div>
-<div class="slide-panel slide-bottom fit-height width-200">
-    <div class="slide-panel-content indigo text-center padding opacity-1 text-white">
-    <div class="text-larger">Jhon Deo</div>
+<div className="padding text-larger">slide panel Bottom</div>
+<div className="slide-panel slide-bottom fit-height width-200">
+    <div className="slide-panel-content indigo text-center padding opacity-1 text-white">
+    <div className="text-larger">Jhon Deo</div>
  Laboriosam ex nostrum ad aperiam cumque eveniet magni recusandae.
     </div>
-    <img src="/images/avatar.png" alt="" class="slide-panel-image width-100-p height-100-p" />
+    <img src="/images/avatar.png" alt="" className="slide-panel-image width-100-p height-100-p" />
 </div>      
 </center>
 
     </div>
 </div>
 
-<div class="container padding-top-40" id="leftPanel">
-    <div class="header-3 text-indigo">Slide Left</div>
-    <div class="note">
-The <span class="badge"> slide-left </span> class is use to create a slide animation from the left.
+<div className="container padding-top-40" id="leftPanel">
+    <div className="header-3 text-indigo">Slide Left</div>
+    <div className="note">
+The <span className="badge"> slide-left </span> className is use to create a slide animation from the left.
 </div>
-    <div class="code">
+    <div className="code">
         <xmp>
             {`
     <center> 
@@ -191,30 +185,29 @@ The <span class="badge"> slide-left </span> class is use to create a slide anima
             `}
         </xmp>
     </div>
-    <div class="preview">
+    <div className="preview">
 <center> 
-<div class="padding text-larger">slide panel Left</div>
-<div class="slide-panel slide-left fit-height width-200">
-    <div class="slide-panel-content deep-purple text-center padding opacity-1 text-white">
-    <div class="text-larger">Jhon Deo</div>
+<div className="padding text-larger">slide panel Left</div>
+<div className="slide-panel slide-left fit-height width-200">
+    <div className="slide-panel-content deep-purple text-center padding opacity-1 text-white">
+    <div className="text-larger">Jhon Deo</div>
  Laboriosam ex nostrum ad aperiam cumque eveniet magni recusandae.
     </div>
-    <img src="/images/avatar.png" alt="" class="slide-panel-image width-100-p height-100-p" />
+    <img src="/images/avatar.png" alt="" className="slide-panel-image width-100-p height-100-p" />
 </div>      
 </center>
 
     </div>
 </div>
 
-<div class="container padding-top-40" id="rightPanel">
-    <div class="header-3 text-indigo">Slide Right</div>
-    <div class="note">
-The <span class="badge"> slide-right </span> class is use to create a slide animation from the right.
+<div className="container padding-top-40" id="rightPanel">
+    <div className="header-3 text-indigo">Slide Right</div>
+    <div className="note">
+The <span className="badge"> slide-right </span> className is use to create a slide animation from the right.
 </div>
-    <div class="code">
+    <div className="code">
         <xmp>
-            {`
-    <center> 
+{`<center> 
     <div class="padding text-larger">slide panel Bottom</div>
     <div class="slide-panel slide-right fit-height width-200">
         <div class="slide-panel-content deep-purple text-center padding opacity-1 text-white">
@@ -223,20 +216,18 @@ The <span class="badge"> slide-right </span> class is use to create a slide anim
         </div>
         <img src="/images/avatar.png" alt="" class="slide-panel-image width-100-p height-100-p" />
     </div>      
-    </center>
-    
-            `}
+    </center>`}
         </xmp>
     </div>
-    <div class="preview">
+    <div className="preview">
 <center> 
-<div class="padding text-larger">slide panel Right</div>
-<div class="slide-panel slide-right fit-height width-200">
-    <div class="slide-panel-content deep-purple text-center padding opacity-1 text-white">
-    <div class="text-larger">Jhon Deo</div>
+<div className="padding text-larger">slide panel Right</div>
+<div className="slide-panel slide-right fit-height width-200">
+    <div className="slide-panel-content deep-purple text-center padding opacity-1 text-white">
+    <div className="text-larger">Jhon Deo</div>
  Laboriosam ex nostrum ad aperiam cumque eveniet magni recusandae.
     </div>
-    <img src="/images/avatar.png" alt="" class="slide-panel-image width-100-p height-100-p" />
+    <img src="/images/avatar.png" alt="" className="slide-panel-image width-100-p height-100-p" />
 </div>      
 </center>
 

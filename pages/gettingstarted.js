@@ -68,7 +68,7 @@ function Gettingstarted() {
                </div>
 
                <div>
-               <div class="code padding-top-50">
+               <div className="code padding-top-50">
                  <div className="monospace ">{cdn.csscompiled}</div>
                  <div className="monospace section ">{cdn.css}</div>
 
@@ -90,13 +90,13 @@ when creating a website or web application for production purpose.
    <a href="https://codeload.github.com/funtechs/Funcss/zip/refs/heads/main">
    <button className="button text-white hover-up margin-top-20 card indigo ripple">
      Download Fun Css
-     <span class="animate-up-down margin-left-10"><i class="fas fa-download"></i></span>
+     <span className="animate-up-down margin-left-10"><i className="fas fa-download"></i></span>
   </button> 
    </a>
 </div>
   
 
-<div class="padding-top-20" id="githubcli">
+<div className="padding-top-20" id="githubcli">
 
 <div className="header-2 text-indigo">Clone The Framework</div>
 <div>
@@ -129,10 +129,10 @@ gh repo clone funtechs/Funcss
      <div className="row">
        <div className="col sm-12 md-6 lg-6">
          <div className="row-flex success padding roud-edge text-white">
-           <div class="margin-right-10"><i class="fas fa-check text-indigo"></i></div>
+           <div className="margin-right-10"><i className="fas fa-check text-indigo"></i></div>
            <div>
-             <div className="h3">Simple Classes</div>
-             <div class="opacity-4">
+             <div className="h3">Simple classNamees</div>
+             <div className="opacity-4">
             santium ex assumenda dolore. Quis similique fugiat, est eius delectus quae?
              </div>
            </div>

@@ -2,27 +2,7 @@ import React from 'react';
 import Footer from '../components/Footer';
 
 function Container(props) {
-    const container = `
-    <div className="padding light">
-    <div className="container">
-     <div className="padding indigo text-white section">
-       <h3>I'm in a container</h3>
-       <div>
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum accusantium alias placeat quod officiis nobis mollitia eos minima vel ea reprehenderit dolores. Perspiciatis at dolore sit.
-       </div>
-     </div>
-    </div>
-    <div className="">
-     <div className="padding blue text-white section">
-       <h3>I'm not in a container</h3>
-       <div>
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum accusantium alias placeat quod officiis nobis mollitia eos minima vel ea reprehenderit dolores. Perspiciatis at dolore sit.
-       </div>
-     </div>
-    </div>
-
-   </div>
-    `
+   
     return (
         <section>
                         <div className="content-wrapper">
@@ -64,22 +44,42 @@ function Container(props) {
 <div className="container" id="container">
     <div className="code">
         <xmp>
-            {container}
+            {`
+    <div class="padding light">
+    <div class="container">
+     <div class="padding indigo text-white section">
+       <h3>I'm in a container</h3>
+       <div>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum accusantium alias placeat quod officiis nobis mollitia eos minima vel ea reprehenderit dolores. Perspiciatis at dolore sit.
+       </div>
+     </div>
+    </div>
+    <div class="">
+     <div class="padding blue text-white section">
+       <h3>I'm not in a container</h3>
+       <div>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum accusantium alias placeat quod officiis nobis mollitia eos minima vel ea reprehenderit dolores. Perspiciatis at dolore sit.
+       </div>
+     </div>
+    </div>
+
+   </div>
+    `}
         </xmp>
     </div>
     <div className="preview">
         <div className="padding light">
-         <div class="container">
-          <div class="padding section">
-            <div class="h2">I'm in a container</div>
+         <div className="container">
+          <div className="padding section">
+            <div className="h2">Im in a container</div>
             <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum accusantium alias placeat quod officiis nobis mollitia eos minima vel ea reprehenderit dolores. Perspiciatis at dolore sit.
             </div>
           </div>
          </div>
          <div>
-          <div class="padding section">
-            <div class="h2">I'm not in a container</div>
+          <div className="padding section">
+            <div className="h2">Im not in a container</div>
             <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum accusantium alias placeat quod officiis nobis mollitia eos minima vel ea reprehenderit dolores. Perspiciatis at dolore sit.
             </div>

@@ -4,9 +4,10 @@ import Image  from 'next/image';
 function Logo() {
     return (
         <div>
-            <div>
-                <Image src="/icons/fun.png" width={30} height={30}/>
-            </div>
+            <span>
+                <Image src="/icons/fun.png" width={30} height={30} alt="funcss logo"/>
+             <span className="logo montserrat">Funcss </span>
+            </span>
         </div>
     );
 }

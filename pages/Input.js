@@ -35,106 +35,103 @@ function Input() {
             </div>
 
             
- <div class="container padding-top-40" id="simpleinput">
-    <div class="header-3 text-indigo">Simple</div>
-    <div class="note">
-        The <span class="badge">input</span> class is use to create a simple input field with a border at the bottom.
+ <div className="container padding-top-40" id="simpleinput">
+    <div className="header-3 text-indigo">Simple</div>
+    <div className="note">
+        The <span className="badge">input</span> class is use to create a simple input field with a border at the bottom.
     </div>
-    <div class="code">
+    <div className="code">
         <xmp>
-            {`
-<input class="input full-width padding" placeholder="This is a simple input field." />
-            `}
+ {`<input class="input full-width padding" placeholder="This is a simple input field." />`}
         </xmp>
     </div>
-    <div class="preview">
+    <div className="preview">
 
-<div class="card padding">
-<div class="text-larger padding">Simple Input Field</div>
-<input class="input full-width padding" placeholder="This is a simple input field." />
+<div className="card padding">
+<div className="text-larger padding">Simple Input Field</div>
+<input className="input full-width padding" placeholder="This is a simple input field." />
 </div>      
 
     </div>
 </div>
             
- <div class="container padding-top-40" id="borderedinput">
-    <div class="header-3 text-indigo">Bordered</div>
-    <div class="note">
-        The <span class="badge">bordered</span> class adds border to your input field.
+ <div className="container padding-top-40" id="borderedinput">
+    <div className="header-3 text-indigo">Bordered</div>
+    <div className="note">
+        The <span className="badge">bordered</span> class adds border to your input field.
     </div>
-    <div class="code">
+    <div className="code">
         <xmp>
             {`
 <input class="input bordered full-width padding" placeholder="This is a simple input field." />
             `}
         </xmp>
     </div>
-    <div class="preview">
+    <div className="preview">
 
-<div class="card padding">
-<div class="text-larger padding">Bordered Input Field</div>
-<input class="input full-width bordered padding" placeholder="This is a bordered input field." />
+<div className="card padding">
+<div className="text-larger padding">Bordered Input Field</div>
+<input className="input full-width bordered padding" placeholder="This is a bordered input field." />
 </div>      
 
     </div>
 </div>
             
- <div class="container padding-top-40" id="borderlessinput">
-    <div class="header-3 text-indigo">Borderless Input Field</div>
-    <div class="note">
-    The <span class="borderless"> borderless </span> class is use to remove all kind of border in your input field.
+ <div className="container padding-top-40" id="borderlessinput">
+    <div className="header-3 text-indigo">Borderless Input Field</div>
+    <div className="note">
+    The <span className="borderless"> borderless </span> class is use to remove all kind of border in your input field.
     </div>
-    <div class="code">
+    <div className="code">
         <xmp>
             {`
 <input class="input full-width borderless light padding" placeholder="This is a borderless input field." />
             `}
         </xmp>
     </div>
-    <div class="preview">
+    <div className="preview">
 
-<div class="card padding">
-<div class="text-larger padding">Borderless Input Field</div>
-<input class="input full-width borderless light padding" placeholder="This is a borderless input field." />
+<div className="card padding">
+<div className="text-larger padding">Borderless Input Field</div>
+<input className="input full-width borderless light padding" placeholder="This is a borderless input field." />
 </div>      
 
     </div>
 </div>
- <div class="container padding-top-40" id="roundedinput">
-    <div class="header-3 text-indigo">Rounded Input Field</div>
-    <div class="note">
-    The <span class="badge"> round-value </span> class is use to create a rounded input, the value can be
-    <span class="badge">20, 30, 40 and 50</span>
+ <div className="container padding-top-40" id="roundedinput">
+    <div className="header-3 text-indigo">Rounded Input Field</div>
+    <div className="note">
+    The <span className="badge"> round-value </span> class is use to create a rounded input, the value can be
+    <span className="badge">20, 30, 40 and 50</span>
     </div>
-    <div class="code">
+    <div className="code">
         <xmp>
             {`
 <input class="input full-width round-30 light padding" placeholder="This is a rounded input with border-radius 15" />
             `}
         </xmp>
     </div>
-    <div class="preview">
+    <div className="preview">
 
-<div class="card padding">
-<div class="text-larger padding">Rounded Input Field</div>
-<input class="input full-width round-30 light padding" placeholder="This is a rounded input with border-radius 15" />
+<div className="card padding">
+<div className="text-larger padding">Rounded Input Field</div>
+<input className="input full-width round-30 light padding" placeholder="This is a rounded input with border-radius 15" />
 </div>      
 
     </div>
 </div>
- <div class="container padding-top-40" id="animatedinput">
-    <div class="header-3 text-indigo">Animated Input Field</div>
-    <div class="code">
+ <div className="container padding-top-40" id="animatedinput">
+    <div className="header-3 text-indigo">Animated Input Field</div>
+    <div className="code">
         <xmp>
-            {`
-<input class="input bordered light animate-width padding" placeholder="view full width."/>            `}
+{`<input class="input bordered light animate-width padding" placeholder="view full width."/>`}
         </xmp>
     </div>
-    <div class="preview">
+    <div className="preview">
 
-<div class="card padding">
-<div class="text-larger padding">Animated Width</div>
-<input class="input bordered light animate-width padding" placeholder="view full width."/>
+<div className="card padding">
+<div className="text-larger padding">Animated Width</div>
+<input className="input bordered light animate-width padding" placeholder="view full width."/>
 </div>      
 
     </div>
