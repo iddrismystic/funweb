@@ -149,7 +149,7 @@ function Icons() {
              if(iconName === ''){
                  return filterIcon;
              }else if(
-              filterIcon.className.toLowerCase().trim().includes(iconName.toLowerCase().trim())||
+              filterIcon.class.toLowerCase().trim().includes(iconName.toLowerCase().trim())||
               filterIcon.name.toLowerCase().trim().includes(iconName.toLowerCase().trim())
              ){
                  return filterIcon;

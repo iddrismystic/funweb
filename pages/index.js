@@ -335,14 +335,80 @@ function Home() {
 </div>
 
 <div className="container padding-top-30">
-    <div className="header">Comment</div>
-    <input className="padding light width-100-p borderless section" placeholder="Enter your email" />
-    <textarea className="padding light width-100-p borderless section" rows="5" placeholder="Enter your message" ></textarea>
-<div>
-    <button className="button padding indigo card text-white">
-        Comment <i className="fas fa-paper-plane"></i>
-    </button>
+<div class="slider three padding-20">
+    <div class="slide-container">
+        <div class="slide">
+        <div className="pointer padding react-card center">
+        <div className="row-flex">
+            <div> <img src="/images/deo.jpg" className="height-50 width-50 circle" /> </div>
+            <div className="padding">
+             <div className="">@Jhon Deo</div>
+            <div className="opacity-5 text-small">
+            <i className="fas fa-check text-deep-purple"></i>
+            <span>Developer</span>
+            </div>
+            </div>
+        </div>
+        <div>
+          <span><i className="fas fa-quote-left text-indigo inline-block margin"></i></span>
+          <span className="text-small">          
+          Actually, the framework is good. It helps take away your stress and 
+          also save much of your time when developing a website. Thank you...
+          </span>
+          <span><i className="fas fa-quote-right text-indigo inline-block margin"></i></span>
+        </div>
+    </div>
+        </div>
+        <div class="slide">
+        <div className="pointer padding react-card center">
+        <div className="row-flex">
+            <div> <img src="/images/jane.jpg" className="height-50 width-50 circle" /> </div>
+            <div className="padding">
+             <div className="">@Mary Jane</div>
+            <div className="opacity-5 text-small">
+            <i className="fas fa-check text-deep-purple"></i>
+            <span>Student</span>
+            </div>
+            </div>
+        </div>
+        <div>
+          <span><i className="fas fa-quote-left text-indigo inline-block margin"></i></span>
+          <span className="">          
+          You gotta try this css framework out, it is super cool and fantastic, it makes 
+          your code look clean. 
+          </span>
+          <span><i className="fas fa-quote-right text-indigo inline-block margin"></i></span>
+        </div>
+    </div>
+        </div>
+        <div class="slide">
+        <div className="pointer padding react-card center">
+        <div className="row-flex">
+            <div> <img src="/images/iddrisabdulwahab.jpg" className="height-50 width-50 circle" /> </div>
+            <div className="padding">
+             <div className="">@Mystical</div>
+            <div className="opacity-5">
+            <i className="fas fa-check text-deep-purple"></i>
+            <span>web developer</span>
+            </div>
+            </div>
+        </div>
+        <div>
+          <span><i className="fas fa-quote-left text-indigo inline-block margin"></i></span>
+          <span className="">          
+           Funcss, you are the best, now i can create multiple responsive websites within minutes.
+           You framework is actually the best.
+          </span>
+          <span><i className="fas fa-quote-right text-indigo inline-block margin"></i></span>
+        </div>
+    </div>
+        </div>
+    </div>
+
 </div>
+
+
+
 </div>
 
 <Footer />
