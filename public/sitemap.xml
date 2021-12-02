@@ -1,63 +1,3 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="UTF-8"?>
-	<urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-		<url>
-			<loc>https://funcss.herokuapp.com/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://funcss.herokuapp.com/gettingstarted</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://funcss.herokuapp.com/colors</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://funcss.herokuapp.com/typography</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://funcss.herokuapp.com/helpers</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://funcss.herokuapp.com/icons</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://funcss.herokuapp.com/card</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://funcss.herokuapp.com/table</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://funcss.herokuapp.com/inputs</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://funcss.herokuapp.com/slider</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-		<url>
-			<loc>https://funcss.herokuapp.com/about</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-	</urlset>
-
-=======
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -68,10 +8,20 @@
 
 
 <url>
-  <loc>http://breezela.herokuapp.com/</loc>
-  <lastmod>2021-11-17T16:39:27+00:00</lastmod>
+  <loc>https://funcss.herokuapp.com/</loc>
+  <lastmod>2021-12-02T09:47:55+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://funcss.herokuapp.com/gettingstarted</loc>
+  <lastmod>2021-12-02T09:47:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://funcss.herokuapp.com/buttons</loc>
+  <lastmod>2021-12-02T09:47:55+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
 </urlset>
->>>>>>> 4418c982021cbcbe2ccd877d1384eb219d876e6e

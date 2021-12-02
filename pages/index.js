@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Link from 'next/dist/client/link'
 function Home() {
     return (
-        <section className="padding-top-30">
+        <section className="padding-top-30" lang="eng">
  <Head>
  <title>Fun Css Framework</title>
  <meta name='description' content='
@@ -23,9 +23,9 @@ function Home() {
         <div className="row">
             <div className="col sm-12 md-12 lg-6">
              <div className="padding">
-             <h1 className="h3 no-margin outfit header">
-                <span className="h2 text-indigo">Fun Css:</span> Modern responsive CSS framework for developing responsive websites.</h1>
-         
+             <h1 className="no-margin header h4">
+                <span className="header text-indigo">Fun Css:</span> Modern responsive CSS framework for developing responsive websites.
+            </h1>
              </div>
              <div className="padding">
                  Funcss is a free, open source css framework for developing modern responsive
@@ -73,8 +73,8 @@ function Home() {
 
 <div className="container">
 <div className="text-center text-x-large text-lighter text-indigo">Our Themes</div>
-<div className="text-center text-larger">Free Css Themes</div>
-<div className="text-center text-medium text-lighter padding">
+<div className="text-center h4">Download And Use Our Free Css Themes</div>
+<div className="text-center  padding">
   Download and use our Themes for free, Build cool websites with Funcss.
 </div>
 
@@ -157,7 +157,7 @@ function Home() {
 
 <div className="container">
 <div className="text-center text-xx-large text-lighter text-indigo">Responsive</div>
-<div className="text-x-large text-center">Responsive Grid Layout.</div>
+<div className="h4 text-center">Create Responsive Websites With Css Grid.</div>
 <div className="padding-20">
     Create awesome responsive websites with css flex-box and media queries.
     Our framework partition your website in to columns and rows which are 
@@ -166,23 +166,25 @@ function Home() {
 <div className="padding-20">
 <Link href="/grid">
 <a>
-<button className="fun-secondary button card text-white f2">
+<button className="indigo button card text-white f2">
   Learn More
   <i className="fas fa-angle-right margin-left-10"></i>
-  </button>
+</button>
 </a>
 </Link>
 </div>
 <div className="container text-center">
 <img src="/svg/devices.svg" className="width-100-p" alt="cssresponsive" />
 </div>
+
+
 </div>
 
 <div className="section hr"></div>
 
 <div className="container padding-top-30">
-<h1 className="text-center text-xx-large text-lighter text-indigo no-margin">HTML AND CSS BUTTONS</h1>
-<h2 className="text-x-large text-center no-margin text-lighter">Create Nice Css Buttons Designs</h2>
+<h1 className="text-center text-xx-large text-lighter text-indigo no-margin">FUNCSS BUTTONS</h1>
+<h2 className="text-center no-margin h4">Create Nice Css Buttons Designs</h2>
 <div className="padding">
   Create nice css buttons for your website, use buttons with cool animation effects, 
   Just type the className <span className="badge">button</span> to style your button, you can change the background color
@@ -238,7 +240,7 @@ function Home() {
     <div className="padding">
 <Link href="/buttons">
 <a>
-    <button className="fun-secondary button card text-white f2">
+    <button className="indigo button card text-white f2">
   Learn More
   <i className="fas fa-angle-right margin-left-10"></i>
   </button>
@@ -253,11 +255,12 @@ function Home() {
 <div className="section hr"></div>
 
 <div className="container padding-top-30">
-<h1 className="text-center text-xx-large text-lighter text-indigo no-margin">CSS CARDS</h1>
+<div className="text-center text-xx-large text-lighter text-indigo no-margin">CSS CARDS</div>
+<h2 className="header h4 padding">Create css cards, hoverable cards, fliping cards , horizontal cards and reveal content cards.</h2>
 <div className="padding">
  Design nice css cards, hoverable fliping card, reveal content card and horizontal cards.
- Cards are use to design specific important areas of your website, you can use css cards.
- The className <span className="badge">card </span> is use to create a cool shadow effect on your 
+ Cards are use to design specific important areas of your website.
+ The class <span className="badge">card </span> is use to create a cool shadow effect on your 
  html element.
 </div>
 <div>
@@ -267,7 +270,7 @@ function Home() {
         <div className='col sm-12 md-4 lg-4 padding'>
 <div className="card width-100-p">
     <div className="relative">
-        <img src="images/deo.jpg" className="width-100-p height-200" alt="css card" />
+        <img src="images/deo.jpg" className="width-100-p height-200" alt="hoverable css card" />
         <div className="text-large card-title text-white">Card Title</div>
     </div>
 
@@ -280,7 +283,7 @@ function Home() {
         <div className='col sm-12 md-4 lg-4 padding'>
 <div className="card hover-shadow">
     <div className="relative">
-        <img src="images/deo.jpg" className="width-100-p height-200" alt="css card"/>
+        <img src="images/deo.jpg" className="width-100-p height-200" alt="reveal content css card"/>
         <div className="text-large card-title text-white">Card Title</div>
         <div className="text-large card-fab">
             <button className='button indigo card text-white float height-40 width-40'>
@@ -318,10 +321,12 @@ function Home() {
 
     </div>
     <div className="padding">
-<Link href="/card"><button className="fun-secondary button card text-white f2">
+<Link href="/card">
+<button className="button text-dark f2">
   Learn More
   <i className="fas fa-angle-right margin-left-10"></i>
-  </button></Link>
+</button>
+</Link>
 </div>
 </div>
 </div>

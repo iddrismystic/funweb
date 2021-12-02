@@ -15,9 +15,9 @@ function Dropdown(props) {
        </div>
            <div className="main-content">
            <div className="container">
-        <div className="text-big text-lighter text-indigo">
+        <h1 className="header text-indigo">
          Funcss Dropdowns
-        </div>
+        </h1>
         <div className="h4">
         Dropdowns are usuallly use on the navigation bar, they hold 
         content which can be seen when you hover or click on them.
@@ -107,7 +107,7 @@ function Dropdown(props) {
 <div className="container padding-top-40" id="dropup">
 <div className="header-3 text-indigo">Dropup</div>
 <div className="note">
-   The <span className="badge">dropup-hover</span> className is use to create hoverable dropups for your website.
+   The <span className="badge">dropup-hover</span> class is use to create hoverable dropups for your website.
 </div>
 <div className="code">
    <xmp>

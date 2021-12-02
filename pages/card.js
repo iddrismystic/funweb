@@ -78,9 +78,7 @@ function Card() {
 <div className="container padding-top-40" id="imageCard">
     <div className="header-3 text-indigo">Simple Image Card</div>
     <div className="code">
-        <xmp>
-            {`
-<div class="card width-300">
+<xmp>{`<div class="card width-300">
     <div class="relative">
         <img src="images/deo.jpg" class="width-100-p height-200" />
         <div class="text-large card-title text-white">Card Title</div>
@@ -90,14 +88,12 @@ function Card() {
     This is have a Title on top of the image.
     You can use this card to display informtion about a person or a team.
     </div>
-</div>
-            `}
-        </xmp>
+</div>`}</xmp>
     </div>
     <div className="preview">
     <div className="card width-300">
             <div className="relative">
-                <Image src="/images/deo.jpg" height={200} width={100 + '%'} alt="simplecsscard" className="width-100-p height-200" />
+                <img src="/images/deo.jpg" alt="simplecsscard" className="width-100-p height-200" />
                 <div className="text-large card-title text-white">Card Title</div>
             </div>
       
@@ -132,7 +128,7 @@ function Card() {
     <div className="preview">
     <div className="card width-300 hover-shadow">
             <div className="relative">
-                <Image src="/images/deo.jpg" height={200} width="100Vw" alt="css card" className="width-100-p height-200" />
+                <img src="/images/deo.jpg" alt="css card" className="width-100-p height-200" />
                 <div className="text-large card-title text-white">Card Title</div>
                 <div className="text-large card-fab"> <button className='button indigo card text-white float height-40 width-40'>Fab</button></div>
             </div>

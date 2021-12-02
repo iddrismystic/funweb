@@ -9,6 +9,10 @@ function Sidebar() {
         text:"Home",
         path:""
     } ,
+    {
+        text:"Themes",
+        path:"/themes"
+    } ,
         {
             text:"Getting Started",
             path:"gettingstarted"
@@ -103,13 +107,13 @@ function Sidebar() {
             </span>
               </div>
               <div className="SideBar" style={{width : `${width}`}}>
-              <div className="section">
+              <div className="section padding">
                       <input className="input search width-100-p padding-top-10 padding-bottom-10 text-center" onChange={(e)=>setsearch(e.target.value)} placeholder="Search..." />
                   </div>
 
                 <div className="sidecontent">
                   
-                <div className="section">
+                <div className="section padding">
 
 {
    links.filter(text=>{

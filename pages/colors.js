@@ -36,7 +36,7 @@ function Colors() {
              <h1 className="header h1 text-lighter text-indigo">
               Fun Css Colors
              </h1>
-             <div className="header-2">
+             <div className="h4">
                 Good colors makes a greate<br /> impression.
              </div>
 

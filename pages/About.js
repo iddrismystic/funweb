@@ -36,7 +36,7 @@ function About() {
     <h1 className="no-margin text-lighter h2 text-indigo">Fun Css</h1>
     <div className="note">
     Fun responsive css framework was developed to ease your work in developing websites and 
-    webpages. It comes with pre-defined classNamees that you can use for your projects. You can also 
+    webpages. It comes with pre-defined classes that you can use for your projects. You can also 
     download our templates for free and use them to create standard websites.
 </div>
 

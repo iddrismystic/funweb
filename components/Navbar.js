@@ -11,8 +11,9 @@ function Navbar() {
    </div>
      <div className="padding hide-medium-down">
   <a className="nav-link" href="#">Docs</a>
-  <a className="nav-link" href="#">Themes</a>
-  <a href="https://codeload.github.com/funtechs/Funcss/zip/refs/heads/main" className="text-indigo">Download v1.0</a> <a><img src="/icons/github.png" style={{height:'25px'}} className="icon fit" alt="github" /></a>
+  <Link href="/themes"><a className="nav-link">Themes</a></Link>
+  <a href="https://codeload.github.com/funtechs/Funcss/zip/refs/heads/main" className="text-indigo text-small">Download v1.0</a>
+  <a><img src="/icons/github.png" style={{height:'25px'}} className="icon fit show-medium-up" alt="github" /></a>
 
     
      </div>

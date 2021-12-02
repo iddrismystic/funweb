@@ -43,7 +43,7 @@ function Gettingstarted() {
              <h1 className="text-big text-lighter text-indigo header">
                  Getting Started
              </h1>
-             <div className="header-2">
+             <div className="h4">
                Download the funcss framework to start creating awesome responsive website for free.
              </div>
              <div className="section hr"></div>
