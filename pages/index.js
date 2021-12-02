@@ -335,9 +335,9 @@ function Home() {
 </div>
 
 <div className="container padding-top-30">
-<div class="slider three padding-20">
-    <div class="slide-container">
-        <div class="slide">
+<div className="slider three padding-20">
+    <div className="slide-container">
+        <div className="slide">
         <div className="pointer padding react-card center">
         <div className="row-flex">
             <div> <img src="/images/deo.jpg" className="height-50 width-50 circle" /> </div>
@@ -359,7 +359,7 @@ function Home() {
         </div>
     </div>
         </div>
-        <div class="slide">
+        <div className="slide">
         <div className="pointer padding react-card center">
         <div className="row-flex">
             <div> <img src="/images/jane.jpg" className="height-50 width-50 circle" /> </div>
@@ -381,7 +381,7 @@ function Home() {
         </div>
     </div>
         </div>
-        <div class="slide">
+        <div className="slide">
         <div className="pointer padding react-card center">
         <div className="row-flex">
             <div> <img src="/images/iddrisabdulwahab.jpg" className="height-50 width-50 circle" /> </div>
