@@ -127,7 +127,7 @@ const Slider = () => {
     <div class="slide-container">
         <div class="slide">
             <div class="slide-content height-400">
-            <img src="/images/1.jpg"/>
+            <img className="slide-image" src="/images/1.jpg"/>
          <div class="caption center padding-20 text-center">
              <div class="text-x-large text-white">Center Caption</div>
              <div class="text-white">
@@ -140,7 +140,7 @@ const Slider = () => {
         </div>
         <div class="slide">
             <div class="slide-content height-400">
-            <img src="/images/3.jpg"/>
+            <img className="slide-image" src="/images/3.jpg"/>
             <div class="caption top-left padding">
              <div class="text-x-large text-white">Top Left Caption</div>
              <div class="text-white">
@@ -164,7 +164,7 @@ const Slider = () => {
     <div className="slide-container">
         <div className="slide">
             <div className="slide-content height-400">
-            <img src="/images/1.jpg"/>
+            <img className="slide-image" src="/images/1.jpg"/>
          <div className="caption center padding-20 text-center">
              <div className="text-x-large text-white">Center Caption</div>
              <div className="text-white">
@@ -177,7 +177,7 @@ const Slider = () => {
         </div>
         <div className="slide">
             <div className="slide-content height-400">
-            <img src="/images/3.jpg"/>
+            <img className="slide-image" src="/images/3.jpg"/>
             <div className="caption top-left padding">
              <div className="text-x-large text-white">Top Left Caption</div>
              <div className="text-white">
@@ -210,7 +210,7 @@ const Slider = () => {
     <div class="slide-container">
         <div class="slide">
             <div class="slide-content height-400">
-            <img src="/images/7.jpg"/>
+            <img className="slide-image" src="/images/7.jpg"/>
          <div class="caption center padding-20 text-center">
              <div class="text-big text-white">Greate Company</div>
              <div class="text-white">
@@ -222,7 +222,7 @@ const Slider = () => {
         </div>
         <div class="slide">
             <div class="slide-content height-400">
-            <img src="/images/3.jpg"/>
+            <img className="slide-image" src="/images/3.jpg"/>
             <div class="caption bottom-left padding">
              <div class="text-big text-white">Choose from Templates</div>
              <div class="text-white">
@@ -233,7 +233,7 @@ const Slider = () => {
         </div>
         <div class="slide">
         <div class="slide-content height-400">
-        <img src="/images/6.jpg"/>
+        <img className="slide-image" src="/images/6.jpg"/>
         <div class="caption center padding-20 text-center">
              <div class="text-big text-white">Create Your Website</div>
              <div class="text-white">
@@ -257,7 +257,7 @@ const Slider = () => {
     <div className="slide-container">
         <div className="slide">
             <div className="slide-content height-400">
-            <img src="/images/7.jpg"/>
+            <img className="slide-image" src="/images/7.jpg"/>
          <div className="caption center padding-20 text-center">
              <div className="text-big text-white">Greate Company</div>
              <div className="text-white">
@@ -269,7 +269,7 @@ const Slider = () => {
         </div>
         <div className="slide">
             <div className="slide-content height-400">
-            <img src="/images/3.jpg"/>
+            <img className="slide-image" src="/images/3.jpg"/>
             <div className="caption bottom-left padding">
              <div className="text-big text-white">Choose from Templates</div>
              <div className="text-white">
@@ -280,7 +280,7 @@ const Slider = () => {
         </div>
         <div className="slide">
         <div className="slide-content height-400">
-        <img src="/images/6.jpg"/>
+        <img className="slide-image" src="/images/6.jpg"/>
         <div className="caption center padding-20 text-center">
              <div className="text-big text-white">Create Your Website</div>
              <div className="text-white">
@@ -312,7 +312,7 @@ const Slider = () => {
     <div class="slide-container">
         <div class="slide">
             <div class="slide-content height-400">
-            <img src="/images/10.jpg"/>
+            <img className="slide-image" src="/images/10.jpg"/>
          <div class="caption center padding-20 text-center">
              <div class="text-x-large text-white">Greate Company Layout</div>
              <div class="text-white">
@@ -324,7 +324,7 @@ const Slider = () => {
         </div>
         <div class="slide">
             <div class="slide-content height-400">
-            <img src="/images/9.jpg"/>
+            <img className="slide-image" src="/images/9.jpg"/>
             <div class="caption top-left padding">
              <div class="text-x-large text-white">Good Environment</div>
              <div class="text-white">
@@ -335,7 +335,7 @@ const Slider = () => {
         </div>
         <div class="slide">
         <div class="slide-content height-400">
-        <img src="/images/8.jpg"/>
+        <img className="slide-image" src="/images/8.jpg"/>
         <div class="caption bottom-left padding-20 text-center">
              <div class="text-x-large text-white">Good Products</div>
              <div class="text-white">
@@ -346,7 +346,7 @@ const Slider = () => {
         </div>
         <div class="slide">
         <div class="slide-content height-400">
-        <img src="/images/5.jpg"/>
+        <img className="slide-image" src="/images/5.jpg"/>
         <div class="caption center padding-20 text-center">
              <div class="text-x-large text-white">Cheap Prices</div>
              <div class="text-white">
@@ -371,7 +371,7 @@ const Slider = () => {
     <div className="slide-container">
         <div className="slide">
             <div className="slide-content height-400">
-            <img src="/images/10.jpg"/>
+            <img className="slide-image" src="/images/10.jpg"/>
          <div className="caption center padding-20 text-center">
              <div className="text-x-large text-white">Greate Company Layout</div>
              <div className="text-white">
@@ -383,7 +383,7 @@ const Slider = () => {
         </div>
         <div className="slide">
             <div className="slide-content height-400">
-            <img src="/images/9.jpg"/>
+            <img className="slide-image" src="/images/9.jpg"/>
             <div className="caption top-left padding">
              <div className="text-x-large text-white">Good Environment</div>
              <div className="text-white">
@@ -394,7 +394,7 @@ const Slider = () => {
         </div>
         <div className="slide">
         <div className="slide-content height-400">
-        <img src="/images/8.jpg"/>
+        <img className="slide-image" src="/images/8.jpg"/>
         <div className="caption bottom-left padding-20 text-center">
              <div className="text-x-large text-white">Good Products</div>
              <div className="text-white">
@@ -405,7 +405,7 @@ const Slider = () => {
         </div>
         <div className="slide">
         <div className="slide-content height-400">
-        <img src="/images/5.jpg"/>
+        <img className="slide-image" src="/images/5.jpg"/>
         <div className="caption center padding-20 text-center">
              <div className="text-x-large text-white">Cheap Prices</div>
              <div className="text-white">

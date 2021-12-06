@@ -1,5 +1,5 @@
 
-import Footer from './../funcss/src/components/Footer';
+import Footer from '../components/Footer';
 const Themes = () => {
     return (  
         <section>

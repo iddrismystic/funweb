@@ -335,6 +335,9 @@ function Home() {
 </div>
 
 <div className="container padding-top-30">
+<div className="container">
+            <div className="h2 text-center outfit">What People Have To Say</div>
+ </div>
 <div className="slider three padding-20">
     <div className="slide-container">
         <div className="slide">
@@ -359,6 +362,7 @@ function Home() {
         </div>
     </div>
         </div>
+
         <div className="slide">
         <div className="pointer padding react-card center">
         <div className="row-flex">
