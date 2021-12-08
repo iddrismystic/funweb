@@ -46,7 +46,7 @@ function Home() {
   </div>
     <div className="flex-50">
         <div className="padding">
-        <Link href="https://codeload.github.com/funtechs/Funcss/zip/refs/heads/main">
+        <Link href="https://codeload.github.com/fun-css/funcss/zip/refs/heads/main">
             <a>
             <button className="button width-100-p deep-purple card text-white">
         <i className="fas fa-download icon margin-right-10"></i> 
@@ -187,8 +187,8 @@ function Home() {
 <h2 className="text-center no-margin h4">Create Nice Css Buttons Designs</h2>
 <div className="padding">
   Create nice css buttons for your website, use buttons with cool animation effects, 
-  Just type the className <span className="badge">button</span> to style your button, you can change the background color
-  of your button by using our css color classNamees, you can also create a hover up and ripple buttons.
+  Just type the class<span className="badge">button</span> to style your button, you can change the background color
+  of your button by using our css color classes, you can also create a hover up and ripple buttons.
 </div>
 <div>
   
@@ -299,24 +299,6 @@ function Home() {
 </div>
             
         </div>
-        <div className='col sm-12 md-4 lg-4 padding'>
-        <div className="card reveal fit-height text-white pointer">
-    <div className="reveal-front indigo padding">
-  <div className="h3 text-center">Css Card Reveal</div>
-  <p>
-      This card reaveals its content when you hover on it.
-  </p>
-  <div className="padding text-center">
-  <i className="fab fa-facebook pointer icon size-1 margin"></i>
-  <i className="fab fa-instagram pointer icon size-1 margin"></i>
-  <i className="fab fa-twitter pointer icon size-1 margin"></i>
-  </div>
-    </div>
-    <img src="images/deo.jpg" className="width-100-p height-200" alt="css card reveal" />
-  </div>
-            
-        </div>
-
 
 
     </div>
@@ -401,7 +383,7 @@ function Home() {
           <span><i className="fas fa-quote-left text-indigo inline-block margin"></i></span>
           <span className="">          
            Funcss, you are the best, now i can create multiple responsive websites within minutes.
-           You framework is actually the best.
+           Your framework is actually the best.
           </span>
           <span><i className="fas fa-quote-right text-indigo inline-block margin"></i></span>
         </div>

@@ -10,10 +10,10 @@ function Navbar() {
        <Logo />
    </div>
      <div className="padding hide-medium-down">
-  <a className="nav-link" href="#">Docs</a>
+  <Link href="/gettingstarted"><a className="nav-link">Docs</a></Link>
   <Link href="/themes"><a className="nav-link">Themes</a></Link>
-  <a href="https://codeload.github.com/funtechs/Funcss/zip/refs/heads/main" className="text-indigo text-small">Download v1.0</a>
-  <a><img src="/icons/github.png" style={{height:'25px'}} className="icon fit show-medium-up" alt="github" /></a>
+  <a href="https://codeload.github.com/fun-css/funcss/zip/refs/heads/main" className="text-indigo text-small">Download v1.0</a>
+  <a href="https://github.com/fun-css"><img src="/icons/github.png" style={{height:'25px'}} className="icon fit show-medium-up" alt="github" /></a>
 
     
      </div>

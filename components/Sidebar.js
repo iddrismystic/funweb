@@ -74,6 +74,14 @@ function Sidebar() {
             path:"Dropdown"
         },
         {
+            text:"Progress Bar",
+            path:"progress"
+        },
+        {
+            text:"Tooltip",
+            path:"tooltip"
+        },
+        {
             text:"Navigation bar",
             path:"Navigation"
         },

@@ -1,10 +1,35 @@
 import React from 'react';
 import Footer from './../components/Footer';
 import Image from 'next/image';
-
+import  Head  from 'next/head';
+const team = [
+    {
+        name: "Ahmed Salim",
+        job:"Backend Developer",
+        picture:"/team/salim.jpg",
+        about:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum accusantium alias placeat quod officiis nobis mollitia eos."
+    },
+    {
+        name: "Iddris Abdul Wahab",
+        job:"Front-end Developer",
+        picture:"/images/avatar.png",
+        about:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum accusantium alias placeat quod officiis nobis mollitia eos."
+    }
+]
 function About() {
     return (
         <section>
+        <Head>
+        <title>About Funcss Framework</title>
+          <meta name='description' content='
+      Funcss was developed by Ahmed Salim and Iddris Abdul Wahab, the framework
+      ease your work when creating website.
+    ' />
+    <meta
+    name="keywords"
+    content="Ahmed Salim, Iddris About Wahab, funcss, framework"
+    />
+        </Head>
         <div className="content-wrapper">
      <div className="sub-content padding">
       <div className="border padding height-200 content-middle light">
@@ -33,7 +58,7 @@ function About() {
      </div>
 
 <div className="container" id="intro">
-    <h1 className="no-margin text-lighter h2 text-indigo">Fun Css</h1>
+    <h1 className="no-margin h4">About Funcss- Learn More About The Css Framework And Its Developers.</h1>
     <div className="note">
     Fun responsive css framework was developed to ease your work in developing websites and 
     webpages. It comes with pre-defined classes that you can use for your projects. You can also 
@@ -50,36 +75,29 @@ function About() {
 <div className="note">
     Meet the developers who contributed for the success of this project.
 </div>
-<div className="text-small block-small  pointer hover-shadow padding">
+
+{
+    team.map(member=>(
+        <div key={member.name}>
+            <div className="text-small block-small  pointer hover-shadow padding">
     <div className="text-center">
-        <Image src="/images/deo.jpg" width={100} height={100} className="height-100 width-100 circle" alt="iddris abdul wahab" />
+        <Image src={member.picture} width={200} height={200} className="height-100 width-100 circle" alt={member.name} />
     </div>
     <div className="padding">
-    <h1 className="no-margin text-lighter h3">Jhon Deo</h1>
+    <h1 className="no-margin text-lighter h3">{member.name}</h1>
     <div>
     <i className="fas fa-check text-indigo"></i> &nbsp;
-    Developer
+    {member.job}
     </div>
     <div>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum accusantium alias placeat quod officiis nobis mollitia eos.
+        {member.about}
     </div>
     </div>
 </div>
-<div className="text-small block-small margin-top-40">
-    <div className="text-center">
-        <Image src="/images/jane.jpg"  width={100} height={100} className="height-100 width-100 circle" alt="Ahmed Salim" />
-    </div>
-    <div className="padding">
-    <h1 className="no-margin text-lighter h3">Jane Deo</h1>
-    <div>
-    <i className="fas fa-check text-indigo"></i> &nbsp;
-    Developer
-    </div>
-    <div>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum accusantium alias placeat quod officiis nobis mollitia eos.
-    </div>
-    </div>
-</div>
+        </div>
+    ))
+}
+
 </div>
 
 

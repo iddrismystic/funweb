@@ -206,7 +206,7 @@ function Typography() {
 <div className="topic header-3 text-indigo">Text Formatting</div>
 <table className="table width-100-p stripped">
     <tr>
-        <td>ClassName</td>
+        <td>Class</td>
         <td>discription</td>
         <td>syntax</td>
     </tr>
@@ -214,22 +214,22 @@ function Typography() {
         <tr>
             <td>bold</td>
             <td>Make a bold text.</td>
-            <td><div> className = {"text-bold"}</div></td>
+            <td><div> class = {"text-bold"}</div></td>
         </tr>
         <tr>
             <td>underline</td>
             <td>To underline a text</td>
-            <td><div> className = {"underline"}</div></td>
+            <td><div> class = {"underline"}</div></td>
         </tr>
         <tr>
             <td>overline</td>
             <td>To make text overline</td>
-            <td><div> className = {"overline"}</div></td>
+            <td><div> class = {"overline"}</div></td>
         </tr>
         <tr>
             <td>line through</td>
             <td>To create a line through text</td>
-            <td><div> className = {"line-through"}</div></td>
+            <td><div> class = {"line-through"}</div></td>
         </tr>
 
 </table>

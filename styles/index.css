@@ -75,7 +75,7 @@ color: #4CAF50;
   }
   .navbar{
     border-bottom: 1px solid #ddd;
-    z-index:9;
+    z-index:5;
   }
   .nav-link{transition: 0.3s;border-bottom: 5px solid white;padding:5px;font-size: small;}
   .nav-link:hover{border-bottom: 5px solid #4CAF50;}
@@ -240,7 +240,7 @@ color: #4CAF50;
   .block-small{display: block;}
 }
 .table{font-size: small;}
-.header-3{font-size: xx-large;color: #8315ba;}
+.topic{font-size:x-large;color:black}
 .h4{font-weight:lighter}
 .iframe-container {
   position: relative;
