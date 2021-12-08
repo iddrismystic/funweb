@@ -6,7 +6,7 @@ import Script from 'next/script'
 const Layout = ({children}) => {
 
     return (  
-        <div>
+        <div  lang="en">
       <Script src="https://fun-css.github.io/funcss/js/fun.js" />
             <Navbar />
         <div className="Page">

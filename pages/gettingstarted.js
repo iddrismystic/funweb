@@ -54,8 +54,8 @@ function Gettingstarted() {
              <div className="note">
                <div className="note-title">Note</div>
                <div>
-                   You can use the CDN for development mode, test purposes and learning.
-                   It is not recommended to use the CDN for production purpose. Download and use
+                   You can use the cdn for development mode, test purposes and learning.
+                   It is not recommended to use the cdn for production purpose. Download and use
                    the fun css files for production mode.
 
                </div>
