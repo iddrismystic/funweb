@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import Footer from '../components/Footer';
 
-function modal() {
+function Modal(props) {
     const [modal, setmodal] = useState("none");
     const modalstyle = "`${modal}`"
     return (
@@ -112,4 +112,4 @@ const [modal, setmodal] = useState("none");
     );
 }
 
-export default modal;
+export default Modal;
