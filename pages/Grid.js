@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../components/Footer';
 
-function Grid() {
+function grid() {
     const grid = `
     <div class="row">
     <div class="col margin-top-20 padding sm-12 md-6 lg-6 light height-100">sm-12 md-6 lg-6</div>
@@ -198,4 +198,4 @@ Using grid system makes your website responsive to fit all screen size.
     );
 }
 
-export default Grid;
+export default grid;

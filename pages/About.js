@@ -16,7 +16,7 @@ const team = [
         about:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum accusantium alias placeat quod officiis nobis mollitia eos."
     }
 ]
-function About() {
+function about() {
     return (
         <section>
         <Head>
@@ -109,4 +109,4 @@ function About() {
     );
 }
 
-export default About;
+export default about;

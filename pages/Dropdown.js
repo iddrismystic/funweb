@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../components/Footer';
-function Dropdown(props) {
+function dropdown() {
     return (
         <section>
                     <div className="content-wrapper">
@@ -201,4 +201,4 @@ function Dropdown(props) {
     );
 }
 
-export default Dropdown;
+export default dropdown;

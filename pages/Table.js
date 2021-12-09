@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../components/Footer';
 
-function Table(props) {
+function table() {
     return (
         <section>
         <div className="content-wrapper">
@@ -414,4 +414,4 @@ function Table(props) {
     );
 }
 
-export default Table;
+export default table;

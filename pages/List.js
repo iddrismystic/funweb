@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from './../components/Footer';
 
-function List() {
+function list() {
     return (
         <section>
         <div className="content-wrapper">
@@ -150,4 +150,4 @@ function List() {
     );
 }
 
-export default List;
+export default list;

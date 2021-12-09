@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from './../components/Footer';
 
-function Input() {
+function input() {
     return (
         <section>
              <div className="content-wrapper">
@@ -145,4 +145,4 @@ function Input() {
     );
 }
 
-export default Input;
+export default input;

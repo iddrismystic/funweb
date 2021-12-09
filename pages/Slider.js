@@ -1,6 +1,6 @@
 import Footer from '../components/Footer';
 
-const Slider = () => {
+const slider = () => {
 
     return ( 
         <section>
@@ -434,4 +434,4 @@ const Slider = () => {
      );
 }
  
-export default Slider;
+export default slider;

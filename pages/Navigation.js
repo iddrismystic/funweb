@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from '../components/Footer';
 import { useState } from 'react';
 
-function Navigation() {
+function navigation() {
     const [height, setheight] = useState("200px");
     const Handlesidebar = ()=>{
     if(height === "200px"){
@@ -211,4 +211,4 @@ It is easy to create sidebars using funcss.
     );
 }
 
-export default Navigation;
+export default navigation;
