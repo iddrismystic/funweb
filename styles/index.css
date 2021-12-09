@@ -91,8 +91,8 @@ color: #4CAF50;
     padding: 2px;
   } */
 @media (max-width : 950px){
-  .SideBar{z-index: 11;top:0;left:0;height: 100vh; width:fit-content;padding: 20px 0px 20px;box-shadow:0px 0px 4px 0px rgba(225,225, 225, 0.4), 0px 0px 8px 0px rgba(225,225,225,0.5)}
-  .sidecontent{height: 100%;}
+  .SideBar{z-index: 11;top:0;left:0;bottom:0;height: 100vh; width:fit-content;padding: 20px 0px 20px;box-shadow:0px 0px 4px 0px rgba(225,225, 225, 0.4), 0px 0px 8px 0px rgba(225,225,225,0.5)}
+  .sidecontent{height: 90%;}
   .Content{width: 100%;}
   .open-sidebar{display: block;}
 }

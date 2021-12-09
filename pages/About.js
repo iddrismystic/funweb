@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from './../components/Footer';
+import Footer from '../components/Footer';
 import Image from 'next/image';
 import  Head  from 'next/head';
 const team = [
@@ -83,8 +83,8 @@ function About() {
     <div className="text-center">
         <Image src={member.picture} width={200} height={200} className="height-100 width-100 circle" alt={member.name} />
     </div>
-    <div className="padding">
-    <h1 className="no-margin text-lighter h3">{member.name}</h1>
+    <div className="padding ">
+    <div className="h4">{member.name}</div>
     <div>
     <i className="fas fa-check text-indigo"></i> &nbsp;
     {member.job}

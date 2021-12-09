@@ -39,7 +39,7 @@ function Sidebar() {
         } ,
         {
             text:"Grid",
-            path:"Grid"
+            path:"grid"
         } ,
         {
             text:"Buttons",
@@ -55,23 +55,23 @@ function Sidebar() {
         } ,
         {
             text:"Inputs",
-            path:"Input"
+            path:"input"
         } ,
         {
             text:"Table",
-            path:"Table"
+            path:"table"
         } ,
         {
             text:"List",
-            path:"List"
+            path:"list"
         } ,
         {
             text:"Modal",
-            path:"Modal"
+            path:"modal"
         } ,
         {
             text:"Dropdown",
-            path:"Dropdown"
+            path:"dropdown"
         },
         {
             text:"Progress Bar",
@@ -83,15 +83,15 @@ function Sidebar() {
         },
         {
             text:"Navigation bar",
-            path:"Navigation"
+            path:"navigation"
         },
         {
             text:"Slider",
-            path:"Slider"
+            path:"slider"
         },
         {
             text:"About",
-            path:"About"
+            path:"about"
         } 
     ]
 
