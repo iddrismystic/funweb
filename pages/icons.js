@@ -176,7 +176,7 @@ function Icons() {
 <div className="container padding-top-50" id="iconsize">
     <div className="header-3">Icons Sizes</div>
     <div className="note">
-        When using icons, you  might want to chnage the size of your icon, the <span className="badge">size-value</span>
+        When using icons, you  might want to change the size of your icon, the <span className="badge">size-value</span>
       is the answer, You can use any of this value to change the size of your icon. <br />
       <span className="badge">
           1, 2, 3, 4, 5, 6, 7, 8, 9 and 10

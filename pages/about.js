@@ -1,22 +1,38 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Footer from '../components/Footer';
 import Image from 'next/image';
 import  Head  from 'next/head';
-const team = [
-    {
-        name: "Ahmed Salim",
-        job:"Backend Developer",
-        picture:"/team/salim.jpg",
-        about:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum accusantium alias placeat quod officiis nobis mollitia eos."
-    },
-    {
-        name: "Iddris Abdul Wahab",
-        job:"Front-end Developer",
-        picture:"/images/avatar.png",
-        about:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum accusantium alias placeat quod officiis nobis mollitia eos."
+
+function About() {
+    const team = [
+        {
+            id:1,
+            name: "Ahmed Salim",
+            job:"Backend Developer",
+            picture:"/team/salim.jpg",
+            about:"ahmed salim is a nodejs backend developer and a programmer, he obtained his degree in Computer Science."
+        },
+        {
+            id:2,
+            name: "Iddris Abdul Wahab",
+            job:"Front-end Developer",
+            picture:"/images/avatar.png",
+            about:"iddris abdul wahab is a front-end website developer and a programmer, offering his HND Information and Communication Technology at Tatu."
+        }
+    ]
+    const [members, setmembers] = useState(team);
+    const [modal, setmodal] = useState("none");
+    const [member, setmember] = useState([]);
+    const Handlemodal = (id)=>{
+    members.filter(member =>{
+    if(member.id === id){
+    return member
     }
-]
-function about() {
+    }).map(filter=>{
+     setmember(filter)
+     setmodal("block")
+    })
+    }
     return (
         <section>
         <Head>
@@ -71,7 +87,7 @@ function about() {
 </div>
 
 <div className="container padding-top-40">
-<h1 className="no-margin text-lighter h2 text-indigo padding-bottom-30" id="team">Meet The Team</h1>
+<h1 className="no-margin h4 topic padding-bottom-30" id="team">Meet The Team</h1>
 <div className="note">
     Meet the developers who contributed for the success of this project.
 </div>
@@ -79,17 +95,17 @@ function about() {
 {
     team.map(member=>(
         <div key={member.name}>
-            <div className="text-small block-small  pointer hover-shadow padding">
+            <div className="block-small  pointer hover-shadow padding">
     <div className="text-center">
-        <Image src={member.picture} width={200} height={200} className="height-100 width-100 circle" alt={member.name} />
+        <Image src={member.picture} width={200} height={200} className="height-100 width-100 circle" alt={member.name} onClick={()=>Handlemodal(member.id)} />
     </div>
     <div className="padding ">
     <div className="h4">{member.name}</div>
-    <div>
+    <div className="">
     <i className="fas fa-check text-indigo"></i> &nbsp;
     {member.job}
     </div>
-    <div>
+    <div className="lato">
         {member.about}
     </div>
     </div>
@@ -105,8 +121,17 @@ function about() {
          </div>
 
          </div>
+    
+   <div className="modal" style={{display:`${modal}`}}>
+   <div className="close-modal text-bigger text-red"  onClick={()=>setmodal("none")}>&times;</div>
+   <div className="modal-content">
+<div>
+    <img src={member.picture} className="responsive" />
+</div>
+   </div>
+   </div>
  </section>
     );
 }
 
-export default about;
+export default About;
