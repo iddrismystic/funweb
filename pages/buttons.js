@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../components/Footer';
-
+import Head from 'next/head';
 function Buttons() {
     const simple = `
     <button class='button indigo  text-white'>Simple Button</button>
@@ -13,10 +13,20 @@ function Buttons() {
     `
     return (
         <section>
-    <div className="content-wrapper">
+                     <Head>
+          <title>Css Buttons | Funcss Framework</title>
+          <meta name='description' content='
+          Learn to create cool css buttons, round buttons, ripple effect buttons, iconic buttons and animated buttons
+       ' />
+    <meta
+    name="keywords"
+    content="fun, css, css margin, css padding, css, width, css show and hide content based on screen width"
+    />
+          </Head> Head
+        <div className="content-wrapper">
             <div className="sub-content padding">
-             <div className="border padding height-200 content-middle light">
-             <div id="container-8d57e29ac6d83235f85eb4edfe6a7df6"></div>
+             <div className="border padding ads content-middle light">
+             <div id="container-8efab60a26b5c40a3a52aab9bdb98896">Ads</div>
              </div>
              <div className="section">
                <a href="#simpleButton" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Simple Button</div></a>
@@ -29,11 +39,11 @@ function Buttons() {
             </div>
                 <div className="main-content">
                 <div className="container">
-             <div className="text-big text-lighter text-indigo">
-                 Buttons
-             </div>
+             <h1 className="h1 header text-indigo">
+                Css Buttons - Funcss Framework
+             </h1>
              <div className="h4">
-               Cool Buttons Makes Your Website<br /> Reactive.
+              Learn how to create nice css buttons, round buttons, icons in buttons, ripple effect on buttons and animated buttons.
              </div>
 
              <div className="section hr">
@@ -89,7 +99,7 @@ function Buttons() {
 </div>
 
 <div className="container padding-top-40" id="simpleButton">
-    <div className="header-3 text-indigo">Simple Button</div>
+    <div className="h4 topic">Simple Button</div>
 <div className="note">
     using the class <span className="badge">button</span> will create a simple cool button, you can use the color className to change the color of your button.
 </div>
@@ -117,7 +127,7 @@ function Buttons() {
 </div>
 
 <div className="container padding-top-40" id="raisedButton">
-    <div className="header-3 text-indigo">Raised Button</div>
+    <div className="h4 topic">Raised Button</div>
 <div className="note">
     using the class <span className="badge">card</span> will create a shadow around your button.
 </div>
@@ -135,7 +145,7 @@ function Buttons() {
     </div>
 </div>
 <div className="container padding-top-40" id="circularButton">
-    <div className="header-3 text-indigo">Circular Button</div>
+    <div className="h4 topic">Circular Button</div>
 <div className="note">
     using the class <span className="badge">float</span> will create a circular button, make sure to add a height and a width of the same value
     to create a perfect circle.
@@ -152,7 +162,7 @@ function Buttons() {
     </div>
 </div>
 <div className="container padding-top-40" id="fullWidthButton">
-    <div className="header-3 text-indigo">Full Width Button</div>
+    <div className="h4 topic">Full Width Button</div>
 <div className="note">
    The<span className="badge">full-width</span> class is use to create a button with a width of 100%.
 </div>
@@ -175,7 +185,7 @@ function Buttons() {
     </div>
 </div>
 <div className="container padding-top-40" id="rippleButton">
-    <div className="header-3 text-indigo">Ripple Effect Button</div>
+    <div className="h4 topic">Ripple Effect Button</div>
 <div className="note">
    The<span className="badge">ripple</span> class add an effect when you click on the button.
 </div>
@@ -195,7 +205,7 @@ function Buttons() {
     </div>
 </div>
 <div className="container padding-top-40" id="hoverUpButton">
-    <div className="header-3 text-indigo">Hover Up Button</div>
+    <div className="h4 topic">Hover Up Button</div>
 <div className="note">
    The<span className="badge">hover-up</span> class add a hover up effect when you hover on the button.
 </div>

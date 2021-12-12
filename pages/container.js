@@ -1,10 +1,22 @@
 import React from 'react';
 import Footer from '../components/Footer';
+import Head from 'next/head';
 
 function Container(props) {
    
     return (
         <section>
+                <Head>
+          <title>Css Container | Funcss Framework</title>
+          <meta name='description' content='
+   Css container wrap your content with 10% margin on the left and right side of 
+   your device width.
+       ' />
+    <meta
+    name="keywords"
+    content="fun, css, css margin, css padding, css, width, css show and hide content based on screen width"
+    />
+          </Head>
                         <div className="content-wrapper">
             <div className="sub-content padding">
              <div className="border padding height-200 content-middle light">
@@ -18,9 +30,9 @@ function Container(props) {
             </div>
                 <div className="main-content">
                 <div className="container">
-             <div className="header h1 text-lighter text-indigo">
-                 Container
-             </div>
+             <h1 className="header h1 text-indigo">
+                 Css Container - Funcss Framework
+             </h1>
              <div className="h4">
                 Containers wrap your content with 10% margin<br /> at both sides.
              </div>
@@ -43,43 +55,49 @@ function Container(props) {
 
 <div className="container" id="container">
     <div className="code">
-        <xmp>
-            {`
-    <div class="padding light">
-    <div class="container">
-     <div class="padding indigo text-white section">
-       <h3>I'm in a container</h3>
-       <div>
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum accusantium alias placeat quod officiis nobis mollitia eos minima vel ea reprehenderit dolores. Perspiciatis at dolore sit.
-       </div>
-     </div>
-    </div>
-    <div class="">
-     <div class="padding blue text-white section">
-       <h3>I'm not in a container</h3>
-       <div>
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum accusantium alias placeat quod officiis nobis mollitia eos minima vel ea reprehenderit dolores. Perspiciatis at dolore sit.
-       </div>
-     </div>
-    </div>
-
+<xmp>{`<div class="h4">
+   Contents In Container
    </div>
-    `}
-        </xmp>
+ <div class="padding section border">
+   <div>
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum accusantium alias placeat quod officiis nobis mollitia eos minima vel ea reprehenderit dolores. Perspiciatis at dolore sit.
+   </div>
+ </div>
+ 
+ <div class="h4">Content Not In container</div>
+  <div class="padding section border">
+    <div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum accusantium alias placeat quod officiis nobis mollitia eos minima vel ea reprehenderit dolores. Perspiciatis at dolore sit.
+    </div>
+  </div>
+ 
+ `}</xmp>
     </div>
     <div className="preview">
-        <div className="padding light">
+        <div className="">
+
          <div className="container">
-          <div className="padding section">
-            <div className="h2">Im in a container</div>
+         <div className="h4">Contents In Container</div>
+          <div className="padding section border">
+            <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum accusantium alias placeat quod officiis nobis mollitia eos minima vel ea reprehenderit dolores. Perspiciatis at dolore sit.
+            </div>
+          </div>
+          <div className="padding section border">
             <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum accusantium alias placeat quod officiis nobis mollitia eos minima vel ea reprehenderit dolores. Perspiciatis at dolore sit.
             </div>
           </div>
          </div>
+
+         <div className="h4">Content Not In container</div>
          <div>
-          <div className="padding section">
-            <div className="h2">Im not in a container</div>
+          <div className="padding section border">
+            <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum accusantium alias placeat quod officiis nobis mollitia eos minima vel ea reprehenderit dolores. Perspiciatis at dolore sit.
+            </div>
+          </div>
+          <div className="padding section border">
             <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum accusantium alias placeat quod officiis nobis mollitia eos minima vel ea reprehenderit dolores. Perspiciatis at dolore sit.
             </div>

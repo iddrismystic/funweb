@@ -1,16 +1,24 @@
 import React from 'react';
 import Footer from '../components/Footer';
 import Image from 'next/image';
-
+import Head from "next/head"
 function Card() {
     return (
         <section>
-               <div className="content-wrapper">
+                    <Head>
+          <title>Css Cards | Funcss Framework</title>
+          <meta name='description' content='
+        Create nice css and simple css cards, card with image, horizontal card, flip or fliping card and reveal content card. 
+       ' />
+    <meta
+    name="keywords"
+    content="fun, css, css margin, css padding, css, width, css show and hide content based on screen width"
+    />
+          </Head>
+        <div className="content-wrapper">
             <div className="sub-content padding">
-             <div className="border padding height-200 content-middle light">
-             <div id="container-8d57e29ac6d83235f85eb4edfe6a7df6">
-                 Ads
-             </div>
+             <div className="border padding ads content-middle light">
+             <div id="container-8efab60a26b5c40a3a52aab9bdb98896">Ads</div>
              </div>
              <div className="section">
                <a href="#simpleCard" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Simple Card</div></a>
@@ -23,11 +31,11 @@ function Card() {
             </div>
                 <div className="main-content">
                 <div className="container">
-             <div className="text-big text-lighter text-indigo">
-                 Card
-             </div>
+             <h1 className="h1 header text-indigo">
+                 Css Card - Funcss Framework
+             </h1>
              <div className="h4">
-               Cool Buttons Makes Your Website<br /> Reactive.
+               Create simple css cards, card with image, fab in card, horizontal card, fliping card and reveal content card
              </div>
 
              <div className="section hr">
@@ -37,7 +45,7 @@ function Card() {
 
 
 <div className="container padding-top-40" id="simpleCard">
-    <div className="header-3 text-indigo">Simple Card</div>
+    <div className="h4 topic">Simple Card</div>
     <div className="code">
       <xmp>{`<div class="card hover-shadow indigo padding text-white">
     <div class="text-x-large">Card Title</div>
@@ -76,7 +84,7 @@ function Card() {
 </div>
 
 <div className="container padding-top-40" id="imageCard">
-    <div className="header-3 text-indigo">Simple Image Card</div>
+    <div className="h4 topic">Simple Image Card</div>
     <div className="code">
 <xmp>{`<div class="card width-300">
     <div class="relative">
@@ -106,7 +114,7 @@ function Card() {
     </div>
 </div>
 <div className="container padding-top-40" id="fabCard">
-    <div className="header-3 text-indigo">Fab In Card</div>
+    <div className="h4 topic">Fab In Card</div>
     <div className="code">
         <xmp>
             {`
@@ -142,20 +150,18 @@ function Card() {
     </div>
 </div>
 <div className="container padding-top-40" id="horizontalCard">
-    <div className="header-3 text-indigo">Horizontal Card</div>
+    <div className="h4 topic">Horizontal Card</div>
     <div className="code">
         <xmp>
          {`<div class="card horizontal hover-shadow">
-        <div class="relative">
+        <div>
              <img src="images/deo.jpg" class="responsive" />
-                <div class="text-large card-title text-white">Card Title</div>
         </div>
       
             <div class="card-body">
                <div>
                 This card displays its content in a row.
                 Just add the class horizontal to use this kind of card
-                deleniti eius consectetur quod. Lorem ipsum dolor sit amet consectetur 
               </div>
             <div class="card-footer">
             <a href="#" class="text-indigo">Link One</a>
@@ -168,16 +174,14 @@ function Card() {
     </div>
     <div className="preview">
     <div className="card horizontal hover-shadow">
-        <div className="relative">
+        <div>
              <img src="images/deo.jpg" className="responsive" />
-                <div className="text-large card-title text-white">Card Title</div>
         </div>
       
             <div className="card-body">
                <div>
                 This card displays its content in a row.
-                Just add the className horizontal to use this kind of card
-                deleniti eius consectetur quod. Lorem ipsum dolor sit amet consectetur 
+                Just add the class horizontal to use this kind of card
               </div>
             <div className="card-footer">
             <a href="#" className="text-indigo">Link One</a>
@@ -190,7 +194,7 @@ function Card() {
     </div>
 </div>
 <div className="container padding-top-40" id="cardReveal">
-    <div className="header-3 text-indigo">Card Reveal</div>
+    <div className="h4 topic">Card Reveal</div>
     <div className="code">
         <xmp>
             {`
@@ -219,7 +223,7 @@ function Card() {
     </div>
 </div>
 <div className="container padding-top-40" id="flipCard">
-    <div className="header-3 text-indigo">Flip Card</div>
+    <div className="h4 topic">Flip Card</div>
     <div className="code">
         <xmp>
             {`

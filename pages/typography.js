@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../components/Footer';
+import Head  from 'next/head';
 function Typography() {
     let fontSize = `
     <div class="card padding white">
@@ -61,10 +62,21 @@ function Typography() {
     `
     return (
         <section>
-            <div className="content-wrapper">
+             <Head>
+          <title>Funcss Typography | Text Formatting</title>
+          <meta name="description" content="
+         Learn how to create good text format and use good fonts to 
+         make your website look much more greate
+         " />
+    <meta
+    name="keywords"
+    content="fun, css, colors, css color pallete"
+    />
+          </Head>
+              <div className="content-wrapper">
             <div className="sub-content padding">
-             <div className="border padding height-200 content-middle light">
-             <div id="container-8d57e29ac6d83235f85eb4edfe6a7df6"></div>
+             <div className="border padding ads content-middle light">
+               <div id="container-8efab60a26b5c40a3a52aab9bdb98896"></div>
              </div>
              <div className="section">
                <a href="#introduction" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Introduction</div></a>
@@ -77,7 +89,7 @@ function Typography() {
                 <div className="main-content">
                 <div className="container" id="introduction">
              <h1 className="h1 header text-lighter text-indigo">
-                Fun css Typography And Text Formatting
+                Css Typography Text Formatting And Fonts - Funcss Framework
              </h1>
              <div className="h4">
                 Good Text Format Shows Greate<br /> Web Content.
@@ -86,7 +98,7 @@ function Typography() {
             </div>
          
             <div className="container padding-top-20" id="fontSize">
-                <div className="header-3 text-indigo">Font Sizes</div>
+                <div className="topic h4">Change Font Size</div>
 
 
  <div className="note">
@@ -136,17 +148,17 @@ function Typography() {
                </div>
             </div>
             <div className="container padding-top-20" id="font">
-                <div className="header-3 text-indigo">Fonts</div>
+                <div className="topic h4">Fonts And Font Family</div>
 
  <div className="note">
  The
  <span className="badge">font</span>
-  className is use to specify the font of your text, you jsut type the name of the font to change it.
+  class is use to specify the font of your text, you just type the name of the font to change it.
   The default font for the framework is poppins, sans-serif. So you dont need to spacify this font family before 
   you can use it.
  </div>
  <ul className="list bordered hoverable light">
-    <li className="header">Values</li>
+    <li className="header">Fonts</li>
     <li>Open-sans</li>
     <li>poppins</li>
     <li>sofia</li>
@@ -156,7 +168,45 @@ function Typography() {
 
   <div className="code">
    <xmp>
-   {font}
+   {`<div>
+  <div className="card padding white round-edge">
+  <div>
+
+  </div>
+  </div>
+  <div className="card section padding white">
+  <div>
+   <div className="indigo padding text-white">
+   <div className="sofia h1">Sofia Font</div>
+   <div className="sofia">
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illo reprehenderit possimus voluptate dicta ullam eius voluptatibus voluptatum aliquid pariatur! Odio, totam! Molestiae doloremque vitae provident, recusandae blanditiis sit perspiciatis!
+   </div>
+   </div>
+  </div>
+  </div>
+  <div className="card section padding white">
+  <div>
+   <div className="deep-purple padding text-white">
+   <div className="lato h1">Lato</div>
+   <div className="lato">
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illo reprehenderit possimus voluptate dicta ullam eius voluptatibus voluptatum aliquid pariatur! Odio, totam! Molestiae doloremque vitae provident, recusandae blanditiis sit perspiciatis!
+   </div>
+   </div>
+  </div>
+  </div>
+  <div className="card section padding white">
+  <div>
+   <div className="blue padding text-white">
+   <div className="open-sans h1">Open Sans</div>
+   <div className="open-sans">
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illo reprehenderit possimus voluptate dicta ullam eius voluptatibus voluptatum aliquid pariatur! Odio, totam! Molestiae doloremque vitae provident, recusandae blanditiis sit perspiciatis!
+   </div>
+   </div>
+  </div>
+  </div>
+
+</div>
+`}
    </xmp>
  </div>
    <div className="preview">
@@ -203,7 +253,7 @@ function Typography() {
             </div>
 
 <div className="container padding-top-40" id="formatting">
-<div className="topic header-3 text-indigo">Text Formatting</div>
+<div className="topic h4">Text Formatting</div>
 <table className="table width-100-p stripped">
     <tr>
         <td>Class</td>

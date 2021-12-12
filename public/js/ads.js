@@ -1,14 +1,5 @@
-const fbyt = document.getElementsByClassName(".fbyt")
+const ads = document.querySelectorAll(".ads")
 const box = `
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'df8d1a1bd99e58263575d069892cee07',
-		'format' : 'iframe',
-		'height' : 250,
-		'width' : 300,
-		'params' : {}
-	};
-	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.variousformatscontent.com/df8d1a1bd99e58263575d069892cee07/invoke.js"></scr' + 'ipt>');
-</script>
+<div id="container-8efab60a26b5c40a3a52aab9bdb98896"></div>
 `
-fbyt.innerHTML = box;
+ads.innerHTML = box

@@ -21,7 +21,7 @@ function Gettingstarted() {
           </Head>
                         <div className="content-wrapper">
             <div className="sub-content padding">
-             <div className="border padding height-200 content-middle light">
+             <div className="border padding ads content-middle light">
                     <div id="container-8efab60a26b5c40a3a52aab9bdb98896"></div>
              </div>
              <div className="section">
@@ -46,7 +46,7 @@ function Gettingstarted() {
 
      
             <div className="container" id="cdn">
-             <div className="topic">
+             <div className="h4 topic">
                  Using CDN
              </div>
              <div className="">
@@ -77,7 +77,7 @@ function Gettingstarted() {
     </div>
 
     <div className="container" id="downloadzip">
-      <div className="topic">
+      <div className="topic  h4">
             Download The Css Framework
      </div>
 <div className="">
@@ -95,24 +95,30 @@ when creating a website or web application for production purpose.
 </div>
   
 
-<div className="padding-top-20" id="githubcli">
+<div className="padding-top-20">
 
-<div className="topic">Clone The Framework</div>
-<div>
+<div className="topic h4">Clone The Framework</div>
+<div className='note'>
+  Learn how to clone github repo, to get started with cloning our github repo.
+</div>
+<div className="section">
+<iframe className="width-100-p height-300" src="https://www.youtube.com/embed/bKuE-afbRLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div className='section'  id="githubcli">
 <div className="text-large">Github CLI:</div>
 <div className="code">
 <xmp>gh repo clone fun-css/funcss</xmp>
 </div>   
 </div>
 
-<div id="ssh">
+<div id="ssh" className='section'>
 <div className="text-large">SSH:</div>
 <div className="code">
 <xmp>git@github.com:fun-css/funcss.git</xmp>
 </div>   
 </div>
 
-<div id="https">
+<div id="https" className='section'>
 <div className="text-large">HTTPS:</div>
 <div className="code">
 <xmp>https://github.com/fun-css/funcss.git</xmp>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../components/Footer';
-
+import Head from 'next/head';
 function grid() {
     const grid = `
     <div class="row">
@@ -14,12 +14,20 @@ function grid() {
     `
     return (
         <section>
+                    <Head>
+          <title>Css Grid | Funcss Framework</title>
+          <meta name='description' content='
+       Learn to create responsive css grid layout to make your website much responsive.
+       ' />
+    <meta
+    name="keywords"
+    content="fun, css, css margin, css padding, css, width, css show and hide content based on screen width"
+    />
+          </Head>
         <div className="content-wrapper">
             <div className="sub-content padding">
-             <div className="border padding height-200 content-middle light">
-             <div id="container-8d57e29ac6d83235f85eb4edfe6a7df6">
-                 Ads
-             </div>
+             <div className="border padding ads content-middle light">
+             <div id="container-8efab60a26b5c40a3a52aab9bdb98896">Ads</div>
              </div>
              <div className="section">
                <a href="#introduction" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Introduction</div></a>
@@ -30,9 +38,9 @@ function grid() {
             </div>
                 <div className="main-content">
                 <div className="container">
-             <div className="text-bigger text-lighter text-indigo">
-                Grid
-             </div>
+             <h1 className="header h1 text-indigo">
+                Css Grid And Responsiveness - Funcss Framework
+             </h1>
              <div className="h4">
                 Grid make your website much more<br /> responsive.
              </div>
@@ -50,7 +58,7 @@ function grid() {
                 </div>
 
                 <div className="note">
-                <div>To use our grid system, you must create an html element with the className name of row. 
+                <div>To use our grid system, you must create an html element with the class name of row. 
       Then you can create columns inside the row using the <span className="badge">col</span> class. <br />
       Our framework divides you screen into 12 sections in which every 8.33333% of you screen width makes a section <br />
       Therefore one section makes up 8.33333% with six section covering 49.33333% of your screen, or half of you screen. <br />

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Footer from '../components/Footer';
 import Image from 'next/image';
 import  Head  from 'next/head';
@@ -33,6 +33,15 @@ function About() {
      setmodal("block")
     })
     }
+
+    const [ads, setads] = useState(<div id="container-8efab60a26b5c40a3a52aab9bdb98896"></div>)
+    useEffect(()=>{
+    setTimeout(()=>{
+        const native = <div id="container-8efab60a26b5c40a3a52aab9bdb98896"></div>
+        setads(native)
+        console.log("this is a rendure")
+    },1000)
+    })
     return (
         <section>
         <Head>
@@ -48,10 +57,8 @@ function About() {
         </Head>
         <div className="content-wrapper">
      <div className="sub-content padding">
-      <div className="border padding height-200 content-middle light">
-      <div id="container-8d57e29ac6d83235f85eb4edfe6a7df6">
-          Ads
-      </div>
+      <div className="border padding ads content-middle light">
+     {ads}
       </div>
       <div className="section">
         <a href="#intro" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Introduction</div></a>

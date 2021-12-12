@@ -88,7 +88,7 @@ function Helpers() {
       <section>
 
       <Head>
-      <title>Funcss Helpers</title>
+      <title>Funcss Helpers - Funcss Framework</title>
       <meta name='description' content='
     Learn about css helpers like, margin, padding, height, width, showing 
     and hiding content base on screen width.
@@ -101,8 +101,10 @@ content="fun, css, css margin, css padding, css, width, css show and hide conten
       
                  <div className="content-wrapper">
         <div className="sub-content padding">
-         <div className="border padding height-200 content-middle light">
-         <div>Ads</div>
+         <div className="border padding content-middle light ads">
+         <div className=''>
+         <div id="container-8efab60a26b5c40a3a52aab9bdb98896"></div>
+         </div>
          </div>
          <div className="section">
            <a href="#height" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Height</div></a>
@@ -117,7 +119,7 @@ content="fun, css, css margin, css padding, css, width, css show and hide conten
     <div className="main-content">
             <div className="container">
          <h1 className="h1 text-lighter text-indigo header">
-             Helpers
+             Css Width, Margin, Height, Padding, Hide And Show Content Based On Screen Size - Funcss Helpers
          </h1>
          <div className="h4">
            Reduce coding stress and increase <br />Your Production speed.
@@ -125,7 +127,7 @@ content="fun, css, css margin, css padding, css, width, css show and hide conten
          <div className="section hr"></div>
     </div>
         <div className="container padding-top-20" id="height">
-            <div className="header-3 text-indigo">Height</div>
+            <div className="topic h4">Css Height</div>
 <div className="note">
 <div>
 The <span className="badge">height-value</span> and the  <span className="badge">height-value-p</span> are use to give height to html elements <br />
@@ -174,7 +176,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illo reprehende
            </div>
 </div>
         <div className="container padding-top-20" id="width">
-            <div className="header-3 text-indigo">Width</div>
+            <div className="topic h4">Css Width</div>
 <div className="note">
 <div>
 The <span className="badge">width-value</span> and the  <span className="badge">width-value-p</span> are use to give width to html elements <br />
@@ -210,10 +212,10 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illo reprehende
            </div>
 </div>
 <div className="container padding-top-20" id="padding">
-    <div className="header-3 text-indigo">Padding</div>
+    <div className="topic h4">Css Padding</div>
 
 <div className="note">
-The  <span className="badge">padding</span> className is use to give a padding of 10px on all sides. <br />
+The  <span className="badge">padding</span> class is use to give a padding of 10px on all sides. <br />
 To give a padding at the top, the <span className="badge">padding-top-value</span> is use. <br />
 To give a padding at the bottom, the <span className="badge">padding-bottom-value</span> is use. <br />
 To give a padding at the left, the <span className="badge">padding-left-value</span> is use. <br />
@@ -229,7 +231,7 @@ The values  for our css padding are <span className="badge">10,20,30,40,50,60,70
 <div className="preview">
 <div>
 <div className="card padding round-edge  indigo text-white section hover-shadow">
-<h2>Padding ClassName</h2>
+<h2>Padding Class</h2>
 <div>
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illo reprehenderit possimus voluptate dicta ullam eius voluptatibus voluptatum aliquid pariatur! Odio, totam! Molestiae doloremque vitae provident, recusandae blanditiis sit perspiciatis!
 </div>
@@ -258,10 +260,10 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illo reprehende
            </div>
 </div>
 <div className="container padding-top-20" id="margin">
-    <div className="header-3 text-indigo">Margin</div>
+    <div className="topic h4">Css Margin</div>
 
 <div className="note">
-The <span className="badge">margin</span> className is use to give a margin of 10px on all sides. <br />
+The <span className="badge">margin</span> class is use to give a margin of 10px on all sides. <br />
 To give a margin at the top, the <span className="badge">margin-top-value</span> is use. <br />
 To give a margin at the bottom, the <span className="badge">margin-bottom-value</span> is use. <br />
 To give a margin at the left, the <span className="badge">margin-left-value</span> is use. <br />
@@ -296,7 +298,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illo reprehende
 </div>
 
 <div className="container padding-top-40" id="helpers">
-<div className="topic header-3 text-indigo">Helpers</div>
+<div className="topic h4">Css Helpers</div>
 <table className="table width-100-p text-left stripped text-small">
 <tr>
     <td>Name</td>
@@ -311,17 +313,17 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illo reprehende
     </tr>
     <tr>
         <td>Align Text Left</td>
-        <td>Unlined text to left</td>
+        <td>Align text to left</td>
         <td><div> class = {"text-left"}</div></td>
     </tr>
     <tr>
         <td>Align Text Right</td>
-        <td>Unlined text to right</td>
+        <td>Align text to right</td>
         <td><div> class = {"text-right"}</div></td>
     </tr>
     <tr>
         <td>Align Text Center</td>
-        <td>Unlined text to center</td>
+        <td>Align text to center</td>
         <td><div> class = {"text-center"}</div></td>
     </tr>
 
@@ -373,7 +375,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illo reprehende
 </table>
 
 <div className="padding-top-30" id="show-hide">
-<div className="topic header-3 text-indigo">Hide And Show Based On Screen Width</div>
+<div className="topic h4">Hide And Show Based On Screen Width</div>
 <div className="note">
 When creating websites, you might want to hide certain contents of your website base on the screen size 
 of the user. Our framework is perfect for that kind job. Learn how to show and hide certain contents of Your
@@ -386,7 +388,7 @@ website base on the users screen width.
 
 </tr>
 <tr>
-    <td>ClassName</td>
+    <td>Class</td>
     <td>Screen Range</td>
 </tr>
 </thead>

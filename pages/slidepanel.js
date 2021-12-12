@@ -18,8 +18,8 @@ function Slidepanels() {
             </Head>
               <div className="content-wrapper">
             <div className="sub-content padding">
-             <div className="border padding height-200 content-middle light">
-             <div id="container-8d57e29ac6d83235f85eb4edfe6a7df6"></div>
+             <div className="border padding ads content-middle light">
+             <div id="container-8efab60a26b5c40a3a52aab9bdb98896">Ads</div>
              </div>
              <div className="section">
                <a href="#introduction" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Introduction</div></a>
@@ -31,11 +31,12 @@ function Slidepanels() {
             </div>
                 <div className="main-content">
                 <div className="container">
-             <div className="text-big text-lighter text-indigo">
-                Slide Panels
-             </div>
+             <h1 className="h1 header text-indigo">
+               Css Slide Panels - Funcss Framework
+             </h1>
              <div className="h4">
-            Slide panels shows their overlayed content when you<br /> hover on them.
+            Slide panels shows their overlayed content when you hover on them. Create 
+            top sliding panels, left sliding panels, right sliding panel and bottom sliding panels.
              </div>
 
              <div className="section hr">
@@ -95,9 +96,9 @@ function Slidepanels() {
             </div>
 
             <div className="container padding-top-40" id="topPanel">
-    <div className="header-3 text-indigo">Slide Top</div>
+    <div className="h4 topic">Slide Top</div>
     <div className="note">
-The <span className="badge"> slide-top </span> className is use to create a slide animation from the top.
+The <span className="badge"> slide-top </span> class is use to create a slide animation from the top.
 </div>
     <div className="code">
         <xmp>
@@ -130,9 +131,9 @@ The <span className="badge"> slide-top </span> className is use to create a slid
 </div>
 
 <div className="container padding-top-40" id="bottomPanel">
-    <div className="header-3 text-indigo">Slide Bottom</div>
+    <div className="h4 topic">Slide Bottom</div>
     <div className="note">
-The <span className="badge"> slide-bottom </span> className is use to create a slide animation from the bottom.
+The <span className="badge"> slide-bottom </span> class is use to create a slide animation from the bottom.
 </div>
     <div className="code">
 <xmp>{`<center> 
@@ -164,9 +165,9 @@ The <span className="badge"> slide-bottom </span> className is use to create a s
 </div>
 
 <div className="container padding-top-40" id="leftPanel">
-    <div className="header-3 text-indigo">Slide Left</div>
+    <div className="h4 topic">Slide Left</div>
     <div className="note">
-The <span className="badge"> slide-left </span> className is use to create a slide animation from the left.
+The <span className="badge"> slide-left </span> class is use to create a slide animation from the left.
 </div>
     <div className="code">
         <xmp>
@@ -201,9 +202,9 @@ The <span className="badge"> slide-left </span> className is use to create a sli
 </div>
 
 <div className="container padding-top-40" id="rightPanel">
-    <div className="header-3 text-indigo">Slide Right</div>
+    <div className="h4 topic">Slide Right</div>
     <div className="note">
-The <span className="badge"> slide-right </span> className is use to create a slide animation from the right.
+The <span className="badge"> slide-right </span> class is use to create a slide animation from the right.
 </div>
     <div className="code">
         <xmp>

@@ -7,7 +7,7 @@ function Colors() {
     return (
         <section className="padding-bottom-20">
           <Head>
-          <title>Funcss colors</title>
+          <title>Funcss colors - Funcss Framework</title>
           <meta name="description" content="
          use cool and amazing css colors to create awesome websites,
          using greate colors will make your website more impressive
@@ -19,7 +19,7 @@ function Colors() {
           </Head>
               <div className="content-wrapper">
             <div className="sub-content padding">
-             <div className="border padding height-200 content-middle light">
+             <div className="border padding ads content-middle light">
                <div id="container-8efab60a26b5c40a3a52aab9bdb98896"></div>
              </div>
              <div className="section">
@@ -34,7 +34,7 @@ function Colors() {
                 <div className="main-content">
                 <div className="container">
              <h1 className="header h1 text-lighter text-indigo">
-              Fun Css Colors
+              Css Text Colors And Background - Funcss Framework
              </h1>
              <div className="h4">
                 Good colors makes a greate<br /> impression.
@@ -44,7 +44,7 @@ function Colors() {
             </div>
           
             <div className="container" id="introduction">
-                <div className="sub-topic">Getting started with colors</div>
+                <div className="topic h4">Getting started with colors</div>
                 <div className="note">
                 Fun css colors can be use to change the background of your text, the color of your text and hover color effects. <br />
                 You can use any of the colors below in building your website.
@@ -72,10 +72,10 @@ function Colors() {
             </div>
 
             <div className="container padding-top-20" id="background">
-                <div className="header-3 text-indigo">Background Color</div>
+                <div className="topic h4">Background Color</div>
                 <div className="note">
                 You can use any of the color listed above to change the background color of your element by just
-                writing the value of the color as a className.
+                writing the value of the color as a class.
                 </div>
                 <div className="code">
              <xmp>
@@ -118,13 +118,13 @@ function Colors() {
             </div>
             
             <div className="container padding-top-20" id="backgroundHover">
-                <div className="header-3 text-indigo">Background Hover Color</div>
+                <div className="topic h4">Background Hover Color</div>
                 <div className="note">
                 The
                 <span className="badge">hover-value</span>
-                is use to change the background color of an element when you hover on it. The value can be any of our framework colors listed above
+                is use to change the background color of an element when you hover on it.The value can be any of our framework colors listed above
                 You can use any of the color listed above to change the background color of your element when you hover on the element.
-                writing the value of the color as a className.
+                writing the value of the color as a class.
                 </div>
                 <div className="code">
              <xmp>
@@ -165,7 +165,7 @@ function Colors() {
             </div>
 
             <div className="container padding-top-20" id="textColor">
-                <div className="header-3 text-indigo">Text Color</div>
+                <div className="topic h4">Change Text Color</div>
                 <div className="note">
                 The
                 <span className="badge">text-value</span>
@@ -197,11 +197,11 @@ function Colors() {
                </div>
             </div>
             <div className="container padding-top-20" id="hoverText">
-                <div className="header-3 text-indigo">Hover Text Color</div>
+                <div className="topic h4">Hover Text Color</div>
                 <div className="note">
                 The
                 <span className="badge">hover-text-value</span>
-                 className is use to change the text color of an html element when you hover on the element, the value is any of our css framework colors you wish to use for your hover effect.
+                 class is use to change the text color of an html element when you hover on the element, the value is any of our css framework colors you wish to use for your hover effect.
                 </div>
                 <div className="code">
              <xmp>

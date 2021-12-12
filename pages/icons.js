@@ -101,8 +101,8 @@ function Icons() {
         <Head>
           <title>Css Icons | Funcss Framework</title>
           <meta name='description' content='
-        Learn about css helpers like, margin, padding, height, width, showing 
-        and hiding content base on screen width.
+        Learn how to use css icons, icon sizes, iconic buttons.Make greate 
+        changes using css icons. by funcss framework.
        ' />
     <meta
     name="keywords"
@@ -112,10 +112,8 @@ function Icons() {
           
         <div className="content-wrapper">
             <div className="sub-content padding">
-             <div className="border padding height-200 content-middle light">
-             <div id="container-8d57e29ac6d83235f85eb4edfe6a7df6">
-                 Ads
-             </div>
+             <div className="border padding content-middle light ads">
+             <div id="container-8efab60a26b5c40a3a52aab9bdb98896">Ads</div>
              </div>
              <div className="section">
                <a href="#icons" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Icons</div></a>
@@ -126,7 +124,7 @@ function Icons() {
                 <div className="main-content">
                 <div className="container">
              <h1 className="header h1 text-lighter text-indigo">
-                 Icons
+                 Css Icons Based On Fontawesome - Funcss Framework
              </h1>
              <div className="h4">
                Using Icons Gives You A Better<br /> Website View.
@@ -137,9 +135,9 @@ function Icons() {
              </div>
             </div>
 
-<div className='container' id="icons">
+<div className='container padding-top-20' id="icons">
 <div> 
-<input className="input full-width borderless light padding" placeholder="icon name...?" onChange={(e)=>seticonName(e.target.value)} />
+<input className="input full-width borderless light padding" placeholder="search icon" onChange={(e)=>seticonName(e.target.value)} />
 </div>
  <div>
      
@@ -174,7 +172,7 @@ function Icons() {
 </div> 
 
 <div className="container padding-top-50" id="iconsize">
-    <div className="header-3">Icons Sizes</div>
+    <div className="topic h4">Css Icon Sizes</div>
     <div className="note">
         When using icons, you  might want to change the size of your icon, the <span className="badge">size-value</span>
       is the answer, You can use any of this value to change the size of your icon. <br />
@@ -218,39 +216,32 @@ function Icons() {
 </div>
 
 <div className="container padding-top-50" id="iconbutton">
-    <div className="header-3">Icon Buttons</div>
+    <div className="h4 topic">Css Icon In Button</div>
     <div className="note">
    Icons can be use in buttons, buttons with icons look nicer, here is how you can insect an icon in your button.
     </div>
     <div className="code">
-<xmp>{`<div class="row">
-      <div class="col sm-12 md-4 lg-4">
-        <div class="h3">Size 10</div>
-        <i class="fas fa-cogs icon size-10"></i>
-      </div>
-      <div class="col sm-12 md-4 lg-4 ">
-        <div class="h3">Size 5</div>
-        <i class="fas fa-laptop icon size-5"></i>
-      </div>
-      <div class="col sm-12 md-4 lg-4">
-        <div class="h3">Size 1</div>
-        <i class="fas fa-blog icon size-1"></i>
-        </div>
-      </div>`}
+<xmp>{`<button class="button deep-purple card text-white">
+    Send Message <i class="fas fa-paper-plane"></i>
+</button>
+
+<button class="button indigo card text-white t">
+    Cogs Rotating <i class="fas fa-cog rotate"></i>
+</button>`}
 </xmp>
     </div>
     <div className="preview">
       <div className="row">
       <div className="col sm-12 md-6 lg-6">
         <div className="h4">Simple Icon Button</div>
-        <button className="button deep-purple card text-white text-large">
-            Send <i className="fas fa-paper-plane"></i>
+        <button className="button deep-purple card text-white">
+            Send Message <i className="fas fa-paper-plane"></i>
         </button>
       </div>
       <div className="col sm-12 md-6 lg-6">
         <div className="h4">Animated Button</div>
-        <button className="button indigo card text-white text-large">
-            Cogs <i className="fas fa-cog rotate"></i>
+        <button className="button indigo card text-white t">
+            Cogs Rotating <i className="fas fa-cog rotate"></i>
         </button>
       </div>
 

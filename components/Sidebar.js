@@ -134,7 +134,9 @@ function Sidebar() {
    }
    }).map(link=>(
   <div className="padding-top-10" key={link.text.trim()}>
-      <div className="padding button text-lighter sidebar-link" onClick={()=>Router.push(`/${link.path}`)}>
+      <div className="padding button text-lighter sidebar-link" onClick={()=>{
+      Router.push(`/${link.path}`)
+      }}>
       {link.text}
       <span className="sidebar-icon">
       <i className="fas fas fa-angle-double-right text-indigo"></i>
