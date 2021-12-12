@@ -17,11 +17,12 @@ function Gettingstarted() {
     name="keywords"
     content="fun, css, download, framework,cdn, clone,"
     />
+    
           </Head>
                         <div className="content-wrapper">
             <div className="sub-content padding">
              <div className="border padding height-200 content-middle light">
-     <div id="container-8d57e29ac6d83235f85eb4edfe6a7df6"></div>
+                    <div id="container-8efab60a26b5c40a3a52aab9bdb98896"></div>
              </div>
              <div className="section">
                <a href="#cdn" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">CDN</div></a>

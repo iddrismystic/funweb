@@ -1,6 +1,6 @@
-import React from 'react';
-import Footer from '../components/Footer';
-import Head from 'next/head';
+import React from "react";
+import Footer from "../components/Footer";
+import Head from "next/head";
 
 function Colors() {
 
@@ -8,10 +8,10 @@ function Colors() {
         <section className="padding-bottom-20">
           <Head>
           <title>Funcss colors</title>
-          <meta name='description' content='
+          <meta name="description" content="
          use cool and amazing css colors to create awesome websites,
          using greate colors will make your website more impressive
-       ' />
+       " />
     <meta
     name="keywords"
     content="fun, css, colors, css colo pallete"
@@ -20,7 +20,7 @@ function Colors() {
               <div className="content-wrapper">
             <div className="sub-content padding">
              <div className="border padding height-200 content-middle light">
-             <div id="container-8d57e29ac6d83235f85eb4edfe6a7df6"></div>
+               <div id="container-8efab60a26b5c40a3a52aab9bdb98896"></div>
              </div>
              <div className="section">
                <a href="#introduction" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Introduction</div></a>
