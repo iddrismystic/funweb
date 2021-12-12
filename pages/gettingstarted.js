@@ -102,7 +102,7 @@ when creating a website or web application for production purpose.
   Learn how to clone github repo, to get started with cloning our github repo.
 </div>
 <div className="section">
-<iframe className="width-100-p height-300" src="https://www.youtube.com/embed/bKuE-afbRLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe className="width-100-p height-300" src="https://www.youtube.com/embed/bKuE-afbRLU" title="How to clone github repo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 </div>
 <div className='section'  id="githubcli">
 <div className="text-large">Github CLI:</div>
