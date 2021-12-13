@@ -1,16 +1,26 @@
 import React from 'react';
 import Footer from '../components/Footer';
-
+import Head from 'next/head';
 function progress(props) {
     return (
         <div>
                     <div>
                     <section>
-        <div className="content-wrapper">
-       <div className="sub-content padding">
-        <div className="border padding height-200 content-middle light">
-        Ads
-        </div>
+<Head>
+   <title>Css Progressbars - Funcss Framework</title>
+     <meta name='description' content='
+      Create easy and animated css progress bars using funcss framework.
+       ' />
+    <meta
+    name="keywords"
+    content="fun, css, card, slide, panel, slide panel"
+    />
+</Head>
+              <div className="content-wrapper">
+            <div className="sub-content padding">
+             <div className="border padding ads content-middle light">
+             <div id="container-8efab60a26b5c40a3a52aab9bdb98896">Ads</div>
+             </div>
         <div className="section">
         <a href="#simple" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Simple Progress Bar</div></a>
           <a href="#animated" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Animated Progress</div></a> 
@@ -18,7 +28,7 @@ function progress(props) {
        </div>
            <div className="main-content">
            <div className="container">
-           <h1 className="header h1 text-lighter text-indigo">
+           <h1 className="header h1  text-indigo">
           Css Progress Bars - Funcss
         </h1>
         <div className="h4">
@@ -31,7 +41,7 @@ function progress(props) {
 
        
 <div className="container padding-top-40" id="simple">
-<div className="header-3 text-indigo">Simple Css Progress Bars</div>
+<div className="h4 topic">Simple Css Progress Bars</div>
 <div className="note">
 Progress bars are created simply by creating an element with a width and a visible color.
 </div>

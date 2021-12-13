@@ -1,13 +1,24 @@
 import React from 'react';
 import Footer from '../components/Footer';
+import Head from "next/head"
 function dropdown() {
     return (
         <section>
-                    <div className="content-wrapper">
-       <div className="sub-content padding">
-        <div className="border padding height-200 content-middle light">
-        Ads
-        </div>
+ <Head>
+   <title>Css Dropdowns - Funcss Framework</title>
+     <meta name='description' content='
+      Create nice css dropdown and dropupcreate animated dropdown and dropdown with funcss framework. 
+       ' />
+    <meta
+    name="keywords"
+    content="fun, css, card, slide, panel, slide panel"
+    />
+</Head>
+              <div className="content-wrapper">
+            <div className="sub-content padding">
+             <div className="border padding ads content-middle light">
+             <div id="container-8efab60a26b5c40a3a52aab9bdb98896">Ads</div>
+             </div>
         <div className="section">
           <a href="#simpledropdown" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Simple Dropdown</div></a>
           <a href="#dropup" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Dropup</div></a> 
@@ -16,7 +27,7 @@ function dropdown() {
            <div className="main-content">
            <div className="container">
         <h1 className="header text-indigo">
-         Funcss Dropdowns
+         Css Dropdown And Dropup - Funcss Framework
         </h1>
         <div className="h4">
         Dropdowns are usuallly use on the navigation bar, they hold 
@@ -67,7 +78,7 @@ function dropdown() {
 </div>
        
 <div className="container padding-top-40" id="simpledropdown">
-<div className="header-3 text-indigo">Simple Dropdown</div>
+<div className="h4 topic">Simple Dropdown</div>
 <div className="note">
     The <span className="badge">dropdown-hover</span> class is use to create a simple hoverble dropdown.
 </div>
@@ -105,7 +116,7 @@ function dropdown() {
 </div>
        
 <div className="container padding-top-40" id="dropup">
-<div className="header-3 text-indigo">Dropup</div>
+<div className="h4 topic">Dropup</div>
 <div className="note">
    The <span className="badge">dropup-hover</span> class is use to create hoverable dropups for your website.
 </div>
@@ -139,7 +150,7 @@ function dropdown() {
 </div>
 </div>
 <div className="container padding-top-40" id="animateddropmenu">
-<div className="header-3 text-indigo">Animated Drop Menu</div>
+<div className="h4 topic">Animated Drop Menu</div>
 <div className="note">
    The <span className="badge">rotate-up</span> and <span className="badge">rotate-down</span> class is use to create a rotating animated button.
 </div>

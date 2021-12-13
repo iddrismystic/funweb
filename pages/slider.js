@@ -1,15 +1,27 @@
 import Footer from '../components/Footer';
-
+import Head from "next/head"
 const slider = () => {
 
     return ( 
         <section>
         
-        <div className="content-wrapper">
-       <div className="sub-content padding">
-        <div className="border padding height-200 content-middle light">
-        Ads
-        </div>
+        <Head>
+   <title>Css Slideshow - Funcss Framework</title>
+     <meta name='description' content='
+         Sliders or slideshows are mostly use on your homepage to attract users attention. create simple and nice 
+        pure css slideshows.
+     
+       ' />
+    <meta
+    name="keywords"
+    content="fun, css, card, slide, panel, slide panel"
+    />
+</Head>
+         <div className="content-wrapper">
+            <div className="sub-content padding">
+             <div className="border padding ads content-middle light">
+             <div id="container-8efab60a26b5c40a3a52aab9bdb98896">Ads</div>
+         </div>
         <div className="section">
           <a href="#twoslides" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Two Slides</div></a>
           <a href="#threeslides" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Three Slides</div></a> 
@@ -19,10 +31,11 @@ const slider = () => {
            <div className="main-content">
            <div className="container">
         <h1 className="h1 header text-lighter text-indigo">
-           Funcss Slideshow
+           Css Slideshow - Funcss Framework
         </h1>
         <div className="h4">
-         Sliders are mostly use on your homepage to attract<br /> users attention.
+         Sliders are mostly use on your homepage to attract users attention.
+         create simple and nice pure css slideshows.
         </div>
 
         <div className="section hr">
@@ -116,7 +129,7 @@ const slider = () => {
 </div>
        
 <div className="container padding-top-40" id="twoslides">
-<div className="header-3 text-indigo">Two Slides</div>
+<div className="h4 topic">Two Slides</div>
 <div className="note">
     The <span className="badge">slider two</span> class is use to create two simple css slides.
 </div>
@@ -199,7 +212,7 @@ const slider = () => {
 </div>
        
 <div className="container padding-top-40" id="threeslides">
-<div className="header-3 text-indigo">Three Slide</div>
+<div className="h4 topic">Three Slide</div>
 <div className="note">
    The <span className="badge">three</span> class is use in the slider class to create three slides in your slideshow. <br />
    <span className="badge">black-overlay</span> class can be use to add a transparent black overlay to your slide.
@@ -300,7 +313,7 @@ const slider = () => {
 </div>
 </div>
 <div className="container padding-top-40" id="fourslides">
-<div className="header-3 text-indigo">Four Slides</div>
+<div className="h4 topic">Four Slides</div>
 <div className="note">
    The <span className="badge">four</span> class is use to create  four slides.
    ou framework only limit your slides to four,because the slides are created with pure css,

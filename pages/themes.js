@@ -4,7 +4,7 @@ const Themes = () => {
     return (  
         <section>
             <div className="padding">
-                <div className="header h1 text-center">HTML AND FUNCSS FREE SIMPLE THEMES</div>
+                <h1 className="header h1 text-center">HTML AND FUNCSS FREE SIMPLE THEMES DOWNLOAD</h1>
                 <p className="h4 text-center">
                     Download and use funcss framework themes for free
                 </p>
@@ -17,9 +17,9 @@ const Themes = () => {
                 <div className="iframe-container">
                 <iframe className="responsive-iframe" src="https://fun-css.github.io/company/"></iframe>
                 <div>
-                    <div className="row-flex">
-                        <div><button>Preview <i className="fas fa-eye"></i></button></div>
-                    </div>
+      
+                <a href='https://fun-css.github.io/company/'><button className='button'>Preview <i className="fas fa-eye"></i></button></a>
+           
                 </div>
                 </div>
             </div>

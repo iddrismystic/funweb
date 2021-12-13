@@ -1,18 +1,28 @@
 import React from 'react';
 import { useState } from 'react';
 import Footer from '../components/Footer';
-
+import Head from 'next/head';
 function Modal(props) {
     const [modal, setmodal] = useState("none");
     const modalstyle = "`${modal}`"
     return (
         <div>
                     <section>
-        <div className="content-wrapper">
-       <div className="sub-content padding">
-        <div className="border padding height-200 content-middle light">
-        Ads
-        </div>
+<Head>
+   <title>Css Modals - Funcss Framework</title>
+     <meta name='description' content='
+      Create nice css modals with funcss framework, modals can be use to create login or signup forms.
+       ' />
+    <meta
+    name="keywords"
+    content="fun, css, card, slide, panel, slide panel"
+    />
+</Head>
+              <div className="content-wrapper">
+            <div className="sub-content padding">
+             <div className="border padding ads content-middle light">
+             <div id="container-8efab60a26b5c40a3a52aab9bdb98896">Ads</div>
+             </div>
         <div className="section">
           <a href="#introduction" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Introduction</div></a>
           <a href="#modal" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Modal</div></a> 
@@ -21,10 +31,11 @@ function Modal(props) {
            <div className="main-content">
            <div className="container">
         <h1 className="header h1 text-lighter text-indigo">
-          Funcss Modal
+          Css Modal - Funcss Framework
         </h1>
         <div className="h4">
-          Modals are can be use to show information on <br /> popup.
+          Modals are can be use to show information on popup.
+          Create nice css modals with funcss framework, modals can be use to create login or signup forms.
         </div>
 
         <div className="section hr">
@@ -34,7 +45,7 @@ function Modal(props) {
 
        
 <div className="container padding-top-40" id="introduction">
-<div className="header-3 text-indigo">Modal</div>
+<div className="h4 topic">Css Modal</div>
 <div className="note">
     The <span className="badge">modal</span> class is use to create a modal.It wraps the <span className="badge">modal-content</span> class.
     which contains the content of your modal

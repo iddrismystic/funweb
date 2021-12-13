@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from './../components/Footer';
 import { useState } from 'react';
-
+import Head from "next/head"
 function Navigation() {
     const [height, setheight] = useState("200px");
     const Handlesidebar = ()=>{
@@ -13,11 +13,21 @@ function Navigation() {
     }
     return (
         <section>
-                                <div className="content-wrapper">
-       <div className="sub-content padding">
-        <div className="border padding height-200 content-middle light">
-        Ads
-        </div>
+       <Head>
+   <title>Css Navigationbar - Funcss Framework</title>
+     <meta name='description' content='
+     Navigation bar contains links to your webpages. Create goog modern responsive navigation bars using the funcss framework.
+       ' />
+    <meta
+    name="keywords"
+    content="fun, css, card, slide, panel, slide panel"
+    />
+</Head>
+              <div className="content-wrapper">
+            <div className="sub-content padding">
+             <div className="border padding ads content-middle light">
+             <div id="container-8efab60a26b5c40a3a52aab9bdb98896">Ads</div>
+             </div>
         <div className="section">
           <a href="#simplenavbar" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Navigation Bar</div></a>
           <a href="#navbardropdown" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Dropdown Navigation Bar</div></a> 
@@ -27,10 +37,10 @@ function Navigation() {
            <div className="main-content">
            <div className="container">
         <h1 className="h1 header text-lighter text-indigo">
-           Navigation Bar
+          Css Navigation Bar - Funcss Framework
         </h1>
         <div className="h4">
-          The navigation bar contains links <br /> to your webpages.
+          The navigation bar contains links to your webpages. create simple and responsive navigation bars with funcss framework.
         </div>
 
         <div className="section hr">
@@ -39,7 +49,7 @@ function Navigation() {
        </div>
  
 <div className="container padding-top-40" id="simplenavbar">
-<div className="header-3 text-indigo">Simple Navigation Bar</div>
+<div className="h4 topic">Simple Navigation Bar</div>
 <div className="note">
 You can create simple navigation bars, just to navigate to your webpages.
 </div>
@@ -71,7 +81,7 @@ You can create simple navigation bars, just to navigate to your webpages.
 </div>
        
 <div className="container padding-top-40" id="navbardropdown">
-<div className="header-3 text-indigo">Navigation Bar With Dropdown</div>
+<div className="h4 topic">Navigation Bar With Dropdown</div>
 <div className="note">
 This navigation bar have dropdown which contains links to other subpages.
 </div>
@@ -124,7 +134,7 @@ This navigation bar have dropdown which contains links to other subpages.
 </div>
 </div>
 <div className="container padding-top-40" id="responsivenav">
-<div className="header-3">Navigation Bar With Sidebar</div>
+<div className="h4 topic">Navigation Bar With Sidebar</div>
 <div className="note">
 When creating a website is a good practice to always provide a sidebar for responsiveness.
 It is easy to create sidebars using funcss.

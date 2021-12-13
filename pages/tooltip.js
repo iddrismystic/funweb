@@ -1,13 +1,25 @@
 import React from 'react';
 import Footer from '../components/Footer';
+import  Head from 'next/head';
+
 function tooltip(props) {
     return (
         <section>
-        <div className="content-wrapper">
-       <div className="sub-content padding">
-        <div className="border padding height-200 content-middle light">
-        Ads
-        </div>
+    <Head>
+   <title>Css Progressbars - Funcss Framework</title>
+     <meta name='description' content='
+     Tooltips provides information about a particular element when you hover on that element.
+       ' />
+    <meta
+    name="keywords"
+    content="fun, css, card, slide, panel, slide panel"
+    />
+</Head>
+              <div className="content-wrapper">
+            <div className="sub-content padding">
+             <div className="border padding ads content-middle light">
+             <div id="container-8efab60a26b5c40a3a52aab9bdb98896">Ads</div>
+             </div>
         <div className="section">
         <a href="#top" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Top Tooltip</div></a>
         <a href="#bottom" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Bottom Tooltip</div></a> 
@@ -18,7 +30,7 @@ function tooltip(props) {
            <div className="main-content">
            <div className="container">
         <h1 className="header h1 text-lighter text-indigo">
-          Css Tooltip - Funcss
+          Css Tooltip - Funcss Framework
         </h1>
         <div className="h4">
          Tooltips provides information about a particular element when you hover on that element.
@@ -31,7 +43,7 @@ function tooltip(props) {
 
        
 <div className="container padding-top-40" id="simple">
-<div className="header-3 text-indigo">Top Tooltip</div>
+<div className="h4 topic"> Css Top Tooltip</div>
 <div className="note">
 The class <span className="badge">top-tip</span> is use to create a tooltip to the top of that element.
 </div>
@@ -56,7 +68,7 @@ The class <span className="badge">top-tip</span> is use to create a tooltip to t
 </div>
 
 <div className="container padding-top-40" id="bottom">
-<div className="header-3 text-indigo">Bottom Tooltip</div>
+<div className="h4 topic"> Css Bottom Tooltip</div>
 <div className="note">
 The class <span className="badge">bottom-tip</span> is use to create a tooltip which appears on the bottom of that element.
 </div>
@@ -79,7 +91,7 @@ The class <span className="badge">bottom-tip</span> is use to create a tooltip w
 </div>
 
 <div className="container padding-top-40" id="lefttip">
-<div className="header-3 text-indigo">Left Tooltip</div>
+<div className="h4 topic"> Css Left Tooltip</div>
 <div className="note">
 The class <span className="badge">left-tip</span> is use to create a tooltip which appears on at the left side of that element.
 </div>
@@ -102,7 +114,7 @@ The class <span className="badge">left-tip</span> is use to create a tooltip whi
 </div>
 
 <div className="container padding-top-40" id="righttip">
-<div className="header-3 text-indigo">Right Tooltip</div>
+<div className="h4 topic"> Css Right Tooltip</div>
 <div className="note">
 The class <span className="badge">right-tip</span> is use to create a tooltip which appears at the right side of that element.
 </div>
