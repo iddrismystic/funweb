@@ -16,10 +16,8 @@ const Themes = () => {
                 </div>
                 <div className="iframe-container">
                 <iframe className="responsive-iframe" src="https://fun-css.github.io/company/"></iframe>
-                <div>
-      
-                <a href='https://fun-css.github.io/company/'><button className='button'>Preview <i className="fas fa-eye"></i></button></a>
-           
+                <div className="absolute bottom-0 left-0">
+                <a href='https://fun-css.github.io/company/'><button className='button indigo text-white card'>Preview <i className="fas fa-eye"></i></button></a>
                 </div>
                 </div>
             </div>

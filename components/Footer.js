@@ -15,7 +15,11 @@ function Footer() {
               Fun css is a modern responsive css framework, it will ease your work in developing
               websites, it comes with pre-defined class names which are use to style your website. 
               You can download the framework for free and use our website themes and components for free.
-
+              <a href="/app/funcss.apk">
+                <div className="border section fit-width fit-height padding text-black hover-indigo hover-text-white pointer">
+                  Download Application <i className="fab fa-android text-large icon size-2 text-green "></i>
+                </div>
+              </a>
             </div>
           <div className="row">
               <div className="col sm-12 md-8 lg-8">
