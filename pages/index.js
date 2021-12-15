@@ -2,7 +2,15 @@ import React from 'react';
 import Footer from './../components/Footer';
 import Head from 'next/head'
 import Link from 'next/dist/client/link'
+import axios from "axios"
+import {useEffect} from "react"
 function Home() {
+    useEffect( async()=>{
+       await axios.get("https://funcss-api.herokuapp.com/api")
+       .then((response)=>{
+            console.log(response)
+          }).catch(err=>console.log(err))
+    }, [])
     return (
         <section className="padding-top-30" lang="eng">
  <Head>

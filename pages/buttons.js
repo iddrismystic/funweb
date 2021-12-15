@@ -22,7 +22,7 @@ function Buttons() {
     name="keywords"
     content="fun, css, css margin, css padding, css, width, css show and hide content based on screen width"
     />
-          </Head> Head
+          </Head>
         <div className="content-wrapper">
             <div className="sub-content padding">
              <div className="border padding ads content-middle light">

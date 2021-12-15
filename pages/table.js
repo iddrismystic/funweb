@@ -34,7 +34,7 @@ function table() {
            Tables
         </h1>
         <div className="h4">
-         ]Tables group content in to rows and columns. Create nice and responsive css tables, create simple tables, stripped tables, hoverable table, borederd table and responsive table with funcss
+         Tables group content in to rows and columns. Create nice and responsive css tables, create simple tables, stripped tables, hoverable table, borederd table and responsive table with funcss
         </div>
 
         <div className="section hr">
