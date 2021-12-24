@@ -22,7 +22,16 @@
 .h4, .roboto{font-family: 'Roboto', sans-serif;}
 
 
+<<<<<<< HEAD
 .logo{font-size: x-large;font-weight: bolder;}
+=======
+.logo::first-letter{
+font-size: 2rem;
+font-weight: bolder;
+color: #4CAF50;
+}
+.logo{font-size: x-large;color:#8315ba;font-weight: bolder;}
+>>>>>>> 19439f74c65240dd15410e058ab37f3103ed36a6
 .lighter{
   background-color: rgba(225,225,225,0.2);
 }
@@ -43,7 +52,11 @@
   overflow:hidden;
   padding: 0;
 }
+<<<<<<< HEAD
 .sidecontent{overflow: auto;height:450px;border: 1px solid #ddd;}
+=======
+.sidecontent{overflow: auto;height:400px;}
+>>>>>>> 19439f74c65240dd15410e058ab37f3103ed36a6
 .Content{
   position: absolute;
   top: 0;
@@ -65,7 +78,11 @@
     border-bottom: 1px solid #ddd;
     z-index:5;
   }
+<<<<<<< HEAD
   .nav-link{transition: 0.3s;border-bottom: 5px solid white;padding:5px;font-size: small;color: black;}
+=======
+  .nav-link{transition: 0.3s;border-bottom: 5px solid white;padding:5px;font-size: small;}
+>>>>>>> 19439f74c65240dd15410e058ab37f3103ed36a6
   .nav-link:hover{border-bottom: 5px solid #4CAF50;}
   .started{
     border:2px solid #4CAF50;
@@ -238,6 +255,10 @@
   height: 100vh;
   width: 100%;
   padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+<<<<<<< HEAD
+=======
+  box-shadow: 0px 4px 8px 0px rgba(225,225, 225, 0.4), 0px 8px 16px 0px rgba(225,225, 225, 0.9);
+>>>>>>> 19439f74c65240dd15410e058ab37f3103ed36a6
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
@@ -260,6 +281,7 @@
   min-height:200px;
   max-height: fit-content;
   height:fit-content;
+<<<<<<< HEAD
 }
 
 .screen{padding: 20px 10px 40px;background-color: #f2f2f2;border-radius: 10px;}
@@ -267,3 +289,6 @@
 .screen-content{background-color: #E3E6E8;padding: 10px;}
 .footer{background-color: #E3E6E8;}
 .hoverable{transition: 0.3;}.hoverable:hover{background-color: #E3E6E8;}
+=======
+}
+>>>>>>> 19439f74c65240dd15410e058ab37f3103ed36a6

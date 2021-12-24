@@ -7,17 +7,28 @@ function About() {
     const team = [
         {
             id:1,
+<<<<<<< HEAD
             name: "Ahmed Salim Adam",
             job:"Backend Developer",
             picture:"/team/salim.jpg",
             about:"Ahmed Salim is an IT Manager and a software engineer focused on building Backend architecture, systems and services"
+=======
+            name: "Ahmed Salim",
+            job:"Backend Developer",
+            picture:"/team/salim.jpg",
+            about:"ahmed salim is a nodejs backend developer and a programmer, he obtained his degree in Computer Science."
+>>>>>>> 19439f74c65240dd15410e058ab37f3103ed36a6
         },
         {
             id:2,
             name: "Iddris Abdul Wahab",
             job:"Front-end Developer",
             picture:"/images/avatar.png",
+<<<<<<< HEAD
             about:"Abdul Wahab is a Frontend developer, UI/UX Designer, who loves designing and developing creative web application and websites."
+=======
+            about:"iddris abdul wahab is a front-end website developer and a programmer, offering his HND Information and Communication Technology at Tatu."
+>>>>>>> 19439f74c65240dd15410e058ab37f3103ed36a6
         }
     ]
     const [members, setmembers] = useState(team);

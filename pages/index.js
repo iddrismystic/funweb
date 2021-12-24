@@ -4,7 +4,10 @@ import Head from 'next/head'
 import Link from 'next/dist/client/link'
 import axios from "axios"
 import {useEffect} from "react"
+<<<<<<< HEAD
 import Logo from '../components/Logo';
+=======
+>>>>>>> 19439f74c65240dd15410e058ab37f3103ed36a6
 function Home() {
     useEffect( async()=>{
        await axios.get("https://funcss-api.herokuapp.com/api")
@@ -34,7 +37,11 @@ function Home() {
             <div className="col sm-12 md-12 lg-6">
              <div className="padding">
              <h1 className="no-margin header h4">
+<<<<<<< HEAD
                 <Logo /> Modern responsive CSS framework for developing responsive websites.
+=======
+                <span className="header text-indigo">Fun Css:</span> Modern responsive CSS framework for developing responsive websites.
+>>>>>>> 19439f74c65240dd15410e058ab37f3103ed36a6
             </h1>
              </div>
              <div className="padding">
@@ -87,6 +94,7 @@ function Home() {
 <div className="text-center  padding">
   Download and use our Themes for free, Build cool websites with Funcss.
 </div>
+<<<<<<< HEAD
 <div>
     <div className="screen">
         <div className="row">
@@ -104,6 +112,15 @@ function Home() {
         <div className="screen-content">
               
         <div className="slider three">
+=======
+
+<div>
+    <div className="card">
+        <div className="row">
+            <div className="col sm-12 md-6 lg-6">
+              
+<div className="slider three">
+>>>>>>> 19439f74c65240dd15410e058ab37f3103ed36a6
     <div className="slide-container">
         <div className="slide">
             <div className="slide-content">
@@ -125,6 +142,7 @@ function Home() {
     </div>
 
 </div>
+<<<<<<< HEAD
         </div>
     </div>
     <center><div className='height-50 width-40 black'></div></center>
@@ -134,6 +152,57 @@ function Home() {
 </div>
 
 <div className="section hr container"></div>
+=======
+            </div>
+            <div className="col sm-12 md-6 lg-6">
+                <div className="relative">
+                <div className="indigo padding">
+             <h1 className="h3 no-margin text-lighter text-center text-white">Company Theme</h1>
+             </div>
+             <div>
+             <ul className="list stripped">
+              <li>
+              <i className="fas fa-check text-blue"></i>
+              &nbsp;Responsive
+            </li>
+              <li>
+              <i className="fas fa-check text-blue"></i>
+              &nbsp;100% Css
+            </li>
+              <li>
+              <i className="fas fa-check text-blue"></i>
+              &nbsp;Greate Layout
+            </li>
+              <li>
+              <i className="fas fa-check text-blue"></i>
+              &nbsp;Free Download
+            </li>
+            </ul>
+             </div>
+         <div className="padding">
+         <div className="flex">
+                 <div className="flex-50">
+                     <a href="https://funcsscompanytemplate.surge.sh">
+                     <button className="button blue card full-width text-white">Preview</button>
+                     </a>
+                 </div>
+                 <div className="flex-50">
+                     <a href="https://codeload.github.com/iddrismystic/companytheme/zip/refs/heads/main">
+                     <button className="button deep-purple card full-width text-white">Download</button>
+                     </a>
+                 </div>
+             </div>
+         </div>
+                </div>
+ 
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div className="section hr"></div>
+>>>>>>> 19439f74c65240dd15410e058ab37f3103ed36a6
 
 <div className="container">
 <div className="text-center text-xx-large text-lighter text-indigo">Responsive</div>
@@ -160,7 +229,11 @@ function Home() {
 
 </div>
 
+<<<<<<< HEAD
 <div className="section hr container"></div>
+=======
+<div className="section hr"></div>
+>>>>>>> 19439f74c65240dd15410e058ab37f3103ed36a6
 
 <div className="container padding-top-30">
 <h1 className="text-center text-xx-large text-lighter text-indigo no-margin">FUNCSS BUTTONS</h1>
@@ -232,7 +305,11 @@ function Home() {
 
 
 </div>
+<<<<<<< HEAD
 <div className="section hr container"></div>
+=======
+<div className="section hr"></div>
+>>>>>>> 19439f74c65240dd15410e058ab37f3103ed36a6
 
 <div className="container padding-top-30">
 <div className="text-center text-xx-large text-lighter text-indigo no-margin">CSS CARDS</div>

@@ -80,7 +80,11 @@ function Gettingstarted() {
       <div className="topic  h4">
             Download The Css Framework
      </div>
+<<<<<<< HEAD
 <div className="note">
+=======
+<div className="">
+>>>>>>> 19439f74c65240dd15410e058ab37f3103ed36a6
 You can use the link below to download our framework files or you can clone the git repo. It is recommended to use the downloaded files 
 when creating a website or web application for production purpose.
 </div>

@@ -12,7 +12,11 @@ function Navbar() {
      <div className="padding hide-medium-down">
   <Link href="/gettingstarted"><a className="nav-link">Docs</a></Link>
   <Link href="/themes"><a className="nav-link">Themes</a></Link>
+<<<<<<< HEAD
   <a href="https://codeload.github.com/fun-css/funcss/zip/refs/heads/main" className="text-black text-small">Download v1.0</a>
+=======
+  <a href="https://codeload.github.com/fun-css/funcss/zip/refs/heads/main" className="text-indigo text-small">Download v1.0</a>
+>>>>>>> 19439f74c65240dd15410e058ab37f3103ed36a6
   <a href="https://github.com/fun-css"><img src="/icons/github.png" style={{height:'25px'}} className="icon fit show-medium-up" alt="github" /></a>
 
     
