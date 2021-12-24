@@ -13,6 +13,11 @@
     "isomorphic-unfetch": "^3.1.0",
     "next": "12.0.4",
     "react": "^17.0.2",
+<<<<<<< HEAD
+=======
+    "next": "12.0.4",
+    "react": "17.0.2",
+>>>>>>> 5ac5ea104b98a48a118fc164f3a1938dad704c46
     "react-dom": "17.0.2"
   },
   "devDependencies": {
