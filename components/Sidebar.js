@@ -115,15 +115,9 @@ function Sidebar() {
             </span>
               </div>
               <div className="SideBar" style={{width : `${width}`}}>
-<<<<<<< HEAD
               <div className="section padding ">
                       <input className="input search width-100-p padding-top-10 padding-bottom-10 text-center" onChange={(e)=>setsearch(e.target.value)} placeholder="Search..." />
              </div>
-=======
-              <div className="section padding">
-                      <input className="input search width-100-p padding-top-10 padding-bottom-10 text-center" onChange={(e)=>setsearch(e.target.value)} placeholder="Search..." />
-                  </div>
->>>>>>> 19439f74c65240dd15410e058ab37f3103ed36a6
 
                 <div className="sidecontent">
                   

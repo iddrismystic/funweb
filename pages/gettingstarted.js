@@ -80,11 +80,7 @@ function Gettingstarted() {
       <div className="topic  h4">
             Download The Css Framework
      </div>
-<<<<<<< HEAD
 <div className="note">
-=======
-<div className="">
->>>>>>> 19439f74c65240dd15410e058ab37f3103ed36a6
 You can use the link below to download our framework files or you can clone the git repo. It is recommended to use the downloaded files 
 when creating a website or web application for production purpose.
 </div>
@@ -131,6 +127,20 @@ when creating a website or web application for production purpose.
 
 </div>
 
+</div>
+
+<div className="container">
+  <div className="h4">Responsive Meta Tag</div>
+  <div className="note">
+    Funcss framework is a mobile friendly framework that fit all screen sizes, it is 
+    recommended to always paste the responsive meta tag in your <span className="badge">head</span> tag to ensure good
+    renduring and good scaling.
+  </div>
+  <div className="code">
+  <xmp>
+{`<meta name="viewport" content="width=device-width, initial-scale=1">`}
+  </xmp>
+  </div>
 </div>
    {/* <div className="container">
      <div className="row">

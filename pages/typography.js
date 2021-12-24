@@ -211,11 +211,7 @@ function Typography() {
  </div>
    <div className="preview">
 <div>
-  <div className="card padding white round-edge">
-  <div>
 
-  </div>
-  </div>
   <div className="card section padding white">
   <div>
    <div className="indigo padding text-white">
