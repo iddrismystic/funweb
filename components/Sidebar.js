@@ -30,6 +30,10 @@ function Sidebar() {
             path:"helpers"
         },
         {
+            text:"Show And Hide",
+            path:"show-hide"
+        },
+        {
             text:"Icons",
             path:"icons"
         } ,
@@ -65,6 +69,10 @@ function Sidebar() {
             text:"List",
             path:"list"
         } ,
+        // {
+        //     text:"Accordion",
+        //     path:"accordion"
+        // } ,
         {
             text:"Modal",
             path:"modal"
@@ -114,7 +122,45 @@ function Sidebar() {
                menu
             </span>
               </div>
-              <div className="SideBar" style={{width : `${width}`}}>
+              <div className="SideBar">
+              <div className="section padding ">
+                      <input className="input search width-100-p padding-top-10 padding-bottom-10 text-center" onChange={(e)=>setsearch(e.target.value)} placeholder="Search..." />
+             </div>
+
+                <div className="sidecontent">
+                  
+                <div className="section padding">
+
+{
+   links.filter(text=>{
+   if(search === ''){
+       return links;
+   }else if (
+   text.text.toLowerCase().trim().includes(search.toLowerCase().trim())
+   ){
+       return links
+   }
+   }).map(link=>(
+  <div className="padding-top-10" key={link.text.trim()}>
+      <div className="padding button text-lighter sidebar-link" onClick={()=>{
+      Router.push(`/${link.path}`)
+      }}>
+      {link.text}
+      <span className="sidebar-icon">
+      <i className="fas fas fa-angle-double-right text-indigo"></i>
+      </span>
+
+      </div>
+
+  </div>
+    ))
+}
+
+</div>
+                </div>
+   
+              </div>
+              <div className="SideBar fixed" style={{width : `${width}`}}>
               <div className="section padding ">
                       <input className="input search width-100-p padding-top-10 padding-bottom-10 text-center" onChange={(e)=>setsearch(e.target.value)} placeholder="Search..." />
              </div>

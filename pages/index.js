@@ -2,23 +2,43 @@ import React from 'react';
 import Footer from './../components/Footer';
 import Head from 'next/head'
 import Link from 'next/dist/client/link'
-import {useEffect} from "react"
+import {useEffect, useState} from "react"
 import Logo from '../components/Logo';
 import fetch from 'isomorphic-unfetch';
 const Axios = require("axios")
 function Home() {
+const [comments, setcomments] = useState([])
+const [email, setemail] = useState("")
+const [comment, setcomment] = useState("")
+const [error, seterror] = useState("")
+const [modal, setmodal] = useState("none");
     useEffect(()=>{
-         
-// fetch('https://funcss-api.herokuapp.com/api')
-// .then( r => r.json() )
-// .then( data => {
-//   console.log(data);
-// });
-Axios.get("https://funcss-api.herokuapp.com")
-.then((response)=>{
-console.log(response)
-}).catch(err=>console.log(err))
+    async function getData (){
+    await Axios.get("https://funcss-api.herokuapp.com")
+    .then((response)=>{
+    response.data.length = 3;
+    setcomments(response.data)
+    }).catch(err=>console.log(err))
+        }
+    getData()
 }, [])
+
+const HandleComment = ()=>{
+    if(email === "" || comment === ""){
+        seterror("Please make sure to fill all")
+    }else{
+        seterror(" ")
+        Axios.post("https://funcss-api.herokuapp.com/inputcomment" , {
+            email:email,
+            comment: comment
+        })
+        .then(()=>{
+            setmodal("block")
+        })
+    }
+
+}
+
     return (
         <section className="padding-top-30" lang="eng">
  <Head>
@@ -180,7 +200,21 @@ console.log(response)
 <div>
   
 <div>
-    <div className='row'>
+    <div className="screen">
+        <div className="row">
+            <div className="col sm-6 md-4 lg-4 padding">
+                <div>
+                    <span className="screen-dot red"></span>
+                    <span className="screen-dot yellow"></span>
+                    <span className="screen-dot green"></span>
+                </div>
+            </div>
+            <div className="col sm-6 md-8 lg-8 padding">
+                <input type="text" className="input borderless white width-100-p padding" disabled placeholder="https://funcss.herokuapp.com/buttons"/>
+            </div>
+        </div>
+        <div className="screen-content">
+        <div className='row white'>
         <div className='col sm-12 md-4 lg-4 padding'>
             <div className='padding border card'>
                 <div className='text-large'>Simple Button</div>
@@ -224,8 +258,10 @@ console.log(response)
             </div>
         </div>
     </div>
-    <div className="padding">
-<Link href="/buttons">
+        </div>
+        
+    <div className="section">
+    <Link href="/buttons">
 <a>
     <button className="indigo button card text-white f2">
   Learn More
@@ -234,6 +270,9 @@ console.log(response)
 </a>
 </Link>
 </div>
+
+    </div>
+
 </div>
 </div>
 
@@ -251,10 +290,23 @@ console.log(response)
  html element.
 </div>
 <div>
-  
 <div>
-    <div className='row'>
-        <div className='col sm-12 md-4 lg-4 padding'>
+    <div className="screen">
+        <div className="row">
+            <div className="col sm-6 md-4 lg-4 padding">
+                <div>
+                    <span className="screen-dot red"></span>
+                    <span className="screen-dot yellow"></span>
+                    <span className="screen-dot green"></span>
+                </div>
+            </div>
+            <div className="col sm-6 md-8 lg-8 padding">
+                <input type="text" className="input borderless white width-100-p padding" disabled placeholder="https://funcss.herokuapp.com/card"/>
+            </div>
+        </div>
+        <div className="screen-content relative">
+        <div className='row white'>
+        <div className='col sm-12 md-6 lg-4 padding'>
 <div className="card width-100-p">
     <div className="relative">
         <img src="images/deo.jpg" className="width-100-p height-200" alt="hoverable css card" />
@@ -267,7 +319,7 @@ console.log(response)
     </div>
 </div>
         </div>
-        <div className='col sm-12 md-4 lg-4 padding'>
+        <div className='col sm-12 md-6 lg-4 padding'>
 <div className="card hover-shadow">
     <div className="relative">
         <img src="images/deo.jpg" className="width-100-p height-200" alt="reveal content css card"/>
@@ -289,14 +341,23 @@ console.log(response)
 
 
     </div>
-    <div className="padding">
+        </div>
+        
+    <div className="section">
 <Link href="/card">
-<button className="button text-dark f2">
+<button className="button indigo text-white">
   Learn More
   <i className="fas fa-angle-right margin-left-10"></i>
 </button>
 </Link>
 </div>
+
+    </div>
+
+</div>
+
+<div>
+
 </div>
 </div>
 
@@ -304,17 +365,75 @@ console.log(response)
 </div>
 
 <div className="container padding-top-30">
-<div className="container">
-            <div className="h2 text-center outfit">What People Have To Say</div>
+<div>
+            <div className="row shadow-bingo padding">
+                <div className="col sm-12 md-6 lg-6 padding">
+                <div className="h2 outfit">Give A Comment</div>
+                <div className="hr section"></div>
+                <div className="h4">
+                    Drop a comment, it will help our team understand user experience so that
+                    we will be able to provide users with what they need.
+                </div>
+                </div>
+                <div className="col sm-12 md-6 lg-6 padding">
+                    <div className="section">
+                        <label htmlFor="">Email:</label>
+                        <input type="email" className="input bordered full-width" placeholder="enter your email" onChange={(e)=>setemail(e.target.value)} />
+                    </div>
+                    <div className="section">
+                    <label htmlFor="">Comment:</label>
+                        <textarea type="text" className="input bordered full-width" placeholder="enter your comment"  onChange={(e)=>setcomment(e.target.value)}  />
+                    </div>
+                    <div className="section">
+                        <div className="text-red text-small">{error}</div>
+                    </div>
+                    <button className="button indigo text-white" onClick={HandleComment}>Comment <i className="far fa-paper-plane"></i></button>
+                </div>
+            </div>
  </div>
-<div className="slider three padding-20">
-    <div className="slide-container">
-        <div className="slide">
+ <div className="row">
+     
+{/* {
+    comments.map(comment=>(
+    <div className="col sm-12 md-6 lg-6 padding">
+        <div className="section">
         <div className="pointer padding react-card center">
         <div className="row-flex">
-            <div> <img src="/images/deo.jpg" className="height-50 width-50 circle" /> </div>
+            <div> <img src="/images/avatar.png" className="height-50 width-50 circle" /> </div>
             <div className="padding">
-             <div className="">@Jhon Deo</div>
+             <div className="">{comment.email}</div>
+            <div className="opacity-5 text-small">
+            <i className="fas fa-check text-deep-purple"></i>
+            <span>Developer</span>
+            </div>
+            </div>
+        </div>
+        <div>
+          <div className="text-small">
+          <span><i className="fas fa-quote-left text-indigo inline-block margin"></i></span>
+            {comment.comment}
+          <span><i className="fas fa-quote-right text-indigo inline-block margin"></i></span>
+          </div>
+        </div>
+    </div>
+        </div>
+    </div>
+
+    ))
+} */}
+</div>
+<div className="slider three padding-top-50">
+    <div className="slide-container">
+
+
+        {
+    comments.map(comment=>(
+        <div className="slide" key={comment.id}>
+        <div className="pointer padding react-card center">
+        <div className="row-flex">
+            <div> <img src="/images/avatar.png" className="height-50 width-50 circle" /> </div>
+            <div className="padding">
+             <div className="">{comment.email}</div>
             <div className="opacity-5 text-small">
             <i className="fas fa-check text-deep-purple"></i>
             <span>Developer</span>
@@ -324,58 +443,15 @@ console.log(response)
         <div>
           <span><i className="fas fa-quote-left text-indigo inline-block margin"></i></span>
           <span className="text-small">          
-          Actually, the framework is good. It helps take away your stress and 
-          also save much of your time when developing a website. Thank you...
+          {comment.comment}
           </span>
           <span><i className="fas fa-quote-right text-indigo inline-block margin"></i></span>
         </div>
     </div>
         </div>
+    ))
+}
 
-        <div className="slide">
-        <div className="pointer padding react-card center">
-        <div className="row-flex">
-            <div> <img src="/images/jane.jpg" className="height-50 width-50 circle" /> </div>
-            <div className="padding">
-             <div className="">@Mary Jane</div>
-            <div className="opacity-5 text-small">
-            <i className="fas fa-check text-deep-purple"></i>
-            <span>Student</span>
-            </div>
-            </div>
-        </div>
-        <div>
-          <span><i className="fas fa-quote-left text-indigo inline-block margin"></i></span>
-          <span className="">          
-          You gotta try this css framework out, it is super cool and fantastic, it makes 
-          your code look clean. 
-          </span>
-          <span><i className="fas fa-quote-right text-indigo inline-block margin"></i></span>
-        </div>
-    </div>
-        </div>
-        <div className="slide">
-        <div className="pointer padding react-card center">
-        <div className="row-flex">
-            <div> <img src="/images/iddrisabdulwahab.jpg" className="height-50 width-50 circle" /> </div>
-            <div className="padding">
-             <div className="">@Mystical</div>
-            <div className="opacity-5">
-            <i className="fas fa-check text-deep-purple"></i>
-            <span>web developer</span>
-            </div>
-            </div>
-        </div>
-        <div>
-          <span><i className="fas fa-quote-left text-indigo inline-block margin"></i></span>
-          <span className="">          
-           Funcss, you are the best, now i can create multiple responsive websites within minutes.
-           Your framework is actually the best.
-          </span>
-          <span><i className="fas fa-quote-right text-indigo inline-block margin"></i></span>
-        </div>
-    </div>
-        </div>
     </div>
 
 </div>
@@ -385,6 +461,24 @@ console.log(response)
 </div>
 
 <Footer />
+
+<div className="modal" style={{display:`${modal}`}}>
+   <div className="close-modal text-bigger text-red"  onClick={()=>setmodal("none")}>&times;</div>
+   <div className="modal-content padding width-500-max">
+           <div className="light">
+           <div className="h4 padding hr"><i className="fas fa-check text-indigo"></i> Thanks For Your Comment.</div>
+            <div className='padding'>
+            Thank you for your feedback, your feedback means alot to us.
+            We hope you enjoyed the framework. <br />
+            </div>
+            <div className="padding">
+                <button className="button white h4">
+                    Contribute   <a href="https://github.com/fun-css"><img src="/icons/github.png"  className="height-30" alt="github" /></a>
+                </button>
+            </div>
+           </div>
+   </div>
+   </div>
 
         </section>
     );

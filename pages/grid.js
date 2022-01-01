@@ -74,7 +74,7 @@ function grid() {
             <table className="table text-smaller stripped">
 
     <tr>
-        <td>ClassName</td>
+        <td>Class</td>
         <td>discription</td>
         <td>syntax</td>
     </tr>
@@ -82,33 +82,33 @@ function grid() {
     <tr>
             <td>.row</td>
             <td>creating grid rows</td>
-            <td><div> className = {"row"}</div></td>
+            <td><div> class = {"row"}</div></td>
         </tr>
         <tr>
             <td>.col</td>
             <td>creating grid columns.</td>
-            <td><div> className = {"hover-col"}</div></td>
+            <td><div> class = {"hover-col"}</div></td>
         </tr>
         <tr>
             <td>sm</td>
             <td>
                 How many columns the grid will cover on  small screen. (Mobile phones)
             </td>
-            <td><div> className = {"sm-value"}</div></td>
+            <td><div> class = {"sm-value"}</div></td>
         </tr>
         <tr>
             <td>md</td>
             <td>
             How many columns the grid will cover on  medium screen. (Tablet)
             </td>
-            <td><div> className = {"sm-value"}</div></td>
+            <td><div> class = {"sm-value"}</div></td>
         </tr>
         <tr>
             <td>lg</td>
             <td>
             How many columns the grid will cover on large screen. (Laptop)
             </td>
-            <td><div> className = {"sm-value"}</div></td>
+            <td><div> class = {"sm-value"}</div></td>
         </tr>
  
 </table>
@@ -132,7 +132,7 @@ function grid() {
 
 
 <div className="container padding-top-40" id="responsiveness">
-    <div className="header-3 text-indigo">Responsive Grid</div>
+    <div className="h4 topic">Responsive Grid</div>
     <div className="code">
 <xmp>{`<div class="row text-white">
  <div class="col padding sm-12 md-6 lg-8 indigo height-50">sm-12 md-6 lg-8</div>
@@ -154,7 +154,10 @@ function grid() {
     </div>
 </div>
 <div className="container padding-top-40" id="layout">
-<div className="header-3 text-indigo">Grid Layout</div>
+<div className="h4 topic">Grid Layout</div>
+<div className="note">
+    Grids are very important when creating a websites, they help create a responsive website with css flex box.
+</div>
     <div className="code">
         <xmp>
             {grid}
@@ -163,24 +166,28 @@ function grid() {
     <div className="preview">
 
     <div className="row">
-<div className="col padding sm-12 md-12 lg-12 light  border"> Navigation bar </div>
-<div className="col padding sm-12 md-12 lg-6 light border"> 
-<div className="text-center">Body One</div>
+<div className="col padding sm-12 md-12 lg-12 indigo padding-20">
+    <div className="text-white h4">Navigation Bar</div>
+</div>
+<div className="col padding sm-12 md-12 lg-6 deep-purple"> 
+<div className="text-center text-white h4">Body One</div>
 
-<div className="section padding">
+<div className="section text-white">
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum
 </div>
  </div>
-<div className="col padding sm-12 md-12 lg-6 light border"> 
-<div className="text-center">Body Two</div>
-<div className="section padding">
+<div className="col padding sm-12 md-12 lg-6 light"> 
+<div className="text-center h4">Body Two</div>
+<div className="section">
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam numquam facilis, harum
 </div>
  </div>
 
- <div className="col padding sm-12 md-12 lg-12 light  border"> Footer </div>
+ <div className="col padding-20 sm-12 md-12 lg-12 green">
+     <div className="h4">Footer</div>
+ </div>
 </div> 
 
     </div>

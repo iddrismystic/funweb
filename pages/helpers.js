@@ -112,8 +112,6 @@ content="fun, css, css margin, css padding, css, width, css show and hide conten
            <a href="#padding" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Padding</div></a>
            <a href="#margin" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Margin</div></a>
            <a href="#helpers" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Helpers</div></a>
-           <a href="#show-hide" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Show And Hide</div></a>
-
          </div>
         </div>
     <div className="main-content">
@@ -374,77 +372,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illo reprehende
     </tr>
 </table>
 
-<div className="padding-top-30" id="show-hide">
-<div className="topic h4">Hide And Show Based On Screen Width</div>
-<div className="note">
-When creating websites, you might want to hide certain contents of your website base on the screen size 
-of the user. Our framework is perfect for that kind job. Learn how to show and hide certain contents of Your
-website base on the users screen width.
 
-</div>
-<table className="table width-100-p text-left text-small stripped">
-<thead>
-<tr>
-
-</tr>
-<tr>
-    <td>Class</td>
-    <td>Screen Range</td>
-</tr>
-</thead>
-<tbody>
-    <tr>
-        <td><span className="badge">.hide</span></td>
-        <td>Hidden from all screens</td>
-    </tr>
-  
-    <tr>
-        <td><span className="badge">.hide-small</span></td>
-        <td className="">Hidden from small screens</td>
-    </tr>
-    <tr>
-        <td><span className="badge">.hide-medium</span></td>
-        <td className="">Hidden from Table screens</td>
-    </tr>
-    <tr>
-        <td><span className="badge">.hide-large</span></td>
-        <td className="">Hidden from Large screens</td>
-    </tr>
-    <tr>
-        <td><span className="badge">.hide-medium-down</span></td>
-        <td className="">Hidden from Tablets and mobile screens</td>
-    </tr>
-    <tr>
-        <td><span className="badge">.hide-medium-up</span></td>
-        <td className="">Hidden from Tablets and large screens</td>
-    </tr>
-
-    <tr>
-        <td><span className="badge">.show-small</span></td>
-        <td className="">shown to small screens only</td>
-    </tr>
-    <tr>
-        <td><span className="badge">.show-medium</span></td>
-        <td className="">Show to Table screens only</td>
-    </tr>
-    <tr>
-        <td><span className="badge">.show-large</span></td>
-        <td className="">Show to Large screens only</td>
-    </tr>
-    <tr>
-        <td><span className="badge">.show-medium-down</span></td>
-        <td className="">Show to tablets and mobile screens</td>
-    </tr>
-    <tr>
-        <td><span className="badge">.show-medium-up</span></td>
-        <td className="">Shown to Tablets and large screens</td>
-    </tr>
-
-  
-</tbody>
-</table>
-
-</div>
 <div className="note section">
 <div className="note-title">Note</div>
 <div>

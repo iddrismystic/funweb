@@ -87,7 +87,7 @@ function dropdown() {
 {`
 <div class="dropdown-hover text-white">
     <div class="drop-button">
-        <div class="button indigo card">DropDown</div>
+        <button class="button indigo card text-white">DropDown Button</button>
     </div>
      <div class="drop-menu white item-hoverable text-black">
          <div class="drop-item">LinkOne</div>
@@ -102,7 +102,7 @@ function dropdown() {
 
 <div className="dropdown-hover text-white">
     <div className="drop-button">
-        <div className="button indigo card">DropDown</div>
+        <button className="button indigo card text-white">DropDown Button</button>
     </div>
      <div className="drop-menu white item-hoverable text-black">
          <div className="drop-item">LinkOne</div>
@@ -124,7 +124,7 @@ function dropdown() {
    <xmp>
 {`<div class="dropup-hover text-white">
     <div class="drop-button">
-        <div class="button deep-purple card">DropUp</div>
+        <button class="button white card">DropUp Button</button>
     </div>
      <div class="drop-menu white item-hoverable text-black">
          <div class="drop-item">LinkOne</div>
@@ -138,7 +138,7 @@ function dropdown() {
 <div className="preview">
 <div className="dropup-hover text-white">
     <div className="drop-button">
-        <div className="button deep-purple card">DropUp</div>
+        <button className="button white card">DropUp Button</button>
     </div>
      <div className="drop-menu white item-hoverable text-black">
          <div className="drop-item">LinkOne</div>
