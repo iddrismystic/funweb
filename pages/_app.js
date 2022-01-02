@@ -17,6 +17,7 @@ function MyApp({ Component, pageProps }) {
       @import url({"https://fonts.googleapis.com/css2?family=Blinker&display=swap"});
       @import url({"https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"});
       @import url({"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"});
+     <script data-ad-client="ca-pub-1309679724939772" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6351985525676458"
      crossOrigin="anonymous"></script>
       </style>
