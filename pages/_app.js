@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
       @import url({"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"});
      <script data-ad-client="ca-pub-1309679724939772" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1309679724939772"
-     crossorigin="anonymous"></script>
+     crossOrigin="anonymous"></script>
 
       </style>
       </Head>
