@@ -3,10 +3,12 @@ import "../styles/fun.css"
 import "../styles/index.css"
 import Layout from "../components/Layout"
 import Head from "next/head";
+import Script from "next/script"
 function MyApp({ Component, pageProps }) {
 
   return(
     <Layout>
+    <Script async="async" data-cfasync="false" src="//upgulpinon.com/1?z=4831201" />
       <Head>
       <link rel="shortcut icon" href="icons/fun.png" type="image/x-icon" />
       <style>
