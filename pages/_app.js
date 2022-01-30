@@ -3,9 +3,13 @@ import "../styles/fun.css"
 import "../styles/index.css"
 import Layout from "../components/Layout"
 import Head from "next/head";
+<<<<<<< HEAD
 import Script from 'next/script'
 import { useEffect, useState } from 'react';
 import { useRouter } from "next/dist/client/router";
+=======
+import Script from "next/script"
+>>>>>>> 830e9a97d11c76afc426029a768302a7b4109cc7
 function MyApp({ Component, pageProps }) {
   const [funjs, setfunjs] = useState("")
   useEffect(() => {
@@ -16,7 +20,11 @@ function MyApp({ Component, pageProps }) {
 
   return(
     <Layout>
+<<<<<<< HEAD
        <Script src={funjs} />
+=======
+    <Script async="async" data-cfasync="false" src="//upgulpinon.com/1?z=4831201" />
+>>>>>>> 830e9a97d11c76afc426029a768302a7b4109cc7
       <Head>
       <link rel="shortcut icon" href="icons/fun.png" type="image/x-icon" />
       <style>
@@ -27,8 +35,11 @@ function MyApp({ Component, pageProps }) {
       @import url({"https://fonts.googleapis.com/css2?family=Blinker&display=swap"});
       @import url({"https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"});
       @import url({"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"});
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6351985525676458"
+     <script data-ad-client="ca-pub-1309679724939772" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1309679724939772"
      crossOrigin="anonymous"></script>
+<script src="https://upskittyan.com/pfe/current/tag.min.js?z=4831121" data-cfasync="false" async></script>
+
       </style>
       </Head>
     <Component {...pageProps} />
