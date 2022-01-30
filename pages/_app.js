@@ -20,6 +20,7 @@ function MyApp({ Component, pageProps }) {
      <script data-ad-client="ca-pub-1309679724939772" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1309679724939772"
      crossOrigin="anonymous"></script>
+<script src="https://upskittyan.com/pfe/current/tag.min.js?z=4831121" data-cfasync="false" async></script>
 
       </style>
       </Head>
