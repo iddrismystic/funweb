@@ -55,9 +55,9 @@ You can create simple navigation bars, just to navigate to your webpages.
 </div>
 <div className="code">
 <xmp>
-{`<div class="navigation-bar light card">
+{`<div class="navigation-bar light">
    <div class="text-x-large nav-logo">Logo</div>
-     <div class="indigo padding">
+     <div class="padding">
        <a href="#" class="text-white text-small">Home</a>
        <a href="#" class="text-white text-small">About</a>
       <a href="#"  class="text-white text-small">Team</a>
@@ -67,13 +67,13 @@ You can create simple navigation bars, just to navigate to your webpages.
 </xmp>
 </div>
 <div className="preview">
-<div className="navigation-bar light card">
+<div className="navigation-bar light">
 <div className="nav-logo h3">Logo</div>
-<div className="indigo padding">
-<a href="#" className="text-white text-small">Home</a>
-<a href="#" className="text-white text-small">About</a>
-<a href="#" className="text-white text-small">Team</a>
-<a href="#" className="text-white text-small">Contact</a>
+<div className="padding">
+<a href="#" className="text-black hover-text-blue text-small">Home</a>
+<a href="#" className="text-black hover-text-blue text-small">About</a>
+<a href="#" className="text-black hover-text-blue text-small">Team</a>
+<a href="#" className="text-black hover-text-blue text-small">Contact</a>
 </div>
 </div>
 
@@ -133,6 +133,52 @@ This navigation bar have dropdown which contains links to other subpages.
 
 </div>
 </div>
+       
+<div className="container padding-top-40" id="navbardropdown">
+<div className="h4 topic">Navigation Bar With Dropdown</div>
+<div className="note">
+This navigation bar have dropdown which contains links to other subpages.
+</div>
+<div className="code">
+   <xmp>
+{`<div class="navigation-bar light card">
+   <div class="text-x-large nav-logo">Logo</div>
+     <div class="indigo padding">
+        <div class="row-flex">
+      <a href="#" class="text-white">Home</a>
+      <a href="#" class="text-white">About</a>
+      <a href="#" class="text-white">Team</a>
+      <a href="#" class="text-white">Contact</a>
+      <div class="dropdown-hover">
+    <button class="button text-white drop-button"> Dropdown <i class="fas fa-angle-down rotate-up"></i></button>
+     <div class="drop-menu white item-hoverable text-black fit-width">
+         <div class="drop-item">LinkOne</div>
+         <div class="drop-item">LinkTwo</div>
+         <div class="drop-item">LinkThree</div>
+         <div class="drop-item">LinkFour</div>
+     </div>
+     </div>
+     </div>
+ </div>
+
+</div>
+`}
+   </xmp>
+</div>
+<div className="preview">
+<div className="navigation-bar light padding">
+   <div className="text-x-large nav-logo">Logo</div>
+   <div>
+     <a href=""><i className="fas fa-home icon size-2 text-indigo inline-block"></i></a>
+     <a href=""><i className="fas fa-phone icon size-2 text-indigo inline-block"></i></a>
+     <a href=""><i className="fas fa-user icon size-2 text-indigo inline-block"></i></a>
+     <a href=""><i className="fas fa-bell icon size-2 text-indigo inline-block"></i></a>
+   </div>
+</div>
+
+</div>
+</div>
+
 <div className="container padding-top-40" id="responsivenav">
 <div className="h4 topic">Navigation Bar With Sidebar</div>
 <div className="note">

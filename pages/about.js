@@ -133,7 +133,7 @@ function About() {
    <div className="close-modal text-bigger text-red"  onClick={()=>setmodal("none")}>&times;</div>
    <div className="modal-content">
 <div>
-    <img src={member.picture} className="responsive" />
+    <img src={member.picture} className="width-300" />
 </div>
    </div>
    </div>

@@ -71,11 +71,12 @@ function list() {
 <div className="container padding-top-40" id="borderedList">
 <div className="h4 topic">Bordered List</div>
 <div className="note">
-   The <span className="badge">bordered</span> class is use to add a border to your list.
+   The <span className="badge">bordered</span> class is use to add a border to your list. You can also add a hoverable effect 
+   with the class of <span className="badge">hover</span>
 </div>
 <div className="code">
    <xmp>
-{`<ul class="list bordered hoverable">
+{`<ul class="list bordered hover">
     <li>HTML</li>
     <li>CSS</li>
     <li>FUN CSS</li>
@@ -84,7 +85,7 @@ function list() {
    </xmp>
 </div>
 <div className="preview">
-<ul className="list bordered hoverable">
+<ul className="list bordered hover">
     <li>HTML</li>
     <li>CSS</li>
     <li>FUN CSS</li>
@@ -96,7 +97,8 @@ function list() {
 <div className="container padding-top-40" id="strippedList">
 <div className="h4 topic">Stripped List</div>
 <div className="note">
-    The <span className="badge">stripped</span> class is use to create a stripped list.
+    The <span className="badge">stripped</span> class is use to create a stripped list. stripped list have an even background color 
+    distribution.
 </div>
 <div className="code">
    <xmp>

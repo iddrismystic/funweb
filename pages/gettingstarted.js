@@ -45,36 +45,59 @@ function Gettingstarted() {
             </div>
 
      
-            <div className="container" id="cdn">
-             <div className="h4 topic">
-                 Using CDN
-             </div>
-             <div className="">
-               You can start using Fun css by coping the CDN and paste it in your head tag.
-             </div>
-             <div className="note">
-               <div className="note-title">Note</div>
-               <div>
-                   You can use the cdn for development mode, test purposes and learning.
-                   It is not recommended to use the cdn for production purpose. Download and use
-                   the fun css files for production mode.
+<div className="container" id="cdn">
+  <div className="h4 topic">
+      Using CDN
+  </div>
+  <div className="">
+    You can start using Fun css by coping the CDN and paste it in your head tag.
+  </div>
+  <div className="note">
+    <div className="note-title">Note</div>
+    <div>
+        You can use the cdn for development mode, test purposes and learning.
+        It is not recommended to use the cdn for production purpose. Download and use
+        the fun css files for production mode.
 
-               </div>
-               </div>
+    </div>
+    </div>
 
-               <div>
-               <div className="code padding-top-50">
+    <div>
+    <div className="code padding-top-50">
 <xmp>{`<!-- Compiled and minified css -->
 <link rel="stylesheet" href="https://fun-css.github.io/funcss/css/fun.css"/>
+
+<!-- Compiled and minified jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 <!-- Compiled and minified javascript -->
 <script src="https://fun-css.github.io/funcss/js/fun.js"> </script>
 
 `}</xmp>
-               </div>
-               </div>
-    
     </div>
+    </div>
+
+</div>
+<div className="container" id="import">
+  <div className="h4 topic">
+      Css Import
+  </div>
+
+  <div className="note">
+    <div>
+      You can simply import the framework to start using.
+    </div>
+    </div>
+
+    <div>
+    <div className="code padding-top-50">
+<xmp>{`<!-- Compiled and minified css -->
+@import url("https://fun-css.github.io/funcss/css/fun.css")
+`}</xmp>
+    </div>
+    </div>
+
+</div>
 
     <div className="container" id="downloadzip">
       <div className="topic  h4">

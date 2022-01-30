@@ -48,18 +48,19 @@ website base on the users screen width.
 
 </div>
 <div>
-    <div className="code">
+    <div className="code"> 
 <xmp></xmp>
     </div>
     <div className="preview">
-    <div className="accordion">
-        Section 1
-        <div className="panel">
-  <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus non aut, quae reprehenderit saepe accusantium iure quasi quam ex deserunt ea amet necessitatibus porro architecto quia vero eveniet quo sint!
-  </p>
-</div>  
+    <ul className="accordion border">
+  <li>
+    <div className="accordion-control h4 padding-20">Accordion Header</div>
+    <div className="accordion-panel padding top-border">
+      Accordion Content
     </div>
+  </li>
+
+</ul>
 
 
 

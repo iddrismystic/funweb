@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Footer from '../components/Footer';
 import Head from 'next/head';
 function Modal(props) {
-    const [modal, setmodal] = useState("none");
+    const [modal, setmodal] = useState("-100%");
     const modalstyle = "`${modal}`"
     return (
         <div>
@@ -90,8 +90,8 @@ const [modal, setmodal] = useState("none");
    </xmp>
 </div>
 <div className="preview" id="modal">
-<button className="button indigo text-white card" onClick={()=>setmodal("block")}>Open Modal</button>
-   <div className="modal" style={{display:`${modal}`}}>
+<button className="button indigo text-white card" onClick={()=>setmodal("100%")}>Open Modal</button>
+   <div className="modal" style={{top:`${modal}`}}>
    <div className="close-modal text-bigger text-red"  onClick={()=>setmodal("none")}>&times;</div>
    <div className="modal-content width-400 indigo text-white padding">
    <div className="h3">Modal Header</div>

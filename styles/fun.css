@@ -40,10 +40,11 @@ FUN CSS 1.0 MIT LICENSE 2021
 }
 .montserrat{font-family: 'Montserrat', sans-serif;}
 /* normalize css */
-*{box-sizing: border-box;font-family: 'Poppins', sans-serif;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+*{box-sizing: border-box;font-family: 'Roboto', sans-serif;}
 body{padding: 0px;margin: 0px;box-sizing: border-box;}
 a{text-decoration: none;background: transparent;transition: 0.3s;}a:hover{opacity: 0.9;}
-h1{font-size:xx-large}h2{font-size:x-large}h3{font-size:larger}h4{font-size:large}h5{font-size:medium}h6{font-size:small}
+h1{font-size:xx-large;font-weight: 200;}h2{font-size:x-large}h3{font-size:larger}h4{font-size:large}h5{font-size:medium}h6{font-size:small}
 button{-webkit-appearance:button}link{text-decoration: none;}link:hover{text-decoration: none;}input{background:transparent}
 /* colors */
 .text-blue,.hover-text-blue:hover{color:#2196F3!important}.text-light-blue,.hover-text-light-blue:hover{color:#87CEEB!important}
@@ -193,7 +194,8 @@ button{-webkit-appearance:button}link{text-decoration: none;}link:hover{text-dec
 .card-fab{position: absolute;bottom: 0;right: 10px;transform: translateY(40%);}.card-body{padding: 10px;}.card-footer{padding: 10px;}.card-footer > a{margin-left: 5px;}
 .card.flip{perspective: 1000px;box-shadow: none;height: fit-content;}.flip-inner {position: relative;width: 100%;transition: transform 0.8s;transform-style: preserve-3d;}
 .card.flip:hover .flip-inner{transform: rotateY(180deg);}.flip-front, .flip.back{position: absolute;width: 100%;height: 100%;-webkit-backface-visibility: hidden; /* Safari */backface-visibility: hidden;top: 0;left: 0;}.flip-back {transform: rotateY(180deg);}
-.card.horizontal{display: flex;flex-direction: row;}.card.reveal{position: relative;}.reveal-front{position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: 1;opacity: 0;transition: 1s ease;}.card.reveal:hover .reveal-front{opacity: 1;}
+.card.horizontal{display: flex;flex-direction: row;}.card.horizontal div:first-of-type img{width: 100%;height: auto;}
+.card.reveal{position: relative;}.reveal-front{position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: 1;opacity: 0;transition: 1s ease;}.card.reveal:hover .reveal-front{opacity: 1;}
 .pointer{cursor: pointer;}.zoom-in{cursor: zoom-in;}.zoom-out{cursor: zoom-out;}
 .navigation-bar{width: 100%;display: flex;flex-direction: row;display: -ms-flexbox;position: relative;justify-content: space-between;}
 .navigation-bar a,.nav-logo{display: inline-block;padding: 10px;}.navigation-bar .drop-button{margin: 0;padding: 5px;}
@@ -271,10 +273,10 @@ button{-webkit-appearance:button}link{text-decoration: none;}link:hover{text-dec
 .large-height-800{height: 800px;}.large-height-900{height: 900px;}.large-height-1000{height: 1000px;}}
 /* tables */
 .table{width: 100%;text-align: left;padding: 0;border-collapse: collapse;}.table.bordered tr, th{border-bottom: 1px solid #ddd;}.table.bordered{border: 1px solid #ddd;}
-.table.stripped tr:nth-child(even) {background-color: #F2F2F2;}.table tr,th,td{padding: 10px;margin: 0;}.table.hoverable > tr,th{transition: 0.3s;}.table.hoverable > tr:hover{opacity: 0.7;}
+.table.stripped tr:nth-child(even) {background-color: #E3E6E8;}.table tr,th,td{padding: 10px;margin: 0;}.table.hoverable > tr,th{transition: 0.3s;}.table.hoverable > tr:hover{background-color: #ddd;}
 .table.light{background-color: #f1f1f1;color: #000;}.table.dark{background-color: #000;color: #f1f1f1;}.table.dark tr:hover{background-color: #f1f1f1;color: black;}
 /*list*/
-.list{margin: 0;padding: 0;}.list li{list-style: none;padding: 5px;border-collapse: collapse;}.list.hoverable li:hover{background-color: #ddd;}
+.list{margin: 0;padding: 0;}.list li{list-style: none;padding: 5px;border-collapse: collapse;}.list.hover li:hover{background-color: #ddd;}
 .list.bordered li{border-top: 1px solid #ddd;}.list.bordered{border-left: 1px solid #ddd;border-right: 1px solid #ddd;}
 .list.bordered li:last-of-type{border-bottom: 1px solid #ddd;}.list.stripped li:nth-child(even){background-color: #f2f2f2;}li.header{font-size: xx-large;}
 /* slides */
@@ -315,32 +317,6 @@ button{-webkit-appearance:button}link{text-decoration: none;}link:hover{text-dec
 @keyframes slidefourdottwo {0%{color: #888888}25%{color: #888888}26%{color: rgba(0,0,0,0.8)}50%{color: rgba(0,0,0,0.8)}51%{color: #888888}100%{color: #888888}}
 @keyframes slidefourdotthree {0%{color: #888888}50%{color: #888888}51%{color: rgba(0,0,0,0.8)}75%{color:rgba(0,0,0,0.8)}76%{color: #888888}100%{color: #888888}}
 @keyframes slidefourdotfour {0%{color: #888888}75%{color: #888888}76%{color: rgba(0,0,0,0.8)}100%{color:rgba(0,0,0,0.8)}}
-/*accordion*/
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-  background-color: #ccc;
-}
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-}
-
 /*animation*/
 .scale-up{transition: transform 0.5s ease-in;}
 .scale-up:hover{transform: scale(1.1);}
@@ -371,7 +347,7 @@ button{-webkit-appearance:button}link{text-decoration: none;}link:hover{text-dec
 /*parallax*/
 .parallax{background-size:cover;background-repeat: no-repeat;background-position: center;background-attachment: fixed;height: 100vh;width:100%}
 /*modal*/
-.modal{position: fixed;top: 0;left: 0;background-color: rgba(0,0,0,0.5);z-index: 14;width: 100%;height: 100%;transition: 0.5s;display: none;}.modal-content{margin: 100px auto;}.close-modal{float: right;margin: 30px;cursor:pointer}
+.modal{position: fixed;top: -100%;left: 0;background-color: rgba(0,0,0,0.5);z-index: 14;width: 100%;height: 100%;transition: 0.5s;display: none;}.modal-content{margin: 100px auto;}.close-modal{float: right;margin: 30px;cursor:pointer}
 /*background image*/
 .background.no-repeat{background-repeat: no-repeat;}.background.repeat{background-repeat: repeat;}
 .background.cover{background-size: cover;}.background.contain{background-size: contain;}
@@ -484,4 +460,38 @@ button{-webkit-appearance:button}link{text-decoration: none;}link:hover{text-dec
 }
 .tooltip:hover .tip-left {
   visibility: visible;
+}
+.accordion li{
+  list-style: none;
+  border-collapse: collapse;
+  /* display: flex;
+  flex-direction:column; */
+}
+
+.accordion{border-collapse: collapse;padding: 0px;}
+.accordion li + li{
+/*   margin-top: 1em; */
+  border-top:1px solid #ddd;
+}
+
+
+.accordion-panel{
+  padding: 1em;
+  display: none;
+}
+
+/* animations */
+.animate-underline::after {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  content: "";
+  width: 0%;
+  height: 3px;
+  /* background-color: rgba(255, 255, 255, 0.6); */
+  transition: all 0.5s;
+}
+
+.animate-underline:hover::after {
+  width: 100%;
 }

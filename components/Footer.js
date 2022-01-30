@@ -13,11 +13,13 @@ function Footer() {
               Fun css is a modern responsive css framework, it will ease your work in developing
               websites, it comes with pre-defined class names which are use to style your website. 
               {/* You can download the framework for free and use our website themes and components for free. */}
+              <div>
               <a href="/app/funcss.apk">
                 <button className="button card section indigo text-white">
                   Download Application
                 </button>
               </a>
+              </div>
               <div className="">
            
            <i className="fab fa-facebook footer-icon pointer icon size-1"></i>

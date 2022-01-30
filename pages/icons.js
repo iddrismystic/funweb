@@ -89,6 +89,7 @@ const icons = [
     { class:"fas fa-dollar-sign", name:"dollar"},
     { class:"fas fa-info", name:"information"},
     { class:"fas fa-credit-card", name:"creditcardpay"},
+    { class:"fas fa-times", name:"times close"},
 
  
 

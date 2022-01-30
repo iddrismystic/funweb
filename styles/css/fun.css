@@ -3,6 +3,7 @@ FUN CSS 1.0 MIT LICENSE 2021
 #####################################################################*/
 /* Fonts */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,500&display=swap");
 @font-face {
   font-family: 'Sofia';
   font-style: normal;
@@ -101,7 +102,7 @@ FUN CSS 1.0 MIT LICENSE 2021
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -124,6 +125,7 @@ a:hover {
 
 h1 {
   font-size: xx-large;
+  font-weight: 200;
 }
 
 h2 {
@@ -463,6 +465,150 @@ input {
 
 .width-900 {
   width: 900px;
+}
+
+.width-10-max {
+  max-width: 10px;
+}
+
+.width-20-ma {
+  max-width: 20px;
+}
+
+.width-30-max {
+  width: 30px;
+}
+
+.width-40-max {
+  max-width: 40px;
+}
+
+.width-50-ma {
+  max-width: 50px;
+}
+
+.width-60-max {
+  width: 60px;
+}
+
+.width-70-max {
+  max-width: 70px;
+}
+
+.width-80-max {
+  max-width: 80px;
+}
+
+.width-90-max {
+  max-width: 90px;
+}
+
+.width-100-max {
+  max-width: 100px;
+}
+
+.width-200-max {
+  max-width: 200px;
+}
+
+.width-300-max {
+  max-width: 300px;
+}
+
+.width-400-max {
+  max-width: 400px;
+}
+
+.width-500-max {
+  max-width: 500px;
+}
+
+.width-600-max {
+  max-width: 600px;
+}
+
+.width-700-max {
+  max-width: 700px;
+}
+
+.width-800-max {
+  max-width: 800px;
+}
+
+.width-900-max {
+  max-width: 900px;
+}
+
+.width-10-min {
+  min-width: 10px;
+}
+
+.width-20-min {
+  min-width: 20px;
+}
+
+.width-30-min {
+  min-width: 30px;
+}
+
+.width-40-min {
+  min-width: 40px;
+}
+
+.width-50-min {
+  min-width: 50px;
+}
+
+.width-60-min {
+  min-width: 60px;
+}
+
+.width-70-min {
+  min-width: 70px;
+}
+
+.width-80-min {
+  min-width: 80px;
+}
+
+.width-90-min {
+  min-width: 90px;
+}
+
+.width-100-min {
+  min-width: 100px;
+}
+
+.width-200-min {
+  min-width: 200px;
+}
+
+.width-300-min {
+  min-width: 300px;
+}
+
+.width-400-min {
+  min-width: 400px;
+}
+
+.width-500-min {
+  min-width: 500px;
+}
+
+.width-600-min {
+  min-width: 600px;
+}
+
+.width-700-min {
+  min-width: 700px;
+}
+
+.width-800-min {
+  min-width: 800px;
+}
+
+.width-900-min {
+  min-width: 900px;
 }
 
 /*Heights*/
@@ -1475,6 +1621,22 @@ input {
           box-shadow: 10px 20px 20px 10px rgba(225, 225, 225, 0.5), 0px 40px 40px 0px rgba(225, 225, 255, 0.6);
 }
 
+.top-border {
+  border-top: 1px solid #ddd;
+}
+
+.bottom-border {
+  border-bottom: 1px solid #ddd;
+}
+
+.right-border {
+  border-right: 1px solid #ddd;
+}
+
+.left-border {
+  border-left: 1px solid #ddd;
+}
+
 /* containers hover*/
 @media (min-width: 993px) {
   .container {
@@ -1697,11 +1859,12 @@ input {
 
 /*buttons*/
 .button {
-  border: 0px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  border: 2px solid transparent;
+  -webkit-transition: 1s;
+  transition: 1s;
   padding: 10px;
   background-color: inherit;
+  border-radius: 5px;
 }
 
 .button:hover {
@@ -1752,6 +1915,10 @@ input {
   opacity: 1;
   -webkit-transition: 0s;
   transition: 0s;
+}
+
+.button:active {
+  border: 2px solid #3f51b5;
 }
 
 /*cards*/
@@ -1876,6 +2043,11 @@ input {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+.card.horizontal div:first-of-type img {
+  width: 100%;
+  height: auto;
 }
 
 .card.reveal {
@@ -2059,7 +2231,7 @@ input {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  z-index: 5;
+  z-index: 1;
   padding: 5px;
 }
 
@@ -2073,26 +2245,27 @@ input {
 
 .drop-menu {
   position: absolute;
-  z-index: 5;
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   left: 0;
-  opacity: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  z-index: -1;
+  width: 100%;
+  overflow: hidden;
+  opacity: 0;
   display: none;
 }
 
 .dropup-hover:hover .drop-menu {
-  opacity: 1;
   display: block;
+  z-index: 1;
+  opacity: 1;
 }
 
 .dropdown-hover:hover .drop-menu {
   display: block;
+  z-index: 1;
   opacity: 1;
 }
 
@@ -2182,11 +2355,12 @@ input {
 }
 
 .input.animate-width {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 100px;
   -webkit-transition: 2s ease;
   transition: 2s ease;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
 }
 
 .input.animate-width:focus {
@@ -2810,7 +2984,7 @@ input {
 }
 
 .table.stripped tr:nth-child(even) {
-  background-color: #F2F2F2;
+  background-color: #E3E6E8;
 }
 
 .table tr, th, td {
@@ -2824,7 +2998,7 @@ input {
 }
 
 .table.hoverable > tr:hover {
-  opacity: 0.7;
+  background-color: #ddd;
 }
 
 .table.light {
@@ -2854,7 +3028,7 @@ input {
   border-collapse: collapse;
 }
 
-.list.hoverable li:hover {
+.list.hover li:hover {
   background-color: #ddd;
 }
 
@@ -3688,28 +3862,6 @@ li.header {
   }
 }
 
-/*accordion*/
-.accordion {
-  display: block;
-  position: relative;
-  padding: 10px;
-}
-
-.accordion-content {
-  height: 0px;
-  overflow: hidden;
-  padding: 0px;
-  display: block;
-  -webkit-transition: height 0.5s ease-in;
-  transition: height 0.5s ease-in;
-}
-
-.accordion .accordion-content:target {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
 /*animation*/
 .scale-up {
   -webkit-transition: -webkit-transform 0.5s ease-in;
@@ -4131,7 +4283,7 @@ li.header {
 /*modal*/
 .modal {
   position: fixed;
-  top: 0;
+  top: -100%;
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 14;
@@ -4143,11 +4295,7 @@ li.header {
 }
 
 .modal-content {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  margin: 100px auto;
 }
 
 .close-modal {
@@ -4463,5 +4611,44 @@ li.header {
 
 .tooltip:hover .tip-left {
   visibility: visible;
+}
+
+.accordion li {
+  list-style: none;
+  border-collapse: collapse;
+  /* display: flex;
+  flex-direction:column; */
+}
+
+.accordion {
+  border-collapse: collapse;
+  padding: 0px;
+}
+
+.accordion li + li {
+  /*   margin-top: 1em; */
+  border-top: 1px solid #ddd;
+}
+
+.accordion-panel {
+  padding: 1em;
+  display: none;
+}
+
+/* animations */
+.animate-underline::after {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  content: "";
+  width: 0%;
+  height: 3px;
+  /* background-color: rgba(255, 255, 255, 0.6); */
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.animate-underline:hover::after {
+  width: 100%;
 }
 /*# sourceMappingURL=fun.css.map */

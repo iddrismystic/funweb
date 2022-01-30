@@ -3,10 +3,20 @@ import "../styles/fun.css"
 import "../styles/index.css"
 import Layout from "../components/Layout"
 import Head from "next/head";
+import Script from 'next/script'
+import { useEffect, useState } from 'react';
+import { useRouter } from "next/dist/client/router";
 function MyApp({ Component, pageProps }) {
+  const [funjs, setfunjs] = useState("")
+  useEffect(() => {
+   setfunjs("/js/fun.js")
+  })
+
+
 
   return(
     <Layout>
+       <Script src={funjs} />
       <Head>
       <link rel="shortcut icon" href="icons/fun.png" type="image/x-icon" />
       <style>

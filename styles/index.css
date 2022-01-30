@@ -19,6 +19,7 @@
   padding:2px;
   width:50px;
   background-color:#4CAF50;
+  accordion
 } */
 .h4, .roboto{font-family: 'Roboto', sans-serif;}
 .logo{font-size: x-large;font-weight: bolder;}
@@ -183,12 +184,13 @@
 }
 
 .code xmp{
-  background-color: #f2f2f2;
+  background-color: rgb(32,42,68);
   border-left: 5px solid #4CAF50;
   overflow: auto;
   max-height: 300px;
   font-family: monospace;
   width: 100%;
+  color: white;
   font-size: medium;
   padding: 10px;
 }
@@ -266,5 +268,5 @@
 .screen-dot{height: 15px;width: 15px;border-radius: 50%;display: inline-block;margin: 5px;cursor: pointer;}
 .screen-content{background-color: #E3E6E8;padding: 10px;}
 .footer{background-color: #E3E6E8;}
-.hoverable{transition: 0.3;}.hoverable:hover{background-color: #E3E6E8;}
+/* div.hoverable{transition: 0.3;}.hoverable:hover{background-color: #E3E6E8;} */
 select{background: transparent;}

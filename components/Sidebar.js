@@ -69,10 +69,10 @@ function Sidebar() {
             text:"List",
             path:"list"
         } ,
-        // {
-        //     text:"Accordion",
-        //     path:"accordion"
-        // } ,
+        {
+            text:"Accordion",
+            path:"accordion"
+        } ,
         {
             text:"Modal",
             path:"modal"
