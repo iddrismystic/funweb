@@ -3,28 +3,13 @@ import "../styles/fun.css"
 import "../styles/index.css"
 import Layout from "../components/Layout"
 import Head from "next/head";
-<<<<<<< HEAD
-import Script from 'next/script'
 import { useEffect, useState } from 'react';
-import { useRouter } from "next/dist/client/router";
-=======
 import Script from "next/script"
->>>>>>> 830e9a97d11c76afc426029a768302a7b4109cc7
+
 function MyApp({ Component, pageProps }) {
-  const [funjs, setfunjs] = useState("")
-  useEffect(() => {
-   setfunjs("/js/fun.js")
-  })
-
-
-
   return(
     <Layout>
-<<<<<<< HEAD
-       <Script src={funjs} />
-=======
     <Script async="async" data-cfasync="false" src="//upgulpinon.com/1?z=4831201" />
->>>>>>> 830e9a97d11c76afc426029a768302a7b4109cc7
       <Head>
       <link rel="shortcut icon" href="icons/fun.png" type="image/x-icon" />
       <style>

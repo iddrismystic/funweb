@@ -9,22 +9,16 @@ const Layout = ({children}) => {
     return (  
         <div  lang="en">
       <Script src="/js/ads.js" />
-<<<<<<< HEAD
     
       {/* <Script src="/js/jQuery.js"/> */}
       <Script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossOrigin="anonymous" />
      
-=======
  
->>>>>>> 830e9a97d11c76afc426029a768302a7b4109cc7
             <Navbar />
         <div className="Page">
             <Sidebar />
             <div className="Content">
-<<<<<<< HEAD
-=======
 
->>>>>>> 830e9a97d11c76afc426029a768302a7b4109cc7
                 {children}
             </div>
          
