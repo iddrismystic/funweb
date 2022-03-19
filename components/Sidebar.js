@@ -11,7 +11,7 @@ function Sidebar() {
     } ,
     {
         text:"Themes",
-        path:"/themes"
+        path:"themes"
     } ,
         {
             text:"Getting Started",
@@ -70,8 +70,8 @@ function Sidebar() {
             path:"list"
         } ,
         {
-            text:"Accordion",
-            path:"accordion"
+            text:"Alerts",
+            path:"alerts"
         } ,
         {
             text:"Modal",
@@ -104,8 +104,8 @@ function Sidebar() {
     ]
 
     //handlesidebar
-    const [width, setwidth] = useState("200px");
-    const [display, setdisplay] = useState('block');
+    const [width, setwidth] = useState("0px");
+    const [display, setdisplay] = useState('none');
     const Handlesidebar = ()=>{
      if(width === "200px"){
          setwidth("0px")

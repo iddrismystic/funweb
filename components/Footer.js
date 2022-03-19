@@ -13,11 +13,11 @@ function Footer() {
               Fun css is a modern responsive css framework, it will ease your work in developing
               websites, it comes with pre-defined class names which are use to style your website. 
               {/* You can download the framework for free and use our website themes and components for free. */}
-              <div>
+              <div className="section">
               <a href="/app/funcss.apk">
-                <button className="button card section indigo text-white">
-                  Download Application
-                </button>
+              <button className="button success text-white">
+              <i className="fab fa-android"></i> Download Android
+              </button>
               </a>
               </div>
               <div className="">
@@ -34,12 +34,12 @@ function Footer() {
                 <div className="h4 padding">Guides</div>
                 <div className="hr"></div>
                 <Link href="/gettingstarted">
-                  <a className="text-black"><div className="hoverable padding">Getting Started</div></a>
+                  <a className="text-black"><div className="button padding">Getting Started</div></a>
                 </Link>
                 <Link href="/themes">
-                  <a className="text-black"><div className="hoverable padding">Our Themes</div></a>
+                  <a className="text-black"><div className="button padding">Our Themes</div></a>
                 </Link>
-                <a className="text-black"  href="https://github.com/fun-css"><div className="hoverable padding">Our Github Repo</div></a>
+                <a className="text-black"  href="https://github.com/fun-css"><div className="button padding">Our Github Repo</div></a>
                 </div>
               </div>
             </div>

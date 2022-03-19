@@ -62,7 +62,7 @@
   
   }
   .navbar{
-    border-bottom: 1px solid #ddd;
+    /* border-bottom: 1px solid #ddd; */
     z-index:5;
   }
   .nav-link{transition: 0.3s;border-bottom: 5px solid white;padding:5px;font-size: small;color: black;}
@@ -270,3 +270,4 @@
 .footer{background-color: #E3E6E8;}
 /* div.hoverable{transition: 0.3;}.hoverable:hover{background-color: #E3E6E8;} */
 select{background: transparent;}
+

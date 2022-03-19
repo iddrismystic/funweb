@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../components/Footer';
 import Head from 'next/head';
+import Script from "next/script"
 function grid() {
     const grid = `
     <div class="row">
@@ -14,6 +15,7 @@ function grid() {
     `
     return (
         <section>
+            <Script src="/js/ads.js" />
                     <Head>
           <title>Css Grid | Funcss Framework</title>
           <meta name='description' content='
@@ -27,7 +29,7 @@ function grid() {
         <div className="content-wrapper">
             <div className="sub-content padding">
              <div className="border padding ads content-middle light">
-             <div id="container-8efab60a26b5c40a3a52aab9bdb98896">Ads</div>
+              
              </div>
              <div className="section">
                <a href="#introduction" className="link text-black block"> <div className="padding text-lighter hover-left-indigo right-link">Introduction</div></a>
@@ -57,17 +59,7 @@ function grid() {
 
                 </div>
 
-                <div className="note">
-                <div>To use our grid system, you must create an html element with the class name of row. 
-      Then you can create columns inside the row using the <span className="badge">col</span> class. <br />
-      Our framework divides you screen into 12 sections in which every 8.33333% of you screen width makes a section <br />
-      Therefore one section makes up 8.33333% with six section covering 49.33333% of your screen, or half of you screen. <br />
-      12 sections covers 99.33333% of your screen. <br />
-      <span className="badge">sm-sections</span>This shows how many sections the element will cover in small screens. <br />
-      <span className="badge">md-sections</span>This shows how many sections the element will cover in medium screens. <br />
-      <span className="badge">lg-sections</span>This shows how many sections the element will cover in large screens.
-    </div>
-                </div>
+  
             </div>
 
             <div className="container">
@@ -87,7 +79,7 @@ function grid() {
         <tr>
             <td>.col</td>
             <td>creating grid columns.</td>
-            <td><div> class = {"hover-col"}</div></td>
+            <td><div> class = {"col"}</div></td>
         </tr>
         <tr>
             <td>sm</td>
@@ -130,25 +122,40 @@ function grid() {
 
             </div>
 
+            <div className="container">
+            <div className="section">
+                <div>To use our grid system, you must create an html element with the class name of row. 
+                    Then you can create columns inside the row using the <span className="badge">col</span> class. <br />
+                    Our framework divides you screen into 12 sections in which every <br /> 8.33333% of you screen width makes a section <br />
+                    Therefore one section makes up 8.33333% with six section covering 49.33333% of your screen, or half of you screen. <br />
+                    12 sections covers 99.33333% of your screen. <br />
+                </div>
+        </div>
 
+        <div className="section">
+        <span className="badge">sm-sections</span>This shows how many sections the element will cover in small screens. <br />
+        <span className="badge">md-sections</span>This shows how many sections the element will cover in medium screens. <br />
+        <span className="badge">lg-sections</span>This shows how many sections the element will cover in large screens.
+
+        </div>
+            </div>
 <div className="container padding-top-40" id="responsiveness">
     <div className="h4 topic">Responsive Grid</div>
     <div className="code">
-<xmp>{`<div class="row text-white">
- <div class="col padding sm-12 md-6 lg-8 indigo height-50">sm-12 md-6 lg-8</div>
- <div class="col padding sm-12 md-6 lg-4 deep-purple height-50">sm-12 md-6 lg-4</div>
- <div class="col padding sm-6 md-8 lg-6 pink height-50">sm-6 md-8 lg-6</div>
- <div class="col padding sm-6 md-4 lg-6 blue height-50">sm-6 md-4 lg-6</div>
-</div> 
-`}</xmp>
+<xmp>{`<div className="row">
+ <div className="col padding border sm-12 md-6 lg-8 light height-50">sm-12 md-6 lg-8</div>
+ <div className="col padding border sm-12 md-6 lg-4  height-50">sm-12 md-6 lg-4</div>
+ <div className="col padding border sm-6 md-8 lg-6  height-50">sm-6 md-8 lg-6</div>
+ <div className="col padding border sm-6 md-4 lg-6 light height-50">sm-6 md-4 lg-6</div>
+</div> `}</xmp>
     </div>
     <div className="preview">
  <div className="h3 text-lighter">Shrink your browser to see the effect</div>
-<div className="row text-white">
- <div className="col padding sm-12 md-6 lg-8 indigo height-50">sm-12 md-6 lg-8</div>
- <div className="col padding sm-12 md-6 lg-4 deep-purple height-50">sm-12 md-6 lg-4</div>
- <div className="col padding sm-6 md-8 lg-6 pink height-50">sm-6 md-8 lg-6</div>
- <div className="col padding sm-6 md-4 lg-6 blue height-50">sm-6 md-4 lg-6</div>
+<div className="row">
+ <div className="col padding border sm-12 md-6 lg-8 light height-50">sm-12 md-6 lg-8</div>
+ <div className="col padding border sm-12 md-6 lg-4  height-50">sm-12 md-6 lg-4</div>
+ <div className="col padding border sm-6 md-8 lg-6  height-50">sm-6 md-8 lg-6</div>
+ <div className="col padding border sm-6 md-4 lg-6 light height-50">sm-6 md-4 lg-6</div>
 </div> 
 
     </div>

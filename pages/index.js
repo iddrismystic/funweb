@@ -106,9 +106,9 @@ const HandleComment = ()=>{
 
       </div>
 
-<div className="container"><div className="section hr"></div></div>
 
-<div className="container">
+
+<div className="container padding-top-40">
 <div className="text-center text-x-large text-lighter text-indigo">Our Themes</div>
 <div className="text-center h4">Download And Use Our Free Css Themes</div>
 <div className="text-center  padding">
@@ -160,9 +160,8 @@ const HandleComment = ()=>{
 
 </div>
 
-<div className="section hr container"></div>
 
-<div className="container">
+<div className="container padding-top-50">
 <div className="text-center text-xx-large text-lighter text-indigo">Responsive</div>
 <div className="h4 text-center">Create Responsive Websites With Css Grid.</div>
 <div className="padding-20">
